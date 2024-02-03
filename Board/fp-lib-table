@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "cbm_ultipet_v1")(type "KiCad")(uri "$(KIPRJMOD)/cbm_ultipet_v1.pretty")(options "")(descr ""))
+  (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/Footprints.pretty")(options "")(descr ""))
+)
