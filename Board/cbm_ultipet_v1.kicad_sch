@@ -1,286 +1,621 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 4dd2dd78-173f-4b46-8cce-4ed940435c94)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 122e60a4-4a83-4478-ae42-3d8b51948846)
-    (property "Sheetname" "A/V" (at 177.8 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "A%2fV.kicad_sch" (at 177.8 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 361ad701-1776-4b43-b295-ca8aafd1220c)
-    (property "Sheetname" "Bus" (at 25.4 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Bus.kicad_sch" (at 25.4 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "1"))
-      )
-    )
-  )
-
-  (sheet (at 127 127) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 511b245b-0d04-40fa-b689-60e442c438dc)
-    (property "Sheetname" "UART" (at 127 126.2884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "UART.kicad_sch" (at 127 131.3946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "13"))
-      )
-    )
-  )
-
-  (sheet (at 76.2 127) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5525398a-a941-4dda-a276-d843e4519a96)
-    (property "Sheetname" "Smallbus" (at 76.2 126.2884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Smallbus.kicad_sch" (at 76.2 131.3946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "12"))
-      )
-    )
-  )
-
-  (sheet (at 177.8 127) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5de9a6ff-8163-442a-90ae-8d22d2303ba0)
-    (property "Sheetname" "Userport" (at 177.8 126.2884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Userport.kicad_sch" (at 177.8 131.3946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "14"))
-      )
-    )
-  )
-
-  (sheet (at 76.2 76.2) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 6387d1ea-0693-42a3-ac70-75277d2d502e)
-    (property "Sheetname" "PETIO" (at 76.2 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "PETIO.kicad_sch" (at 76.2 80.5946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 177.8) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8efd9d97-3759-4fbd-ab38-d22a4217f28d)
-    (property "Sheetname" "NANO488" (at 25.4 177.0884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "NANO488.kicad_sch" (at 25.4 182.1946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "16"))
-      )
-    )
-  )
-
-  (sheet (at 177.8 76.2) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b1d6461c-fcfa-4cb9-bb95-7518479f88d1)
-    (property "Sheetname" "SID Power" (at 177.8 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "SID_Power.kicad_sch" (at 177.8 80.5946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid c1121991-0565-423b-8c3b-d37496a455be)
-    (property "Sheetname" "CPU, FPGA, FRAM" (at 76.2 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "CPU,_FPGA,_FRAM.kicad_sch" (at 76.2 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 228.6 76.2) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid cd66653b-138a-4e7c-ba36-d3a9bf94e4b7)
-    (property "Sheetname" "Mixer" (at 228.6 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Mixer.kicad_sch" (at 228.6 80.5946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 228.6 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d2c8cba7-54fd-4ca0-bac7-9d690d7d8e89)
-    (property "Sheetname" "USB" (at 228.6 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "USB.kicad_sch" (at 228.6 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 228.6 127) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d6afba7b-0912-4ee1-adba-d44a9d4919d9)
-    (property "Sheetname" "FastIEC" (at 228.6 126.2884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "FastIEC.kicad_sch" (at 228.6 131.3946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "15"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 127) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid e14c6bdf-9f08-41ac-aa30-8362760e7b7f)
-    (property "Sheetname" "Keylock" (at 25.4 126.2884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Keylock.kicad_sch" (at 25.4 131.3946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 76.2) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ebc015eb-b99a-43e1-8599-d8b4e4d92679)
-    (property "Sheetname" "VRAM, DAC" (at 25.4 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "VRAM,_DAC.kicad_sch" (at 25.4 80.5946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 127 76.2) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ef987787-576d-4ba9-8915-c171f881d1b8)
-    (property "Sheetname" "SID" (at 127 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "SID.kicad_sch" (at 127 80.5946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f2a7836e-baa5-4eed-9e59-e26d91b4d1a6)
-    (property "Sheetname" "Power" (at 127 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Power.kicad_sch" (at 127 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "cbm_ultipet_v1"
-        (path "/4dd2dd78-173f-4b46-8cce-4ed940435c94" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4dd2dd78-173f-4b46-8cce-4ed940435c94")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 177.8 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "122e60a4-4a83-4478-ae42-3d8b51948846")
+		(property "Sheetname" "A/V"
+			(at 177.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "A%2fV.kicad_sch"
+			(at 177.8 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "361ad701-1776-4b43-b295-ca8aafd1220c")
+		(property "Sheetname" "Bus"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Bus.kicad_sch"
+			(at 25.4 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 127)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "511b245b-0d04-40fa-b689-60e442c438dc")
+		(property "Sheetname" "UART"
+			(at 127 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UART.kicad_sch"
+			(at 127 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 127)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5525398a-a941-4dda-a276-d843e4519a96")
+		(property "Sheetname" "Smallbus"
+			(at 76.2 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Smallbus.kicad_sch"
+			(at 76.2 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 127)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5de9a6ff-8163-442a-90ae-8d22d2303ba0")
+		(property "Sheetname" "Userport"
+			(at 177.8 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Userport.kicad_sch"
+			(at 177.8 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 76.2)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6387d1ea-0693-42a3-ac70-75277d2d502e")
+		(property "Sheetname" "PETIO"
+			(at 76.2 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PETIO.kicad_sch"
+			(at 76.2 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 177.8)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8efd9d97-3759-4fbd-ab38-d22a4217f28d")
+		(property "Sheetname" "NANO488"
+			(at 25.4 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NANO488.kicad_sch"
+			(at 25.4 182.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 76.2)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b1d6461c-fcfa-4cb9-bb95-7518479f88d1")
+		(property "Sheetname" "SID Power"
+			(at 177.8 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SID_Power.kicad_sch"
+			(at 177.8 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1121991-0565-423b-8c3b-d37496a455be")
+		(property "Sheetname" "CPU, FPGA, FRAM"
+			(at 76.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU,_FPGA,_FRAM.kicad_sch"
+			(at 76.2 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 76.2)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd66653b-138a-4e7c-ba36-d3a9bf94e4b7")
+		(property "Sheetname" "Mixer"
+			(at 228.6 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mixer.kicad_sch"
+			(at 228.6 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2c8cba7-54fd-4ca0-bac7-9d690d7d8e89")
+		(property "Sheetname" "USB"
+			(at 228.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 228.6 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 127)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6afba7b-0912-4ee1-adba-d44a9d4919d9")
+		(property "Sheetname" "FastIEC"
+			(at 228.6 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FastIEC.kicad_sch"
+			(at 228.6 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 127)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e14c6bdf-9f08-41ac-aa30-8362760e7b7f")
+		(property "Sheetname" "Keylock"
+			(at 25.4 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Keylock.kicad_sch"
+			(at 25.4 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 76.2)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ebc015eb-b99a-43e1-8599-d8b4e4d92679")
+		(property "Sheetname" "VRAM, DAC"
+			(at 25.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VRAM,_DAC.kicad_sch"
+			(at 25.4 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef987787-576d-4ba9-8915-c171f881d1b8")
+		(property "Sheetname" "SID"
+			(at 127 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SID.kicad_sch"
+			(at 127 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f2a7836e-baa5-4eed-9e59-e26d91b4d1a6")
+		(property "Sheetname" "Power"
+			(at 127 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 127 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
