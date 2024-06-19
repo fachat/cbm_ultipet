@@ -3490,7 +3490,7 @@
 		)
 		(uuid "6213bfb2-c4c3-42c4-b5f9-8e526a350e2c")
 	)
-	(text "CBM-ULTIPET-V1.0A"
+	(text "CBM-ULTIPET-V1.1A"
 		(exclude_from_sim no)
 		(at 208.28 144.78 0)
 		(effects

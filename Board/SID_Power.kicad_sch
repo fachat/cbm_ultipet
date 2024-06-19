@@ -2354,7 +2354,7 @@
 		)
 		(uuid "3ece9fb0-c9b1-4dc5-a3fb-b193a2ea7290")
 	)
-	(text "CBM-ULTIPET-V1.0A"
+	(text "CBM-ULTIPET-V1.1A"
 		(exclude_from_sim no)
 		(at 170.18 142.24 0)
 		(effects
@@ -2804,7 +2804,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "170-200uH"
+		(property "Value" "200uH"
 			(at 88.9 54.61 90)
 			(effects
 				(font

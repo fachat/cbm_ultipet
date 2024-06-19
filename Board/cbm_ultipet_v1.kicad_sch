@@ -245,7 +245,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "8efd9d97-3759-4fbd-ab38-d22a4217f28d")
-		(property "Sheetname" "NANO488"
+		(property "Sheetname" "I2C,UEXT"
 			(at 25.4 177.0884 0)
 			(effects
 				(font
@@ -254,7 +254,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "NANO488.kicad_sch"
+		(property "Sheetfile" "I2C,UEXT.kicad_sch"
 			(at 25.4 182.1946 0)
 			(effects
 				(font

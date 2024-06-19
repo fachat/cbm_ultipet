@@ -7919,7 +7919,7 @@
 		)
 		(uuid "00d9f22c-9add-4e66-ba3f-92fcb73409f6")
 	)
-	(text "CBM-ULTIPET-V1.0A"
+	(text "CBM-ULTIPET-V1.1A"
 		(exclude_from_sim no)
 		(at 208.28 195.58 0)
 		(effects
@@ -7940,6 +7940,17 @@
 			(justify left bottom)
 		)
 		(uuid "16037dcc-32bb-414e-95d5-b126c905a358")
+	)
+	(text "1.1A:\n- change footprint of power switch to a combined one"
+		(exclude_from_sim no)
+		(at 210.312 184.658 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "3084d096-ec7a-458f-aa54-ca7a051c4e37")
 	)
 	(text "(C) A. Fachat"
 		(exclude_from_sim no)
@@ -7974,7 +7985,7 @@
 		)
 		(uuid "a10c9cd2-1894-4920-990d-4100b3df2828")
 	)
-	(text "CSA-ULTIPET-V1.0A-20240104"
+	(text "CSA-ULTIPET-V1.1A-20240603"
 		(exclude_from_sim no)
 		(at 208.28 218.44 0)
 		(effects
@@ -8807,7 +8818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "V33"
 			(at 232.664 136.144 0)
 			(effects
 				(font
@@ -9938,7 +9949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "V33"
 			(at 47.244 143.764 0)
 			(effects
 				(font
@@ -12332,7 +12343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
+		(property "Value" "V33"
 			(at 25.4 170.18 90)
 			(effects
 				(font
@@ -13428,7 +13439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SW_E-Switch-400AWMDPxR1M1x"
+		(property "Footprint" "Footprints:SW_E-Switch-400-combined"
 			(at 93.98 41.91 0)
 			(effects
 				(font

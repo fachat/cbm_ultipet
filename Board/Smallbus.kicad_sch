@@ -2860,7 +2860,7 @@
 		)
 		(uuid "feefb26e-7924-4df6-87de-fed0b14f47fa")
 	)
-	(text "CBM-ULTIPET-V1.0A"
+	(text "CBM-ULTIPET-V1.1A"
 		(exclude_from_sim no)
 		(at 152.4 149.86 0)
 		(effects

@@ -2,4 +2,8 @@
   (version 7)
   (lib (name "cbm_ultipet_v1-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/cbm_ultipet_v1-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "Symbols")(type "KiCad")(uri "${KIPRJMOD}/symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "TL16C752C")(type "KiCad")(uri "${KIPRJMOD}/TL16C752C.kicad_sym")(options "")(descr ""))
+  (lib (name "SPI")(type "KiCad")(uri "${KIPRJMOD}/SPI.kicad_sym")(options "")(descr ""))
+  (lib (name "I2C")(type "KiCad")(uri "${KIPRJMOD}/I2C.kicad_sym")(options "")(descr ""))
+  (lib (name "SDCard")(type "KiCad")(uri "${KIPRJMOD}/SDCard.kicad_sym")(options "")(descr ""))
 )
