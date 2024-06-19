@@ -121,6 +121,12 @@ the keyboard matrix, the key works like a shift-lock key.
 In addition, pressing the shift-lock key longer (a few seconds), resets the machine 
 (as long as the keyboard scanning still works).
 
+### CS/A expansion board
+
+The board has a full width CS/A slot for a single expansion card, plus a short CS/A board for
+the accompanying [CS/A Ultrabus]() Ultra-Bus expansion board. This allows using (compatible)
+Apple-II, RC2014, and C64 cartridges with the Ulti-PET.
+
 ## Firmware features
 
 Of the modern I/O, currently these are included and supported in the firmware, i.e. in the
