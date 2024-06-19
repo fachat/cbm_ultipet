@@ -1,4 +1,4 @@
-# Ulti-PET R1
+# Ulti-PET R1.1
 
 Note: this is a part of a larger set of repositories, with [upet_family[() as the main repository.
 
@@ -94,13 +94,13 @@ The Ulti-PET includes the standard PET I/O features using the VIA and two PIAs, 
 - Tape#2 as TTL, but normally re-used for IEEE488 device handling
 - PET keyboard, with the option to use a C64 keyboard
 - PET userport, with the Video signal (optionally) replaced with 5V to accomodate user port extensions; incl. card edge connector
-- Joystick connectors for the userport 
+- Joystick connectors for the userport, software-switchable between single- or dual mode (compatible with 'stupid pet tricks')
 - Reset and diag push buttons
 
 ### RS232
 
-A UART chip provides a serial interfaces. The interface can be used as TTL level, or as real RS232 with a
-DB9 connector, selectable via jumpers.
+A Dual UART chip provides two serial interfaces. One interface is a real RS232 with a
+DB9 connector. The other one is TTL level interface (shared with UEXT, see below).
 
 ### Fast IEC
 
@@ -112,6 +112,10 @@ An IEC interface is provided using a second VIA chip. Using the VIA shift regist
 Two SID chips are included for your stereo sound pleasure.
 
 The two SID outputs are mixed with the DAC audio output from the Ultra-CPU base.
+Also, the beeper sound is mixed into the overall sound output.
+
+Two audio amps are included to, so speakers can be directly connected to the board
+(switched off when the audio jack is used).
 
 ### Keyboard shift lock and reset
 
@@ -127,6 +131,17 @@ The board has a full width CS/A slot for a single expansion card, plus a short C
 the accompanying [CS/A Ultrabus]() Ultra-Bus expansion board. This allows using (compatible)
 Apple-II, RC2014, and C64 cartridges with the Ulti-PET.
 
+### UEXT, and SPI-10 connectors
+
+The board provides three standard I/O ports:
+
+1. UEXT - this includes serial (see above), I2C, and SPI, all in 3.3V
+2. SPI-10-3.3V - a 3.3V SPI interface for external modules (shared with UEXT)
+3. SPI-10-5V - a 5V SPI interface provided by the second VIA, with selectable clock mode.
+
+For the SPI-10 connectors see [here](http://forum.6502.org/viewtopic.php?f=4&t=4264&start=15#p48167).
+For the UEXT connector see the Olimex [UEXT page](https://www.olimex.com/Products/Modules/UEXT/)
+
 ## Firmware features
 
 Of the modern I/O, currently these are included and supported in the firmware, i.e. in the
@@ -141,11 +156,22 @@ Note that if you select the boot option while holding the left shift key, unmodi
 For more details see the [ROM](https://github.com/fachat/upet_roms) repository, that contains
 the current version of the firmware and accompanying documentation.
  
+
 ## Known Issues
 
-- the joysticks only work in dual joystick configuration. Single joystick config
-- the beeper is not included in the mixer
-- the on-board SD-Card connector is unobtainable
+- This board is - as of now - untested.
+
+## Revision history
+
+1.0a: Initial release
+
+1.1a: Update:
+- Fixed userport joystick handling, allow software switching between single- and dual mode
+- Include the beeper into the sound mixer
+- Move from single UART to dual UART, to provide TTL serial or serial for UEXT
+- Add I2C controller for UEXT
+- Add UEXT, SPI-10-3.3V, SPI-10-5V connectors
+- Add SPI interface with selectable modes on the second VIA (shares shift register with fast serial IEC bus)
 
 ## Building
 
