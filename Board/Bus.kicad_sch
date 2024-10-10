@@ -7663,16 +7663,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 335.28) (xy 50.8 335.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4672e0e5-1db9-41ce-904c-aa0b6a98cad2")
-	)
-	(wire
-		(pts
 			(xy 86.36 304.8) (xy 104.14 304.8)
 		)
 		(stroke
@@ -7850,6 +7840,16 @@
 			(type solid)
 		)
 		(uuid "5bcfc948-7d2d-4132-af64-1b3f0c0b5d50")
+	)
+	(wire
+		(pts
+			(xy 40.64 332.74) (xy 40.64 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2e46e7-a68c-41ec-a852-4e021cc23101")
 	)
 	(wire
 		(pts
@@ -9153,16 +9153,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 322.58) (xy 40.64 335.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b36d131c-70d8-46ef-9d43-4264c73c8a73")
-	)
-	(wire
-		(pts
 			(xy 40.64 294.64) (xy 40.64 297.18)
 		)
 		(stroke
@@ -9783,6 +9773,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 332.74) (xy 40.64 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c044fb-4890-4f6d-875d-49a1ad0d8fac")
+	)
+	(wire
+		(pts
 			(xy 142.24 172.72) (xy 137.16 172.72)
 		)
 		(stroke
@@ -10181,9 +10181,9 @@
 		)
 		(uuid "ff7363a7-b6a9-4e1f-b14f-40c723879e41")
 	)
-	(text "CSA-ULTIPET-V1.0B-20240502\n(CSA-ULTRACPU-V1.3C-20231117)\n"
+	(text "CSA-ULTIPET-V1.2A-20241010\n"
 		(exclude_from_sim no)
-		(at 279.4 362.966 0)
+		(at 275.336 360.426 0)
 		(effects
 			(font
 				(size 2 2)
@@ -10225,17 +10225,18 @@
 		)
 		(uuid "8840bc61-57c8-4ff3-9042-24a8b8596d58")
 	)
-	(text "1.0B: Removed the pullup on GRAPHIC, as it's now in the FPGA"
+	(text "1.0B: \n- Removed the pullup on GRAPHIC, as it's now in the FPGA\n1.2A:\n- use V33IO for bus 3.3V (if so jumpered)"
 		(exclude_from_sim no)
-		(at 291.338 325.374 0)
+		(at 260.604 324.358 0)
 		(effects
 			(font
 				(size 1.7 1.7)
 			)
+			(justify left)
 		)
 		(uuid "8d9f0cec-728b-4561-b16a-272a8585fba0")
 	)
-	(text "CBM-ULTIPET-V1.1A"
+	(text "CBM-ULTIPET-V1.2A"
 		(exclude_from_sim no)
 		(at 254 337.82 0)
 		(effects
@@ -11181,6 +11182,28 @@
 			)
 		)
 	)
+	(global_label "V33IO"
+		(shape input)
+		(at 41.91 332.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fb377d1-9fd5-4c20-beea-ebc4e1c0fc1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.3381 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BA11"
 		(shape bidirectional)
 		(at 134.62 302.26 0)
@@ -11502,28 +11525,6 @@
 		(uuid "4e4d07a8-dfdc-4811-bf74-23cdfff5171f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.1309 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V33"
-		(shape bidirectional)
-		(at 43.18 335.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "4ee8cda5-a48c-48d6-8977-eb53493bf3fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.6316 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

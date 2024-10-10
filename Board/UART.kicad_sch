@@ -4419,6 +4419,12 @@
 		(uuid "48829a39-33b9-4147-8fb0-5706b5c40a2a")
 	)
 	(junction
+		(at 220.98 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52f4e36f-7f96-4140-bcf6-6af7e05eb685")
+	)
+	(junction
 		(at 269.24 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4497,12 +4503,6 @@
 		(uuid "ab76fb78-091d-4c4a-8332-ddcf8984a3ea")
 	)
 	(junction
-		(at 217.17 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af19cb46-ebca-4b9e-8e18-4c4cb64ac6f2")
-	)
-	(junction
 		(at 273.05 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4579,12 +4579,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2bd731b-881b-4558-b7d3-139feda7f96f")
-	)
-	(junction
-		(at 217.17 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2f617fb-2c90-4d60-89cb-b13ea0bf45d8")
 	)
 	(bus_entry
 		(at 153.67 143.51)
@@ -4756,7 +4750,17 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 181.61) (xy 217.17 179.07)
+			(xy 220.98 179.07) (xy 220.98 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0421f9b8-9639-44a2-a80d-4dd0ca1e4563")
+	)
+	(wire
+		(pts
+			(xy 217.17 168.91) (xy 217.17 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5486,16 +5490,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 179.07) (xy 217.17 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51143fa1-a08d-4fc6-8bf6-4bcdca461642")
-	)
-	(wire
-		(pts
 			(xy 298.45 96.52) (xy 280.67 96.52)
 		)
 		(stroke
@@ -5586,6 +5580,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 179.07) (xy 220.98 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59146f11-d5b0-4216-a3cf-20349dd597e9")
+	)
+	(wire
+		(pts
 			(xy 288.29 71.12) (xy 288.29 58.42)
 		)
 		(stroke
@@ -5643,6 +5647,16 @@
 			(type solid)
 		)
 		(uuid "5f9519a1-2517-4e9e-a991-6bea6df7ba32")
+	)
+	(wire
+		(pts
+			(xy 220.98 173.99) (xy 220.98 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fface7-9fc0-4280-94a2-c358727f7626")
 	)
 	(wire
 		(pts
@@ -5813,16 +5827,6 @@
 			(type solid)
 		)
 		(uuid "8030357b-be26-429b-ac29-4c1c7233a61d")
-	)
-	(wire
-		(pts
-			(xy 217.17 173.99) (xy 217.17 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "804f5bba-ee1f-419c-9660-ab1a4fb240a4")
 	)
 	(bus
 		(pts
@@ -6496,16 +6500,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 173.99) (xy 217.17 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b37df4a1-d907-450a-bdd4-e7ec77afa961")
-	)
-	(wire
-		(pts
 			(xy 227.33 38.1) (xy 227.33 40.64)
 		)
 		(stroke
@@ -6513,16 +6507,6 @@
 			(type solid)
 		)
 		(uuid "b43b706a-c45f-43cc-a828-b027777b9328")
-	)
-	(wire
-		(pts
-			(xy 208.28 179.07) (xy 217.17 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad0631f-4bf6-4298-9241-e26d061de2d0")
 	)
 	(bus
 		(pts
@@ -6916,6 +6900,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 173.99) (xy 220.98 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0cce014-7046-4418-927f-83cb2a5b15b4")
+	)
+	(wire
+		(pts
 			(xy 86.36 214.63) (xy 104.14 214.63)
 		)
 		(stroke
@@ -7234,7 +7228,7 @@
 		)
 		(uuid "fae9e924-8b11-4503-b9ac-ff782fec6827")
 	)
-	(text "CBM-ULTIPET-V1.1A\n"
+	(text "CBM-ULTIPET-V1.2A\n"
 		(exclude_from_sim no)
 		(at 294.64 224.028 0)
 		(effects
@@ -7267,7 +7261,7 @@
 		)
 		(uuid "551caf5a-9852-4e6a-ad50-0090c9a2d655")
 	)
-	(text "CBM-ULTIPET-V1.1A-20240525"
+	(text "CBM-ULTIPET-V1.2A-20241010"
 		(exclude_from_sim no)
 		(at 303.276 243.84 0)
 		(effects
@@ -7278,9 +7272,9 @@
 		)
 		(uuid "89616edc-08d6-4b43-9ebe-d3fe48a22f74")
 	)
-	(text "1.1A:\n- Switch to DUAL UART to provide 2nd\n  5V RS232 (shared w/ UEXT)\n- replace pullup on UART /RES \n  with RN7"
+	(text "1.1A:\n- Switch to DUAL UART to provide 2nd\n  5V RS232 (shared w/ UEXT)\n- replace pullup on UART /RES \n  with RN7\n1.2A:\n- set /DSRB and /CDB to lo instead of hi"
 		(exclude_from_sim no)
-		(at 310.896 141.986 0)
+		(at 300.482 144.018 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8966,6 +8960,72 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/511b245b-0d04-40fa-b689-60e442c438dc"
 					(reference "C134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:GND")
+		(at 220.98 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38b09911-2498-4370-87dd-83f1ee3ab131")
+		(property "Reference" "#GND0143"
+			(at 220.98 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 199.39 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06770c57-91a1-4851-b484-8e750dc3592a")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/511b245b-0d04-40fa-b689-60e442c438dc"
+					(reference "#GND0143")
 					(unit 1)
 				)
 			)

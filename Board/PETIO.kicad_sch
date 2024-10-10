@@ -5,6 +5,262 @@
 	(uuid "ecb58b20-bb2a-4db5-a1b4-bb3486d55723")
 	(paper "User" 586.283 398.932)
 	(lib_symbols
+		(symbol "Jumper:SolderJumper_3_Bridged12"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged12*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_0_1"
+				(rectangle
+					(start -1.016 0.508)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "cbm_ultipet_v1-eagle-import:-NPN-TO92"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -16382,6 +16638,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 228.6) (xy 154.94 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155834a9-281d-4c8d-9eee-e16fa7948228")
+	)
+	(wire
+		(pts
 			(xy 195.58 187.96) (xy 187.96 187.96)
 		)
 		(stroke
@@ -17620,6 +17886,16 @@
 		)
 		(uuid "329f01b5-35ac-4d7c-ab64-9e86a4acf3a6")
 	)
+	(wire
+		(pts
+			(xy 109.22 226.06) (xy 109.22 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33770967-1352-46f3-8c88-be699bb410cb")
+	)
 	(bus
 		(pts
 			(xy 137.16 246.38) (xy 132.08 246.38)
@@ -17669,16 +17945,6 @@
 			(type solid)
 		)
 		(uuid "33da7b9d-fb33-4c19-944e-31ebc7b71dd2")
-	)
-	(wire
-		(pts
-			(xy 149.86 203.2) (xy 149.86 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3485039a-542a-4458-a223-d3a424067408")
 	)
 	(wire
 		(pts
@@ -18292,7 +18558,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 210.82) (xy 147.32 210.82)
+			(xy 139.7 210.82) (xy 144.78 210.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -19029,16 +19295,6 @@
 			(type solid)
 		)
 		(uuid "54e4e78a-1cd9-4733-9392-6231e0af9452")
-	)
-	(wire
-		(pts
-			(xy 91.44 208.28) (xy 91.44 226.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "54e7e349-36c6-4d33-8d20-5ff91c1900b8")
 	)
 	(wire
 		(pts
@@ -20202,13 +20458,13 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 27.94) (xy 355.6 27.94)
+			(xy 154.94 199.39) (xy 154.94 228.6)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "71217c69-73d2-4c64-adec-5d2cb373e047")
+		(uuid "71a754bd-3741-4f86-a51d-113877cfe80b")
 	)
 	(wire
 		(pts
@@ -21459,6 +21715,16 @@
 			(type solid)
 		)
 		(uuid "8fe82446-525d-4484-9818-cf27c262ae4e")
+	)
+	(wire
+		(pts
+			(xy 111.76 226.06) (xy 109.22 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ffebfd8-6f40-4b94-a1fe-048ba09fe6e6")
 	)
 	(wire
 		(pts
@@ -23252,6 +23518,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 199.39) (xy 144.78 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be258107-cf93-4178-9551-7c4a17ba26c2")
+	)
+	(wire
+		(pts
 			(xy 162.56 266.7) (xy 162.56 279.4)
 		)
 		(stroke
@@ -23562,16 +23838,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 193.04) (xy 111.76 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c5d2c64a-2c60-4717-b69f-c1b4d1d0e911")
-	)
-	(wire
-		(pts
 			(xy 40.64 53.34) (xy 50.8 53.34)
 		)
 		(stroke
@@ -23752,13 +24018,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 208.28) (xy 91.44 208.28)
+			(xy 55.88 208.28) (xy 106.68 208.28)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "ca84dbb8-4dee-414c-99ed-469d376e8776")
+	)
+	(wire
+		(pts
+			(xy 106.68 193.04) (xy 106.68 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9cb701-2692-4c23-b91f-f50b9bf4eb26")
 	)
 	(wire
 		(pts
@@ -23789,16 +24065,6 @@
 			(type solid)
 		)
 		(uuid "cac95d3b-83aa-4893-8c73-2bd917dee203")
-	)
-	(wire
-		(pts
-			(xy 355.6 30.48) (xy 353.06 30.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cb02a9a0-0156-4577-8528-05817e92990a")
 	)
 	(wire
 		(pts
@@ -24059,6 +24325,16 @@
 			(type solid)
 		)
 		(uuid "d1db5ec5-77e3-4b58-bdfd-2db210c5280a")
+	)
+	(wire
+		(pts
+			(xy 111.76 193.04) (xy 106.68 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24a5c22-922d-4632-a1e0-b2e4d8d95720")
 	)
 	(wire
 		(pts
@@ -24539,16 +24815,6 @@
 			(type solid)
 		)
 		(uuid "dd8f47ff-be56-4bc5-bc56-91eda3072c91")
-	)
-	(wire
-		(pts
-			(xy 152.4 228.6) (xy 152.4 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "dd994083-ac12-42c1-b11e-9e537234cd22")
 	)
 	(wire
 		(pts
@@ -25152,16 +25418,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 226.06) (xy 111.76 226.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ec5da717-5d34-45ed-bf45-1fe88349186c")
-	)
-	(wire
-		(pts
 			(xy 101.6 40.64) (xy 101.6 43.18)
 		)
 		(stroke
@@ -25752,16 +26008,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 210.82) (xy 147.32 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fb1cb465-e0f5-486e-ad08-406627bba6d0")
-	)
-	(wire
-		(pts
 			(xy 261.62 307.34) (xy 335.28 307.34)
 		)
 		(stroke
@@ -26006,7 +26252,7 @@
 	)
 	(text "$E8xx/EFxx"
 		(exclude_from_sim no)
-		(at 157.48 208.28 90)
+		(at 152.654 215.646 90)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -26015,9 +26261,9 @@
 		)
 		(uuid "5574d7d3-d221-4913-9982-50835ffa8d72")
 	)
-	(text "1.0B: \n- fix IEEE488 pull up/down resistor values (again)\n1.1A:\n- fully decode PIA addresses\n- replace some discrete Rs with RN7\n- fix 2N2222 footprint for new BOM part\n"
+	(text "1.0B: \n- fix IEEE488 pull up/down resistor values (again)\n1.1A:\n- fully decode PIA addresses\n- replace some discrete Rs with RN7\n- fix 2N2222 footprint for new BOM part\n1.2A:\n- fix addressing 2nd SID by moving BA7 to IC9\n- replace JP8 with a solder jumper (I/O block address)"
 		(exclude_from_sim no)
-		(at 321.31 360.68 0)
+		(at 322.58 354.33 0)
 		(effects
 			(font
 				(size 3 3)
@@ -26026,7 +26272,7 @@
 		)
 		(uuid "5bd6af2d-8f7e-4e77-be7f-cd847df00e34")
 	)
-	(text "CBM-ULTIPET-V1.1A"
+	(text "CBM-ULTIPET-V1.2A"
 		(exclude_from_sim no)
 		(at 464.82 340.36 0)
 		(effects
@@ -26037,7 +26283,7 @@
 		)
 		(uuid "5e31792c-2ec3-4ef4-9262-b660a8ceafe2")
 	)
-	(text "CBM-ULTIPET-V1.1A-20240616"
+	(text "CBM-ULTIPET-V1.2A-20241010"
 		(exclude_from_sim no)
 		(at 464.82 363.22 0)
 		(effects
@@ -27985,7 +28231,7 @@
 	)
 	(global_label "BA7"
 		(shape bidirectional)
-		(at 96.52 226.06 0)
+		(at 96.52 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27995,7 +28241,7 @@
 		)
 		(uuid "10439a9d-0afe-4ded-a984-f4fb81491d71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.0309 226.06 0)
+			(at 104.0309 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34560,72 +34806,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:GND")
-		(at 353.06 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0360f4cd-21fd-4e77-9d80-2396a673ff27")
-		(property "Reference" "#GND076"
-			(at 353.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 350.52 35.56 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc2536f2-94ce-47a6-af85-e63b46e7f435")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
-					(reference "#GND076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:VCC")
 		(at 53.34 299.72 270)
 		(unit 1)
@@ -35186,72 +35366,6 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:GND")
-		(at 104.14 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "118e62bc-a4c0-48f9-8fe5-063ff6cdf0ee")
-		(property "Reference" "#GND063"
-			(at 104.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 198.12 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "941c01ce-728a-423d-9f5b-d8ef39c80ff4")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
-					(reference "#GND063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:GND")
 		(at 518.16 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35418,79 +35532,6 @@
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
 					(reference "IC23")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:JP2E")
-		(at 149.86 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18c257e6-ad3b-4445-83f8-b54af96a29e5")
-		(property "Reference" "JP8"
-			(at 146.05 198.12 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JP2E"
-			(at 155.575 198.12 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:JP2"
-			(at 149.86 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "defa8ca6-a672-4140-93b3-d72b7d9dce99")
-		)
-		(pin "2"
-			(uuid "d8cb7c92-97a2-4719-ac5e-40aac81edf55")
-		)
-		(pin "3"
-			(uuid "36514be2-2eb5-4060-ba5f-d66cbcd2410f")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
-					(reference "JP8")
-					(unit 1)
 				)
 			)
 		)
@@ -38263,6 +38304,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 149.86 199.39 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "52e79e23-bfa8-409d-8e9a-9efb1a464a07")
+		(property "Reference" "JP21"
+			(at 149.86 197.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Bridged12"
+			(at 156.464 209.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 149.86 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 149.86 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebb6cb05-3556-4bda-a206-104d8c52d4ae")
+		)
+		(pin "3"
+			(uuid "8c2c54e1-44c9-4327-abf1-4724df05e594")
+		)
+		(pin "2"
+			(uuid "f249f604-010c-4263-ab11-bf99952d1363")
+		)
+		(instances
+			(project ""
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
+					(reference "JP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:VCC")
 		(at 88.9 238.76 270)
 		(unit 1)
@@ -40376,6 +40487,72 @@
 		)
 	)
 	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:GND")
+		(at 109.22 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83d99b69-c630-4ffb-8789-e7551cf1970d")
+		(property "Reference" "#GND063"
+			(at 109.22 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 234.95 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18273840-2974-4327-a2e4-9fe28d3328b0")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
+					(reference "#GND063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:JP2E")
 		(at 457.2 241.3 0)
 		(unit 1)
@@ -41313,76 +41490,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:JP1E")
-		(at 358.14 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6aced79-5566-481a-a07d-68cd450a3487")
-		(property "Reference" "JP15"
-			(at 358.14 26.67 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JP1E"
-			(at 358.14 33.655 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:JP1"
-			(at 358.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 358.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9bdc61b4-2189-4a92-892b-8fd634b41a6e")
-		)
-		(pin "1"
-			(uuid "281ba217-9def-4506-b680-62bbb4705b0c")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
-					(reference "JP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:7486N")
 		(at 424.18 238.76 0)
 		(unit 1)
@@ -41803,72 +41910,6 @@
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
 					(reference "IC9")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:VCC")
-		(at 350.52 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5c26ed6-d97f-409b-a813-1042c3d20c4c")
-		(property "Reference" "#V028"
-			(at 350.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 347.345 29.845 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 350.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95eb439c-6965-47b9-8cc3-5bf0a72779de")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
-					(reference "#V028")
-					(unit 1)
 				)
 			)
 		)
