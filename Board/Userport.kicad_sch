@@ -3052,7 +3052,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 93.98) (xy 168.91 66.04)
+			(xy 168.91 92.71) (xy 168.91 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -3082,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 116.84) (xy 208.28 88.9)
+			(xy 208.28 109.22) (xy 208.28 88.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -3312,7 +3312,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 93.98) (xy 173.99 66.04)
+			(xy 173.99 92.71) (xy 173.99 66.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -3372,7 +3372,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 121.92) (xy 213.36 124.46)
+			(xy 213.36 114.3) (xy 213.36 124.46)
 		)
 		(stroke
 			(width 0.1524)
@@ -3422,7 +3422,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 99.06) (xy 168.91 101.6)
+			(xy 168.91 97.79) (xy 168.91 101.6)
 		)
 		(stroke
 			(width 0.1524)
@@ -3802,7 +3802,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 99.06) (xy 173.99 101.6)
+			(xy 173.99 97.79) (xy 173.99 101.6)
 		)
 		(stroke
 			(width 0.1524)
@@ -3842,7 +3842,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 124.46) (xy 208.28 121.92)
+			(xy 208.28 124.46) (xy 208.28 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -4202,7 +4202,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 116.84) (xy 213.36 88.9)
+			(xy 213.36 109.22) (xy 213.36 88.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -4372,9 +4372,9 @@
 		)
 		(uuid "8afdbaa3-6f06-4ca8-8b4c-84a96b4d73eb")
 	)
-	(text "1.1A:\n- switch between single/dual joystick config\n- switch Joy1/Joy2 on board"
+	(text "1.1A:\n- switch between single/dual joystick config\n- switch Joy1/Joy2 on board\n1.2A:\n- switch diodes direction to fix dual mode joystick fire\n- replace 1N4148 with 1N4448 due to lower fwd voltage"
 		(exclude_from_sim no)
-		(at 202.438 33.02 0)
+		(at 189.484 35.56 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4393,7 +4393,7 @@
 		)
 		(uuid "908edfab-68c7-4413-8e87-51b13050748f")
 	)
-	(text "Use Female connectors!\n"
+	(text "Male DB9 connectors\n\n"
 		(exclude_from_sim no)
 		(at 57.912 183.642 0)
 		(effects
@@ -4423,7 +4423,7 @@
 		)
 		(uuid "c034f26e-8ca8-4693-befe-c1f83a61a949")
 	)
-	(text "CBM-ULTIPET-V1.1A"
+	(text "CBM-ULTIPET-V1.2A"
 		(exclude_from_sim no)
 		(at 187.96 160.02 0)
 		(effects
@@ -4454,7 +4454,7 @@
 		)
 		(uuid "cddb10b5-b26e-4d6c-8f81-80a0bdb83ba6")
 	)
-	(text "CBM-ULTIPET-V1.1A-20240601"
+	(text "CBM-ULTIPET-V1.2A-20241013"
 		(exclude_from_sim no)
 		(at 190.5 180.34 0)
 		(effects
@@ -5595,6 +5595,75 @@
 		)
 	)
 	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:1N4148DO35-10")
+		(at 208.28 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05234faf-810c-44cb-ac68-d5fd4fc47a06")
+		(property "Reference" "D16"
+			(at 208.7626 114.3 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1N4448"
+			(at 203.2 104.14 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:DO35-10"
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "9ee08732-0bab-44d2-9f4d-adf4fa24d711")
+		)
+		(pin "A"
+			(uuid "5081e943-9f13-4582-ad50-c44232c040b9")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:M09-182")
 		(at 88.9 163.83 0)
 		(unit 1)
@@ -5752,6 +5821,75 @@
 		)
 	)
 	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:1N4148DO35-10")
+		(at 213.36 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27438b24-f224-4932-b44c-f29e88167730")
+		(property "Reference" "D17"
+			(at 213.8426 114.3 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1N4448"
+			(at 216.662 104.394 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:DO35-10"
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "e904206d-9171-401d-bd40-640a6b73096e")
+		)
+		(pin "A"
+			(uuid "71d818c4-bcea-42e2-90fa-ada3b13db086")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:GND")
 		(at 38.1 114.3 0)
 		(unit 1)
@@ -5878,75 +6016,6 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
 					(reference "#GND0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:1N4148DO35-10")
-		(at 208.28 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32a33b76-14ee-4075-bb42-a9eda66ffc8f")
-		(property "Reference" "D27"
-			(at 207.7974 116.84 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1N4148DO35-10"
-			(at 210.5914 116.84 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:DO35-10"
-			(at 208.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "b18b8971-a223-4fae-8186-4a7f535ef039")
-		)
-		(pin "A"
-			(uuid "907d08e6-5b78-44ff-b605-efdcd13c4df3")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
-					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -6129,75 +6198,6 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:1N4148DO35-10")
-		(at 173.99 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "676741b4-7318-4376-a104-bf343be492e2")
-		(property "Reference" "D30"
-			(at 173.5074 93.98 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1N4148DO35-10"
-			(at 176.3014 93.98 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:DO35-10"
-			(at 173.99 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 173.99 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "f7a6b912-5ade-4a86-9376-b7684f410c2d")
-		)
-		(pin "A"
-			(uuid "415fec9d-2821-4999-98ac-85e8b34fa54a")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
-					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -6584,75 +6584,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:1N4148DO35-10")
-		(at 168.91 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83464a5e-aba0-4ca8-bc2a-884cdbad87ac")
-		(property "Reference" "D29"
-			(at 168.4274 93.98 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1N4148DO35-10"
-			(at 171.2214 93.98 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:DO35-10"
-			(at 168.91 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "f6275ca4-5575-4ec7-8417-902edf015a7a")
-		)
-		(pin "A"
-			(uuid "4d387b3e-4c8d-4608-9cb2-7c697277220a")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:GND")
 		(at 58.42 171.45 0)
 		(unit 1)
@@ -6854,75 +6785,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:1N4148DO35-10")
-		(at 213.36 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d4560e0-707b-425a-9cdf-3e1e9a73bb37")
-		(property "Reference" "D28"
-			(at 212.8774 116.84 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1N4148DO35-10"
-			(at 215.6714 116.84 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:DO35-10"
-			(at 213.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "bc8e1823-dea1-4ba1-bbd1-0b81429eb9ec")
-		)
-		(pin "A"
-			(uuid "d3dde2f0-5dd0-452e-b8a5-3e188c1a1122")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:VCC")
 		(at 55.88 161.29 90)
 		(unit 1)
@@ -6983,6 +6845,75 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
 					(reference "#V051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:1N4148DO35-10")
+		(at 173.99 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0e03c1b-d87c-4b30-b6a9-510ff5bfb270")
+		(property "Reference" "D15"
+			(at 174.4726 97.79 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1N4448"
+			(at 178.308 90.678 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:DO35-10"
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "c9ad5196-b7bf-4c3d-8fde-3815ad877371")
+		)
+		(pin "A"
+			(uuid "4e2d1e19-b996-44d0-93a5-9008286a1e29")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -7140,6 +7071,75 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
 					(reference "X8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:1N4148DO35-10")
+		(at 168.91 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e214efa3-e5e1-468b-8925-3f8b6031aaa2")
+		(property "Reference" "D12"
+			(at 169.3926 97.79 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1N4448"
+			(at 164.084 90.678 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:DO35-10"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "50a26a71-dd35-4049-abf1-0c787ef3aa2a")
+		)
+		(pin "A"
+			(uuid "421d737a-7808-4079-87cd-85c578850a33")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/5de9a6ff-8163-442a-90ae-8d22d2303ba0"
+					(reference "D12")
 					(unit 1)
 				)
 			)

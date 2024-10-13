@@ -2755,12 +2755,6 @@
 		(uuid "6eb1af4f-9931-4018-96a5-eed899c18584")
 	)
 	(junction
-		(at 66.04 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a84b54c8-0d81-4d5e-b244-e2e1db11ffda")
-	)
-	(junction
 		(at 76.2 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2813,12 +2807,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ece74f5c-562d-4596-961c-72f9dca90fee")
-	)
-	(junction
-		(at 66.04 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0ae79f5-dab3-4af2-880a-c9caebe72a02")
 	)
 	(bus_entry
 		(at 190.5 177.8)
@@ -3657,16 +3645,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 40.64) (xy 66.04 38.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "22bfc302-6cb1-4e55-a866-81c2d248c5a8")
-	)
-	(wire
-		(pts
 			(xy 314.96 195.58) (xy 317.5 195.58)
 		)
 		(stroke
@@ -3797,23 +3775,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 27.94) (xy 76.2 27.94)
+			(xy 55.88 27.94) (xy 76.2 27.94)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "2f1d76a0-faa9-425c-bbc3-28c938b6d0f2")
-	)
-	(wire
-		(pts
-			(xy 66.04 30.48) (xy 66.04 27.94)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2f23d61e-61ec-4f8c-a501-b850ce3087da")
 	)
 	(wire
 		(pts
@@ -4404,16 +4372,6 @@
 			(type solid)
 		)
 		(uuid "66ec2083-8cc1-423b-b020-4c447e6971f9")
-	)
-	(wire
-		(pts
-			(xy 55.88 27.94) (xy 66.04 27.94)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "67ff4cdf-e4b6-4c31-9651-3dad35640539")
 	)
 	(wire
 		(pts
@@ -5487,16 +5445,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 40.64) (xy 66.04 40.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d78c15bc-4b9f-460b-a34a-6314b81be24e")
-	)
-	(wire
-		(pts
 			(xy 86.36 30.48) (xy 86.36 27.94)
 		)
 		(stroke
@@ -5717,7 +5665,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 40.64) (xy 76.2 40.64)
+			(xy 55.88 40.64) (xy 76.2 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -6043,6 +5991,16 @@
 			(justify left bottom)
 		)
 		(uuid "c8408016-4ad7-4f1f-8782-885c9b67e04c")
+	)
+	(text "Locate next to each other so\nDAC could be fed into extin"
+		(exclude_from_sim no)
+		(at 266.446 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd0691f8-60ce-4efc-9c95-65030580c6ea")
 	)
 	(text "$E86x-$E87x"
 		(exclude_from_sim no)
@@ -8224,75 +8182,6 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/ef987787-576d-4ba9-8915-c171f881d1b8"
 					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:C-EU025-025X050")
-		(at 66.04 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3837caff-4bf0-4575-b12d-4677dc7a939b")
-		(property "Reference" "C75"
-			(at 67.564 32.639 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100n"
-			(at 67.564 37.719 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:C025-025X050"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f682f3b8-66f0-4dfd-b52e-741b7e8c3ab3")
-		)
-		(pin "1"
-			(uuid "4482900a-5491-4280-bf98-5efe7385393e")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/ef987787-576d-4ba9-8915-c171f881d1b8"
-					(reference "C75")
 					(unit 1)
 				)
 			)

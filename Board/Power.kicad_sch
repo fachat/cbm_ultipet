@@ -8848,6 +8848,16 @@
 		)
 		(uuid "90648176-ad68-44a3-974b-e6dadfbc7a37")
 	)
+	(text "Resistor values for\n2V fwd voltage, \n20mA current LEDs\n"
+		(exclude_from_sim no)
+		(at 189.992 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9cea7440-db9b-4b1c-9242-6f3d07ad87bf")
+	)
 	(text "DS1818"
 		(exclude_from_sim no)
 		(at 198.12 90.17 0)
@@ -15409,7 +15419,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "100"
 			(at 186.182 40.64 0)
 			(effects
 				(font

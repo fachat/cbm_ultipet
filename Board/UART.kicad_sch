@@ -4267,6 +4267,150 @@
 				)
 			)
 		)
+		(symbol "cbm_ultipet_v1-eagle-import:R-EU_0207/10"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "cbm_ultipet_v1:0207_10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-EU_0207/10_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy 2.54 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "cbm_ultipet_v1-eagle-import:VCC"
 			(power)
 			(exclude_from_sim no)
@@ -4359,6 +4503,12 @@
 		)
 	)
 	(junction
+		(at 134.62 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09054579-f536-451d-a326-dbfd231c8c13")
+	)
+	(junction
 		(at 118.11 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4387,6 +4537,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d32a2df-c62c-48ba-8d3b-d123333ffb06")
+	)
+	(junction
+		(at 110.49 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "322d6f14-75a7-4c88-82d8-e3199a5f47e4")
 	)
 	(junction
 		(at 118.11 48.26)
@@ -4525,6 +4681,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c47c3552-ea80-4b02-92d4-66d8168e63a8")
+	)
+	(junction
+		(at 128.27 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccbddcd8-6416-4ec4-80b6-9d50c57ee139")
 	)
 	(junction
 		(at 138.43 48.26)
@@ -4790,6 +4952,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 129.54) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06741358-a104-4c3e-866e-8b3f3508c59d")
+	)
+	(wire
+		(pts
 			(xy 148.59 35.56) (xy 148.59 27.94)
 		)
 		(stroke
@@ -4830,7 +5002,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 92.71) (xy 134.62 143.51)
+			(xy 134.62 92.71) (xy 134.62 121.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -4970,6 +5142,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 129.54) (xy 110.49 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a97502-bd2b-474a-a69d-f8751798c923")
+	)
+	(wire
+		(pts
 			(xy 179.07 27.94) (xy 179.07 35.56)
 		)
 		(stroke
@@ -4997,6 +5179,16 @@
 			(type default)
 		)
 		(uuid "1ccbab31-0017-494c-94a4-af340a76c053")
+	)
+	(wire
+		(pts
+			(xy 110.49 121.92) (xy 110.49 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d502397-f268-4f28-a71a-4fb8e0537936")
 	)
 	(polyline
 		(pts
@@ -5087,6 +5279,16 @@
 			(type solid)
 		)
 		(uuid "27a020bc-1319-4d4a-b658-114363445104")
+	)
+	(wire
+		(pts
+			(xy 128.27 129.54) (xy 128.27 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4c90ce-7c15-422f-a69b-e18a50af49aa")
 	)
 	(bus
 		(pts
@@ -5457,6 +5659,16 @@
 			(type solid)
 		)
 		(uuid "4f6ad00b-12f4-435e-bf0b-70dd3ac6686b")
+	)
+	(wire
+		(pts
+			(xy 134.62 121.92) (xy 134.62 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5065de34-3cf0-449a-a7aa-d92e43ff2e4e")
 	)
 	(wire
 		(pts
@@ -7030,7 +7242,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 109.22) (xy 128.27 175.26)
+			(xy 128.27 109.22) (xy 128.27 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7057,6 +7269,16 @@
 			(type default)
 		)
 		(uuid "eef27b87-1dfd-40b3-a34f-8a20adb75067")
+	)
+	(wire
+		(pts
+			(xy 124.46 129.54) (xy 128.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4519b7-1d89-4b9f-8f82-275bf7edf900")
 	)
 	(bus
 		(pts
@@ -7228,6 +7450,26 @@
 		)
 		(uuid "fae9e924-8b11-4503-b9ac-ff782fec6827")
 	)
+	(wire
+		(pts
+			(xy 124.46 121.92) (xy 134.62 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2d2a0e-851c-4b7c-b406-9fa1d7de1a9b")
+	)
+	(wire
+		(pts
+			(xy 114.3 121.92) (xy 110.49 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5b636a-cef0-434e-8e50-e1bdb793c694")
+	)
 	(text "CBM-ULTIPET-V1.2A\n"
 		(exclude_from_sim no)
 		(at 294.64 224.028 0)
@@ -7261,7 +7503,7 @@
 		)
 		(uuid "551caf5a-9852-4e6a-ad50-0090c9a2d655")
 	)
-	(text "CBM-ULTIPET-V1.2A-20241010"
+	(text "CBM-ULTIPET-V1.2A-20241013\n"
 		(exclude_from_sim no)
 		(at 303.276 243.84 0)
 		(effects
@@ -7272,7 +7514,7 @@
 		)
 		(uuid "89616edc-08d6-4b43-9ebe-d3fe48a22f74")
 	)
-	(text "1.1A:\n- Switch to DUAL UART to provide 2nd\n  5V RS232 (shared w/ UEXT)\n- replace pullup on UART /RES \n  with RN7\n1.2A:\n- set /DSRB and /CDB to lo instead of hi"
+	(text "1.1A:\n- Switch to DUAL UART to provide 2nd\n  5V RS232 (shared w/ UEXT)\n- replace pullup on UART /RES \n  with RN7\n1.2A:\n- set /DSRB and /CDB to lo instead of hi\n. add pulldowns to INTA and INTB so high-Z\n  does not trigger IRQ"
 		(exclude_from_sim no)
 		(at 300.482 144.018 0)
 		(effects
@@ -8524,6 +8766,75 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/511b245b-0d04-40fa-b689-60e442c438dc"
 					(reference "C86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:R-EU_0207/10")
+		(at 119.38 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "172aa3a7-7680-48fe-a23b-f19df5a343aa")
+		(property "Reference" "R5"
+			(at 115.57 128.0414 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 115.57 132.842 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:0207_10"
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7de2b09-907b-4324-affd-be6241d97237")
+		)
+		(pin "1"
+			(uuid "e3e00601-e6ca-43bc-bcdd-94971c427dff")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/511b245b-0d04-40fa-b689-60e442c438dc"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10453,6 +10764,75 @@
 		)
 	)
 	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:R-EU_0207/10")
+		(at 119.38 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f5deea5-6431-40e8-8174-c5a8101d7f41")
+		(property "Reference" "R12"
+			(at 115.57 120.4214 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 115.57 125.222 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:0207_10"
+			(at 119.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ef18a75-94dc-4f14-adaf-9f547d8e0ea2")
+		)
+		(pin "1"
+			(uuid "907f0e22-9b7f-42a1-81db-0335edc0723d")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/511b245b-0d04-40fa-b689-60e442c438dc"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:M09HPS")
 		(at 298.45 73.66 0)
 		(unit 2)
@@ -12352,6 +12732,72 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/511b245b-0d04-40fa-b689-60e442c438dc"
 					(reference "IC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:GND")
+		(at 110.49 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebaedaf2-d71d-4171-b667-1f5f562770bb")
+		(property "Reference" "#GND010"
+			(at 110.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01811246-d848-401f-a59e-eb09e91a3733")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/511b245b-0d04-40fa-b689-60e442c438dc"
+					(reference "#GND010")
 					(unit 1)
 				)
 			)

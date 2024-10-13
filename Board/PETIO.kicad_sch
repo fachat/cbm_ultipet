@@ -17448,7 +17448,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 149.86) (xy 256.54 149.86)
+			(xy 248.92 153.67) (xy 256.54 153.67)
 		)
 		(stroke
 			(width 0.1524)
@@ -23108,7 +23108,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 104.14) (xy 248.92 149.86)
+			(xy 248.92 104.14) (xy 248.92 153.67)
 		)
 		(stroke
 			(width 0.1524)
@@ -23408,7 +23408,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 149.86) (xy 256.54 152.4)
+			(xy 256.54 153.67) (xy 256.54 157.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -25238,7 +25238,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 157.48) (xy 256.54 167.64)
+			(xy 256.54 162.56) (xy 256.54 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -26261,9 +26261,9 @@
 		)
 		(uuid "5574d7d3-d221-4913-9982-50835ffa8d72")
 	)
-	(text "1.0B: \n- fix IEEE488 pull up/down resistor values (again)\n1.1A:\n- fully decode PIA addresses\n- replace some discrete Rs with RN7\n- fix 2N2222 footprint for new BOM part\n1.2A:\n- fix addressing 2nd SID by moving BA7 to IC9\n- replace JP8 with a solder jumper (I/O block address)"
+	(text "1.0B: \n- fix IEEE488 pull up/down resistor values (again)\n1.1A:\n- fully decode PIA addresses\n- replace some discrete Rs with RN7\n- fix 2N2222 footprint for new BOM part\n1.2A:\n- fix addressing 2nd SID by moving BA7 to IC9\n- replace JP8 with a solder jumper (I/O block address)\n- replace 1N4148 with 1N4448 for lower fwd voltage drop"
 		(exclude_from_sim no)
-		(at 322.58 354.33 0)
+		(at 314.706 351.536 0)
 		(effects
 			(font
 				(size 3 3)
@@ -26283,7 +26283,7 @@
 		)
 		(uuid "5e31792c-2ec3-4ef4-9262-b660a8ceafe2")
 	)
-	(text "CBM-ULTIPET-V1.2A-20241010"
+	(text "CBM-ULTIPET-V1.2A-20241013\n"
 		(exclude_from_sim no)
 		(at 464.82 363.22 0)
 		(effects
@@ -28187,7 +28187,7 @@
 	)
 	(global_label "/BIRQ"
 		(shape bidirectional)
-		(at 254 149.86 0)
+		(at 254 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28197,7 +28197,7 @@
 		)
 		(uuid "0d8436a9-a2a4-411b-9572-82e699fc04dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.7039 149.86 0)
+			(at 263.7039 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40806,7 +40806,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:DIODE-D-5")
-		(at 256.54 154.94 270)
+		(at 256.54 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40814,7 +40814,7 @@
 		(dnp no)
 		(uuid "8f71343c-b6ce-4fc2-8dfe-41aa5d556bd8")
 		(property "Reference" "D10"
-			(at 257.0226 157.48 0)
+			(at 257.0226 162.56 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -40822,8 +40822,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 254.2286 157.48 0)
+		(property "Value" "1N4448"
+			(at 254.2286 162.56 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -40832,7 +40832,7 @@
 			)
 		)
 		(property "Footprint" "cbm_ultipet_v1:D-5"
-			(at 256.54 154.94 0)
+			(at 256.54 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40841,7 +40841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 154.94 0)
+			(at 256.54 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40850,7 +40850,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 154.94 0)
+			(at 256.54 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
