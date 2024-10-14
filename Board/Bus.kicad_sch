@@ -14506,7 +14506,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -14612,7 +14612,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 78.74 0)
 			(effects
 				(font
@@ -14787,7 +14787,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 48.26 0)
 			(effects
 				(font
@@ -15503,7 +15503,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 63.5 0)
 			(effects
 				(font
@@ -15609,7 +15609,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 93.98 0)
 			(effects
 				(font
@@ -16029,7 +16029,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 109.22 0)
 			(effects
 				(font
@@ -16135,7 +16135,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 215.9 109.22 0)
 			(effects
 				(font
@@ -16821,7 +16821,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 298.45 78.74 0)
 			(effects
 				(font
@@ -16927,7 +16927,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 160.02 114.3 0)
 			(effects
 				(font
@@ -17300,7 +17300,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 307.34 281.94 0)
 			(effects
 				(font
@@ -17496,7 +17496,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 210.82 114.3 0)
 			(effects
 				(font
@@ -17857,7 +17857,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 215.9 93.98 0)
 			(effects
 				(font
@@ -18219,7 +18219,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -18391,7 +18391,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 33.02 0)
 			(effects
 				(font

@@ -21087,7 +21087,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74138D"
+		(property "Value" "74LVC138D"
 			(at 299.72 33.02 0)
 			(effects
 				(font
@@ -21265,7 +21265,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74125D"
+		(property "Value" "74LVC125D"
 			(at 147.32 100.33 0)
 			(effects
 				(font
@@ -22506,7 +22506,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74125D"
+		(property "Value" "74LVC125D"
 			(at 172.72 45.72 0)
 			(effects
 				(font
@@ -23814,7 +23814,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74125D"
+		(property "Value" "74LVC125D"
 			(at 416.56 162.56 0)
 			(effects
 				(font
@@ -24139,7 +24139,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74125D"
+		(property "Value" "74LVC125D"
 			(at 345.44 314.96 0)
 			(effects
 				(font
@@ -24922,7 +24922,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74138D"
+		(property "Value" "74LVC138D"
 			(at 322.58 325.12 0)
 			(effects
 				(font
@@ -25593,7 +25593,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74125D"
+		(property "Value" "74LVC125D"
 			(at 416.56 182.88 0)
 			(effects
 				(font
