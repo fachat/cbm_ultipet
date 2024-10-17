@@ -2180,16 +2180,6 @@
 		)
 		(uuid "52cdd483-6dd2-4c95-a783-28c153f8bc29")
 	)
-	(wire
-		(pts
-			(xy 129.54 60.96) (xy 147.32 60.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "58592f09-56f5-462f-9d79-8025ea452892")
-	)
 	(bus
 		(pts
 			(xy 81.28 50.8) (xy 81.28 53.34)
@@ -2389,6 +2379,16 @@
 			(type solid)
 		)
 		(uuid "9727d669-829c-4e3e-845b-f3f6b85bfb38")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 140.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98191a4d-3627-4067-80e2-0776b2b9f282")
 	)
 	(wire
 		(pts
@@ -2860,7 +2860,7 @@
 		)
 		(uuid "feefb26e-7924-4df6-87de-fed0b14f47fa")
 	)
-	(text "CBM-ULTIPET-V1.1A"
+	(text "CBM-ULTIPET-V1.2A"
 		(exclude_from_sim no)
 		(at 152.4 149.86 0)
 		(effects
@@ -2871,7 +2871,18 @@
 		)
 		(uuid "09c7c187-2473-47df-9956-d349f06fbade")
 	)
-	(text "CBM-ULTIPET-V1.0A-20240104"
+	(text "1.2A:\n- replace V33 with V33IO"
+		(exclude_from_sim no)
+		(at 163.322 135.382 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "55c9c62d-f002-4acc-b212-90922efb079f")
+	)
+	(text "CBM-ULTIPET-V1.2A-20241017"
 		(exclude_from_sim no)
 		(at 154.94 170.18 0)
 		(effects
@@ -3093,28 +3104,6 @@
 		(uuid "5bc057c0-b91c-487f-828c-34230e28946e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.5087 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V33"
-		(shape bidirectional)
-		(at 139.7 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "61435397-98e1-444e-b1f6-85ca62bd2ea0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.1516 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,6 +3786,28 @@
 		(uuid "eb257aad-6b03-4ee6-aa4e-5ac2befcb6c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.5087 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V33IO"
+		(shape input)
+		(at 140.97 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb7e7d45-e6e5-4f59-b486-d0e2704872a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.3981 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
