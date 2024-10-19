@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -16,8 +16,8 @@
     },
     "selection_filter": {
       "dimensions": false,
-      "footprints": false,
-      "graphics": false,
+      "footprints": true,
+      "graphics": true,
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
@@ -42,6 +42,7 @@
       13,
       15,
       16,
+      18,
       19,
       20,
       21,
