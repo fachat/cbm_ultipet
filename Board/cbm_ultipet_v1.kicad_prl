@@ -21,7 +21,7 @@
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
-      "pads": false,
+      "pads": true,
       "text": true,
       "tracks": true,
       "vias": true,
@@ -62,8 +62,8 @@
       39,
       40
     ],
-    "visible_layers": "7f913fc_80000001",
-    "zone_display_mode": 0
+    "visible_layers": "7f913fc_80000003",
+    "zone_display_mode": 1
   },
   "git": {
     "repo_password": "",

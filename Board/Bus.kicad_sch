@@ -6259,6 +6259,12 @@
 		(uuid "a718287d-7078-427c-a281-2d9279c3b9d5")
 	)
 	(junction
+		(at 50.8 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7b81143-181c-4636-94ab-e04dcd8b74ee")
+	)
+	(junction
 		(at 307.34 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6903,7 +6909,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 327.66) (xy 50.8 327.66)
+			(xy 39.37 327.66) (xy 50.8 327.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -7203,7 +7209,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 322.58) (xy 43.18 327.66)
+			(xy 39.37 326.39) (xy 39.37 327.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -7843,7 +7849,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 332.74) (xy 40.64 322.58)
+			(xy 36.83 332.74) (xy 36.83 326.39)
 		)
 		(stroke
 			(width 0)
@@ -9773,7 +9779,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 332.74) (xy 40.64 332.74)
+			(xy 41.91 332.74) (xy 36.83 332.74)
 		)
 		(stroke
 			(width 0)
@@ -10020,6 +10026,16 @@
 			(type solid)
 		)
 		(uuid "f48eaa25-20b1-4b77-9202-1159dd6fa236")
+	)
+	(wire
+		(pts
+			(xy 40.64 317.5) (xy 50.8 317.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f52eae40-2a15-4f2b-891e-a2a733663690")
 	)
 	(wire
 		(pts
@@ -10804,6 +10820,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BV33"
+		(shape output)
+		(at 40.64 317.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1954e143-037b-4ac2-a5a1-b5a015fce719")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8772 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -14297,7 +14335,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:JP1E")
-		(at 40.64 320.04 0)
+		(at 36.83 323.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14305,7 +14343,7 @@
 		(dnp no)
 		(uuid "2b538a74-1427-4a88-b219-9a951326f319")
 		(property "Reference" "JP6"
-			(at 39.37 320.04 90)
+			(at 35.56 323.85 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14314,7 +14352,7 @@
 			)
 		)
 		(property "Value" "JP1E"
-			(at 46.355 320.04 90)
+			(at 42.545 323.85 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14324,7 +14362,7 @@
 			)
 		)
 		(property "Footprint" "cbm_ultipet_v1:JP1"
-			(at 40.64 320.04 0)
+			(at 36.83 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14333,7 +14371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 320.04 0)
+			(at 36.83 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14342,7 +14380,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 320.04 0)
+			(at 36.83 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
