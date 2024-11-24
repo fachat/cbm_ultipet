@@ -9002,7 +9002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:SID_XSID"
+		(property "Footprint" "cbm_ultipet_v1:DIL28"
 			(at 223.52 180.34 0)
 			(effects
 				(font
@@ -9774,7 +9774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:SID_FPGASID"
+		(property "Footprint" "cbm_ultipet_v1:DIL28"
 			(at 223.52 114.3 0)
 			(effects
 				(font

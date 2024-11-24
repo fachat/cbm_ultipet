@@ -7715,7 +7715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 146.05 177.8 0)
 			(effects
 				(font
@@ -8271,7 +8271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 146.05 133.35 0)
 			(effects
 				(font

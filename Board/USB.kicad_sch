@@ -7251,7 +7251,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_QFP:PQFP-32_5x5mm_P0.5mm"
+		(property "Footprint" "cbm_ultipet_v1:TQFP32-5MM"
 			(at 116.84 165.1 0)
 			(effects
 				(font
