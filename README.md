@@ -131,6 +131,8 @@ The board has a full width CS/A slot for a single expansion card, plus a short C
 the accompanying [CS/A Ultrabus]() Ultra-Bus expansion board. This allows using (compatible)
 Apple-II, RC2014, and C64 cartridges with the Ulti-PET.
 
+NOTE: In R1.2 and previous, the _short_ expansion bus had the wrong pinout - it needs DIN41612 reverse pinout! Therefore a "reverser adapter" needs to be used. This will be fixed in 1.3 forward.
+
 ### UEXT, and SPI-10 connectors
 
 The board provides three standard I/O ports:
