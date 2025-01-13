@@ -24,12 +24,17 @@ The board is built with a number of features:
 - Improved system design:
   - 512k video RAM, plus 512k fast RAM, accessible using banks on the W65816 CPU
   - boot from an SPI Flash ROM
-  - up to 17.5 MHz mode (via configuration register)
+  - up to 13.5 MHz mode (via configuration register)
   - Write protection for the PET ROMs once copied to RAM
   - lower 32k RAM mappable from all of the 512k fast RAM
-  - Audio output using a DAC with DMA
-  - single 5V power supply (>1A)
+  - single 5V power supply (<1A)
   - firmware supports SD-Card and USB keyboard or mouse
+- Improved Audio output:
+  - Original beeper sound
+  - Audio output using a DAC with DMA
+  - Dual SID output
+  - beeper, DAC, and SID are mixed into a stereo line output
+  - integrated amplifier can drive <1W speakers
 - Improved Video output:
   - VGA colour video output
   - up to 96x72 characters on screen
@@ -38,6 +43,13 @@ The board is built with a number of features:
   - Hires graphics mode (using a configuration register)
   - modifyable character set
   - multiple video pages mappable to $8000 video mem address
+- Extra I/O features:
+  - Userport Joystick, software-switchable between single and dual joystick configs
+  - fast serial IEC for Commodore's 1581 or 1571 disk drives (ROM support TBD)
+  - 5V SPI interface for further extensions
+  - 3.3V SPI interface for further extensions
+  - Adafruit(tm) UEXT interface for further extensions (SPI shared with 3.3V SPI, includes I2C)
+  - Dual UART serial, one RS232, one TTL (shared with UEXT)
 
 ## Overview
 
@@ -65,10 +77,9 @@ as
 3. with the SPI boot they don't occupy valuable CPU address space.
 
 The video generation is done using time-sharing access to the video RAM.
-The VGA output is 768x576 at 60Hz. So there is a 28ns slot per pixel on the screen, 
-with a pixel clock of 35MHz.
+The VGA output is 768x576 at 50Hz, or 768x480 at 60 Hz. So there is a pixel clock of 27MHz.
 
-The system runs at 17.5MHz, so a byte of pixel output (i.e. eight pixels) has four
+The system runs at 13.5MHz, so a byte of pixel output (i.e. eight pixels) has four
 memory accesses to VRAM. Two of them are reserved for video access, one for fetching the
 character data (e.g. at $08xxx in the PET), and the second one to fetch the "character ROM"
 data, i.e. the pixel data for a character. This is also stored in VRAM, and is being loaded
@@ -161,11 +172,80 @@ the current version of the firmware and accompanying documentation.
 
 ## Known Issues
 
-- This board is - as of now - untested.
+The current revision is 1.2A
+
+This board has a number of issues, esp. in the audio section:
+
+- The LM3900 is using the wrong bias voltage
+- The LM386 is using the wrong gain and input voltage divider
+- The 9V generator creates quite some buzz on the audio
+- The 3.3V SPI clock has too much noise
+- The The power LED connector is ... not connected ...
+
+The following sections show the fixes to be applied to the board.
+
+Note, that even with the fixes applied, the following problems remain:
+
+- Due to the SPI clock fixes, SPI is NOT available at the 3.3V SPI and UEXT connectors
+- There is a slight noise still on the speakers as long as the 9V generator chip is inserted (9V is used for SID and Tape)
+- The SRAM are actually 5V chips that are being used with 3.3V, but still seem to work even under burnin
+
+The issues will be addressed in the next revision
+
+Also, the following fixes are NOT included in the BOM.
+
+### Power LED
+
+To fix the power LED connector, connect the outer two pins of the LED connector with a bodge wire
+
+### 3.3V SPI
+
+Fixing the 3.3V SPI clock requires to implement a proper termination on the line, and remove the branching 
+that takes place for connecting the 3.3V SPI and UEXT connectors.
+
+The fix is to add 100Ohm resistors to both 3.3V and GND at the 'end' of the clock line under the USB and net connectors.
+
+Also, cut the trace for the SPI clock that leads to the 3.3V SPI and UEXT connectors.
+
+### Linear Audio
+
+The audio circuit is somewhat revamped to get a reasonably linear output from the DAC and SID to the speakers.
+
+1. replace R53, R57, R61, and R65 with 220k Ohm resistors. Only solder the joint next to the LM3900, connect the other
+ends of these resistors to VCC
+
+2. Remove R68 and R69
+
+3. Remove C156 and C157
+
+4. Replace C129 and C136 with 100uF capacitors, with the Minus pole to the speaker connectors
+
+5. Cut the traces from the audio connector to the volume potentiometer, and add 56k Ohm resistors instead
+
+### 9V buzz
+
+You can either remove the 9V generator chip, which removes the buzz, but disables the Tape motor, if you don't need it.
+The SID replacements usually (if not all?) do not need the 9V anyway.
+
+To reduce the noise considerably, 
+
+1. replace C153 with a 2200uF electrolytic capacitor
+
+2. Add another 2200uF el. capacitor in parallel to the 100nF cap C74 next to the 9V generator chip U$24
+
+
 
 ## Revision history
 
-1.0a: Initial release
+1.2a: Update
+- separate 3.3V generation for the bus, USB, and network, more bypass for SD cards
+- Power, Shift Lock LED
+- Remove 2nd oscillator option
+- Digital video out connector for further experimentation
+- Fix addressing of 2nd SID
+- Replace some 1N4148 with 1N4448 for lower drop voltage, fix joystick diode direction
+- Dual voltage divider for TTL beeper to avoid left/right audio crosstalk
+- Fixes on the UART
 
 1.1a: Update:
 - Fixed userport joystick handling, allow software switching between single- and dual mode
@@ -174,6 +254,8 @@ the current version of the firmware and accompanying documentation.
 - Add I2C controller for UEXT
 - Add UEXT, SPI-10-3.3V, SPI-10-5V connectors
 - Add SPI interface with selectable modes on the second VIA (shares shift register with fast serial IEC bus)
+
+1.0a: Initial release
 
 ## Building
 
