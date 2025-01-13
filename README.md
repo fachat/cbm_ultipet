@@ -176,6 +176,8 @@ The current revision is 1.2A
 
 This board has a number of issues, esp. in the audio section:
 
+- The 54MHz oscillator has the wrong footprint
+- The shortbus expansion port has the wrong pinout
 - The LM3900 is using the wrong bias voltage
 - The LM386 is using the wrong gain and input voltage divider
 - The 9V generator creates quite some buzz on the audio
@@ -194,9 +196,24 @@ The issues will be addressed in the next revision
 
 Also, the following fixes are NOT included in the BOM.
 
+### 54Mhz footprint
+
+Remove the middle connections of the oscillator footprint JS1. Solder in the actual BOM part
+
+![Oscillator footprint with removed pads](fixes/oscillator.png)
+
+### Shortbus pinout
+
+Here I managed to use the mirrored pinout due to a misunderstanding I had with the DIN41612 specs.
+This can only be fixed with a pinout adapter, which is in the Board/reverseExpansionBoard directory.
+
+![Use of the expansion port bus pinout fix adapter](fixes/expadapter.png)
+
 ### Power LED
 
 To fix the power LED connector, connect the outer two pins of the LED connector with a bodge wire
+
+![Fix for the power LED connector](fixes/led.png)
 
 ### 3.3V SPI
 
@@ -205,14 +222,21 @@ that takes place for connecting the 3.3V SPI and UEXT connectors.
 
 The fix is to add 100Ohm resistors to both 3.3V and GND at the 'end' of the clock line under the USB and net connectors.
 
+![SPI clock termination](fixes/spiterm.png)
+
 Also, cut the trace for the SPI clock that leads to the 3.3V SPI and UEXT connectors.
+
+![SPI clock cut](fixes/spicut.png)
 
 ### Linear Audio
 
 The audio circuit is somewhat revamped to get a reasonably linear output from the DAC and SID to the speakers.
+Note that in the following pictures I have in parts only fixed one of both channels.
 
 1. replace R53, R57, R61, and R65 with 220k Ohm resistors. Only solder the joint next to the LM3900, connect the other
 ends of these resistors to VCC
+
+![LM3900 bias voltage](fixes/audio1.png)
 
 2. Remove R68 and R69
 
@@ -220,7 +244,11 @@ ends of these resistors to VCC
 
 4. Replace C129 and C136 with 100uF capacitors, with the Minus pole to the speaker connectors
 
+![output stage](fixes/audio2.png)
+
 5. Cut the traces from the audio connector to the volume potentiometer, and add 56k Ohm resistors instead
+
+![output poti](fixes/audio3.png)
 
 ### 9V buzz
 
@@ -231,8 +259,11 @@ To reduce the noise considerably,
 
 1. replace C153 with a 2200uF electrolytic capacitor
 
+![Input bypass cap](fixes/bypass1.png)
+
 2. Add another 2200uF el. capacitor in parallel to the 100nF cap C74 next to the 9V generator chip U$24
 
+![9V bypass cap](fixes/bypass2.png)
 
 
 ## Revision history
