@@ -1,10 +1,11 @@
-# Ulti-PET R1.1
+# Ulti-PET
 
 Note: this is a part of a larger set of repositories, with [upet_family](https://github.com/fachat/upet_family) as the main repository.
 
 This is a re-incarnation of the Commodore PET computer(s) from the later 1970s.
 
-It is build on a PCB that fits into a C64-II case (with extra cutouts for connectors), and has only parts that can still be obtained new in 2024. The current version is 1.0A
+It is build on a PCB that fits into a C64-II case (with extra cutouts for connectors), and has only parts that can still be obtained new in 2024.
+A 3D-printed case is also available specific for the Ulti-PET PCB.
 
 ![Picture of a Ulti-PET](images/cover.jpg)
 
@@ -36,7 +37,7 @@ The board is built with a number of features:
   - beeper, DAC, and SID are mixed into a stereo line output
   - integrated amplifier can drive <1W speakers
 - Improved Video output:
-  - VGA colour video output
+  - VGA colour video output (222 RGB)
   - up to 96x72 characters on screen
   - hires modes up to a 768x576 resolution
   - 16 out of 64 colour palette, Colour-PET or C128 VDC-compatible, Sprites
@@ -179,10 +180,11 @@ This board has a number of issues, esp. in the audio section:
 - The 54MHz oscillator has the wrong footprint
 - The shortbus expansion port has the wrong pinout
 - The LM3900 is using the wrong bias voltage
-- The LM386 is using the wrong gain and input voltage divider
+- The LM386 is using the wrong gain and input voltage divider; also, the volume poti is wrong taper type
 - The 9V generator creates quite some buzz on the audio
 - The 3.3V SPI clock has too much noise
 - The The power LED connector is ... not connected ...
+
 
 The following sections show the fixes to be applied to the board.
 
@@ -246,9 +248,11 @@ ends of these resistors to VCC
 
 ![output stage](fixes/audio2.png)
 
-5. Cut the traces from the audio connector to the volume potentiometer, and add 56k Ohm resistors instead
+5a. Cut the traces from the audio connector to the volume potentiometer, and add 56k Ohm resistors instead
 
 ![output poti](fixes/audio3.png)
+
+5b. Instead of adding a 56k, use a 10k, and replace the potentiometer with a 10k linear taper type
 
 ### 9V buzz
 
@@ -306,10 +310,15 @@ In addition, two other repositories are needed - they are separate as they are s
 To have the board built, you can use the gerbers that are stored in the zip file in the Board/production subdirectory.
 
 To populate the board, there is an interactive bom (bill of materials) from KiCad, as well as the KiCad BOM CSV export in the [bom](Board/bom/) folder.
-Note at this time, part numbers are not available yet, please compare with the [Ultra-CPU](https://github.com/fachat/csa_ultracpu) and [PETIO](http://www.6502.org/users/andre/csa/petio/index.html) boards.
+
+Parts numbers can be found in the [BOM list](Board/bom/cbm_ultipet_v1.2a-bom.xlsx). It has parts numbers for Mouser for all parts (except the SID), 
+and for JLCPCB for the SMD parts. You can have JLCPCB assemble most of the SMD parts, and order the rest from Mouser. (Note, to not order parts twice, best
+remove the JLPCB assembled parts before you upload to Mouser).
 
 The BOM contains an Ethernet breakout board that is put into the connectors "above" the USB port. As an alternative you could use the 
 [Wifi breakout board](https://github.com/fachat/upet_wifi). Note that at this time, this is not tested / programmed yet.
+
+As an audio solution I am planning to use the Visaton K40SQ speakers, if you want to order them as well.
 
 ### FPGA
 
