@@ -229,6 +229,7 @@ The fix is to add 100Ohm resistors to both 3.3V and GND at the 'end' of the cloc
 Also, cut the trace for the SPI clock that leads to the 3.3V SPI and UEXT connectors.
 
 ![SPI clock cut](fixes/spicut.png)
+This is difficult to see, but it is only a single cut in a single trace.
 
 ### Linear Audio
 
@@ -247,6 +248,8 @@ ends of these resistors to VCC
 4. Replace C129 and C136 with 100uF capacitors, with the Minus pole to the speaker connectors
 
 ![output stage](fixes/audio2.png)
+Note, this shows C157 "removed" by cutting it, and the (larger black) 100uF cap on C136. This fixes one of the channels. For the other channel, C156 needs to be removed too
+and  C129 should also be replaced by a 100uF.
 
 5a. Cut the traces from the audio connector to the volume potentiometer, and add 56k Ohm resistors instead
 
@@ -264,6 +267,7 @@ To reduce the noise considerably,
 1. replace C153 with a 2200uF electrolytic capacitor
 
 ![Input bypass cap](fixes/bypass1.png)
+The 2200uF is the very big black capacitor can on the edge of the board next to the expansion board (this used to be a smaller red one).
 
 2. Add another 2200uF el. capacitor in parallel to the 100nF cap C74 next to the 9V generator chip U$24
 
