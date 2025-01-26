@@ -2763,7 +2763,6 @@
 	)
 	(label "RAMA[0..18]"
 		(at 33.02 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -2774,7 +2773,6 @@
 	)
 	(label "RAMD[0..7]"
 		(at 33.02 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)

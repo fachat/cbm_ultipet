@@ -5069,7 +5069,6 @@
 	)
 	(label "ROW3"
 		(at 144.78 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5080,7 +5079,6 @@
 	)
 	(label "ROW8"
 		(at 106.68 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5091,7 +5089,6 @@
 	)
 	(label "ROW9"
 		(at 109.22 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5102,7 +5099,6 @@
 	)
 	(label "ROW8"
 		(at 144.78 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5113,7 +5109,6 @@
 	)
 	(label "ROW3"
 		(at 109.22 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5124,7 +5119,6 @@
 	)
 	(label "KSEL[0..3]"
 		(at 25.4 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)

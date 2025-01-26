@@ -10265,7 +10265,6 @@
 	)
 	(label "/BEXTIO"
 		(at 106.68 121.92 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10276,7 +10275,6 @@
 	)
 	(label "B16M"
 		(at 132.08 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10287,7 +10285,6 @@
 	)
 	(label "/BIOINH"
 		(at 88.9 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10298,7 +10295,6 @@
 	)
 	(label "D[0..7]"
 		(at 251.46 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10309,7 +10305,6 @@
 	)
 	(label "/BEXTIO"
 		(at 134.62 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10320,7 +10315,6 @@
 	)
 	(label "/BEXTIO"
 		(at 91.44 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10331,7 +10325,6 @@
 	)
 	(label "/BEXTIO"
 		(at 88.9 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10342,7 +10335,6 @@
 	)
 	(label "BV33"
 		(at 45.72 327.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10353,7 +10345,6 @@
 	)
 	(label "/BIOINH"
 		(at 91.44 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10364,7 +10355,6 @@
 	)
 	(label "B16M"
 		(at 43.18 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10375,7 +10365,6 @@
 	)
 	(label "/BIOINH"
 		(at 135.255 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10386,7 +10375,6 @@
 	)
 	(label "/BIOINH"
 		(at 109.22 121.92 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10397,7 +10385,6 @@
 	)
 	(label "B16M"
 		(at 53.34 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)

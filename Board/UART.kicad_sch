@@ -7860,7 +7860,6 @@
 	)
 	(label "LDSR"
 		(at 210.82 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7871,7 +7870,6 @@
 	)
 	(label "LRTS"
 		(at 241.3 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7882,7 +7880,6 @@
 	)
 	(label "RI"
 		(at 290.83 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7893,7 +7890,6 @@
 	)
 	(label "BA[0..15]"
 		(at 58.42 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7904,7 +7900,6 @@
 	)
 	(label "LDTR"
 		(at 210.82 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7915,7 +7910,6 @@
 	)
 	(label "RTS"
 		(at 290.83 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7926,7 +7920,6 @@
 	)
 	(label "LDCD"
 		(at 234.95 106.68 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7937,7 +7930,6 @@
 	)
 	(label "LRX"
 		(at 242.57 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7948,7 +7940,6 @@
 	)
 	(label "DCD"
 		(at 290.83 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7959,7 +7950,6 @@
 	)
 	(label "LTX"
 		(at 204.47 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7970,7 +7960,6 @@
 	)
 	(label "LDTR"
 		(at 229.87 104.14 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7981,7 +7970,6 @@
 	)
 	(label "CTS"
 		(at 290.83 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7992,7 +7980,6 @@
 	)
 	(label "LRTS"
 		(at 210.82 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8003,7 +7990,6 @@
 	)
 	(label "LTX"
 		(at 251.46 140.97 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8014,7 +8000,6 @@
 	)
 	(label "RX"
 		(at 290.83 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8025,7 +8010,6 @@
 	)
 	(label "LTX"
 		(at 242.57 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8036,7 +8020,6 @@
 	)
 	(label "LRX"
 		(at 254 138.43 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8047,7 +8030,6 @@
 	)
 	(label "LCTS"
 		(at 210.82 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8058,7 +8040,6 @@
 	)
 	(label "DSR"
 		(at 290.83 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8069,7 +8050,6 @@
 	)
 	(label "LCTS"
 		(at 240.03 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8080,7 +8060,6 @@
 	)
 	(label "LRX"
 		(at 210.82 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8091,7 +8070,6 @@
 	)
 	(label "LDCD"
 		(at 210.82 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8102,7 +8080,6 @@
 	)
 	(label "DTR"
 		(at 290.83 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8113,7 +8090,6 @@
 	)
 	(label "BD[0..7]"
 		(at 58.42 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8124,7 +8100,6 @@
 	)
 	(label "LTX"
 		(at 210.82 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8135,7 +8110,6 @@
 	)
 	(label "LDSR"
 		(at 232.41 106.68 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8146,7 +8120,6 @@
 	)
 	(label "LCTS"
 		(at 207.01 93.345 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8157,7 +8130,6 @@
 	)
 	(label "TX"
 		(at 290.83 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8168,7 +8140,6 @@
 	)
 	(label "LRX"
 		(at 209.55 104.14 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8179,7 +8150,6 @@
 	)
 	(label "LRTS"
 		(at 256.54 140.97 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

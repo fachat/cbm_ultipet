@@ -26395,7 +26395,6 @@
 	)
 	(label "DO7"
 		(at 337.82 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26406,7 +26405,6 @@
 	)
 	(label "DEC6"
 		(at 55.88 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26417,7 +26415,6 @@
 	)
 	(label "C1MTR"
 		(at 284.48 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26428,7 +26425,6 @@
 	)
 	(label "DAVOUT"
 		(at 299.72 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26439,7 +26435,6 @@
 	)
 	(label "DEC3"
 		(at 187.96 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -26450,7 +26445,6 @@
 	)
 	(label "C2MTR"
 		(at 238.76 312.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26461,7 +26455,6 @@
 	)
 	(label "KI3"
 		(at 53.34 261.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26472,7 +26465,6 @@
 	)
 	(label "DO3"
 		(at 337.82 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26483,7 +26475,6 @@
 	)
 	(label "{slash}BA2"
 		(at 142.24 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26494,7 +26485,6 @@
 	)
 	(label "/C2MTR"
 		(at 325.12 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26505,7 +26495,6 @@
 	)
 	(label "DEC4"
 		(at 71.12 289.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26516,7 +26505,6 @@
 	)
 	(label "DEC0"
 		(at 195.58 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -26527,7 +26515,6 @@
 	)
 	(label "C1SW"
 		(at 210.82 297.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26538,7 +26525,6 @@
 	)
 	(label "DEC0"
 		(at 71.12 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26549,7 +26535,6 @@
 	)
 	(label "KI6"
 		(at 139.7 243.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26560,7 +26545,6 @@
 	)
 	(label "/SEL2"
 		(at 144.78 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26571,7 +26555,6 @@
 	)
 	(label "C2SW"
 		(at 154.94 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26582,7 +26565,6 @@
 	)
 	(label "{slash}BA2"
 		(at 124.46 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26593,7 +26575,6 @@
 	)
 	(label "DEC1"
 		(at 193.04 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -26604,7 +26585,6 @@
 	)
 	(label "C2MTR"
 		(at 284.48 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26615,7 +26595,6 @@
 	)
 	(label "{slash}BA2"
 		(at 69.85 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26626,7 +26605,6 @@
 	)
 	(label "/BA3"
 		(at 71.12 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26637,7 +26615,6 @@
 	)
 	(label "DEC1"
 		(at 55.88 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26648,7 +26625,6 @@
 	)
 	(label "NDACOUT"
 		(at 299.72 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26659,7 +26635,6 @@
 	)
 	(label "KI3"
 		(at 73.66 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26670,7 +26645,6 @@
 	)
 	(label "DEC7"
 		(at 55.88 294.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26681,7 +26655,6 @@
 	)
 	(label "/BA3"
 		(at 124.46 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26692,7 +26665,6 @@
 	)
 	(label "DO3"
 		(at 299.72 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26703,7 +26675,6 @@
 	)
 	(label "DO6"
 		(at 299.72 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26714,7 +26685,6 @@
 	)
 	(label "DEC7"
 		(at 177.8 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -26725,7 +26695,6 @@
 	)
 	(label "EOIOUT"
 		(at 172.72 101.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26736,7 +26705,6 @@
 	)
 	(label "DEC1"
 		(at 71.12 281.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26747,7 +26715,6 @@
 	)
 	(label "DO8"
 		(at 337.82 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26758,7 +26725,6 @@
 	)
 	(label "UP[0..7]"
 		(at 340.36 316.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26769,7 +26735,6 @@
 	)
 	(label "KI6"
 		(at 170.18 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26780,7 +26745,6 @@
 	)
 	(label "EOIOUT"
 		(at 266.7 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26791,7 +26755,6 @@
 	)
 	(label "ATNA_EN"
 		(at 297.18 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26802,7 +26765,6 @@
 	)
 	(label "KI3"
 		(at 124.46 243.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26813,7 +26775,6 @@
 	)
 	(label "DEC2"
 		(at 71.12 284.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26824,7 +26785,6 @@
 	)
 	(label "C1MTR"
 		(at 218.44 297.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26835,7 +26795,6 @@
 	)
 	(label "C2MTR"
 		(at 195.58 304.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26846,7 +26805,6 @@
 	)
 	(label "C1MTR9V"
 		(at 213.36 299.72 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26857,7 +26815,6 @@
 	)
 	(label "ATNA_EN"
 		(at 482.6 106.68 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26868,7 +26825,6 @@
 	)
 	(label "KI2"
 		(at 53.34 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26879,7 +26835,6 @@
 	)
 	(label "/BA3"
 		(at 142.24 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26890,7 +26845,6 @@
 	)
 	(label "/C2MTR"
 		(at 398.78 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26901,7 +26855,6 @@
 	)
 	(label "{slash}BA2"
 		(at 256.54 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26912,7 +26865,6 @@
 	)
 	(label "SHIELD"
 		(at 434.34 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26923,7 +26875,6 @@
 	)
 	(label "DO4"
 		(at 337.82 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26934,7 +26885,6 @@
 	)
 	(label "KI4"
 		(at 53.34 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26945,7 +26895,6 @@
 	)
 	(label "C1SW"
 		(at 193.04 152.4 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26956,7 +26905,6 @@
 	)
 	(label "C1SW"
 		(at 193.04 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26967,7 +26915,6 @@
 	)
 	(label "NRFDOUT"
 		(at 347.98 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26978,7 +26925,6 @@
 	)
 	(label "/C2MTR"
 		(at 335.28 274.32 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26989,7 +26935,6 @@
 	)
 	(label "ATNA_EN"
 		(at 355.6 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27000,7 +26945,6 @@
 	)
 	(label "DEC0"
 		(at 55.88 276.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27011,7 +26955,6 @@
 	)
 	(label "/BA3"
 		(at 256.54 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27022,7 +26965,6 @@
 	)
 	(label "DO5"
 		(at 299.72 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27033,7 +26975,6 @@
 	)
 	(label "NDACOUT"
 		(at 347.98 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27044,7 +26985,6 @@
 	)
 	(label "DEC8"
 		(at 71.12 299.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27055,7 +26995,6 @@
 	)
 	(label "KI6"
 		(at 53.34 269.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27066,7 +27005,6 @@
 	)
 	(label "/SEL2"
 		(at 256.54 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27077,7 +27015,6 @@
 	)
 	(label "DAVOUT"
 		(at 325.12 167.64 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27088,7 +27025,6 @@
 	)
 	(label "/C2MTR"
 		(at 297.815 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27099,7 +27035,6 @@
 	)
 	(label "C1MTR"
 		(at 198.12 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27110,7 +27045,6 @@
 	)
 	(label "C1MTR"
 		(at 238.76 317.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27121,7 +27055,6 @@
 	)
 	(label "KI[0..7]"
 		(at 177.8 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27132,7 +27065,6 @@
 	)
 	(label "IECRES"
 		(at 401.32 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27143,7 +27075,6 @@
 	)
 	(label "DO2"
 		(at 337.82 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27154,7 +27085,6 @@
 	)
 	(label "DEC9"
 		(at 71.12 302.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27165,7 +27095,6 @@
 	)
 	(label "DO1"
 		(at 299.72 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27176,7 +27105,6 @@
 	)
 	(label "C1MTR9V"
 		(at 213.36 365.76 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27187,7 +27115,6 @@
 	)
 	(label "EOIOUT"
 		(at 342.9 172.72 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27198,7 +27125,6 @@
 	)
 	(label "C1SW"
 		(at 165.735 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27209,7 +27135,6 @@
 	)
 	(label "DEC5"
 		(at 55.88 289.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27220,7 +27145,6 @@
 	)
 	(label "DAVOUT"
 		(at 347.98 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27231,7 +27155,6 @@
 	)
 	(label "VDRIVE"
 		(at 311.15 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27242,7 +27165,6 @@
 	)
 	(label "DO4"
 		(at 299.72 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27253,7 +27175,6 @@
 	)
 	(label "SHIELD"
 		(at 434.34 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.3513 1.3513)
@@ -27264,7 +27185,6 @@
 	)
 	(label "C2SW"
 		(at 226.06 142.24 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27275,7 +27195,6 @@
 	)
 	(label "ATNA_EN"
 		(at 220.98 101.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27286,7 +27205,6 @@
 	)
 	(label "DEC3"
 		(at 55.88 284.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27297,7 +27215,6 @@
 	)
 	(label "DO7"
 		(at 300.355 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27308,7 +27225,6 @@
 	)
 	(label "DEC2"
 		(at 55.88 281.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27319,7 +27235,6 @@
 	)
 	(label "DO5"
 		(at 337.82 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27330,7 +27245,6 @@
 	)
 	(label "C2SW"
 		(at 182.88 266.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27341,7 +27255,6 @@
 	)
 	(label "KI2"
 		(at 73.66 261.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27352,7 +27265,6 @@
 	)
 	(label "NRFDOUT"
 		(at 297.18 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27363,7 +27275,6 @@
 	)
 	(label "DEC6"
 		(at 71.12 294.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27374,7 +27285,6 @@
 	)
 	(label "KI3"
 		(at 170.18 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27385,7 +27295,6 @@
 	)
 	(label "DEC6"
 		(at 180.34 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27396,7 +27305,6 @@
 	)
 	(label "KI4"
 		(at 129.54 243.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27407,7 +27315,6 @@
 	)
 	(label "DEC4"
 		(at 55.88 287.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27418,7 +27325,6 @@
 	)
 	(label "DO6"
 		(at 337.82 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27429,7 +27335,6 @@
 	)
 	(label "DO1"
 		(at 337.82 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27440,7 +27345,6 @@
 	)
 	(label "EOIOUT"
 		(at 351.155 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27451,7 +27355,6 @@
 	)
 	(label "/SEL4"
 		(at 144.78 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27462,7 +27365,6 @@
 	)
 	(label "KI6"
 		(at 73.66 271.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27473,7 +27375,6 @@
 	)
 	(label "C2MTR"
 		(at 154.94 287.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27484,7 +27385,6 @@
 	)
 	(label "C2SW"
 		(at 226.06 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27495,7 +27395,6 @@
 	)
 	(label "DEC8"
 		(at 175.26 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27506,7 +27405,6 @@
 	)
 	(label "/C1MTR"
 		(at 162.56 210.82 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27517,7 +27415,6 @@
 	)
 	(label "KI2"
 		(at 170.18 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27528,7 +27425,6 @@
 	)
 	(label "DO8"
 		(at 299.72 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27539,7 +27435,6 @@
 	)
 	(label "C1MTR"
 		(at 119.38 360.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27550,7 +27445,6 @@
 	)
 	(label "C1SW"
 		(at 223.52 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27561,7 +27455,6 @@
 	)
 	(label "DEC4"
 		(at 185.42 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27572,7 +27465,6 @@
 	)
 	(label "DEC7"
 		(at 71.12 297.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27583,7 +27475,6 @@
 	)
 	(label "/BA3"
 		(at 101.6 124.46 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27594,7 +27485,6 @@
 	)
 	(label "DEC9"
 		(at 172.72 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27605,7 +27495,6 @@
 	)
 	(label "ATN/C2SW"
 		(at 165.735 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27616,7 +27505,6 @@
 	)
 	(label "DEC5"
 		(at 71.12 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27627,7 +27515,6 @@
 	)
 	(label "KI2"
 		(at 119.38 243.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27638,7 +27525,6 @@
 	)
 	(label "NDACOUT"
 		(at 327.66 167.64 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27649,7 +27535,6 @@
 	)
 	(label "KI4"
 		(at 170.18 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27660,7 +27545,6 @@
 	)
 	(label "C1MTR"
 		(at 119.38 335.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27671,7 +27555,6 @@
 	)
 	(label "DEC3"
 		(at 71.12 287.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27682,7 +27565,6 @@
 	)
 	(label "DEC5"
 		(at 182.88 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27693,7 +27575,6 @@
 	)
 	(label "DEC2"
 		(at 190.5 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27704,7 +27585,6 @@
 	)
 	(label "KI4"
 		(at 73.66 266.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27715,7 +27595,6 @@
 	)
 	(label "/SEL4"
 		(at 256.54 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27726,7 +27605,6 @@
 	)
 	(label "DO2"
 		(at 299.72 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)

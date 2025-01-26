@@ -8876,7 +8876,6 @@
 	)
 	(label "VCCIN"
 		(at 81.28 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8887,7 +8886,6 @@
 	)
 	(label "VCCIN"
 		(at 33.02 40.64 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8898,7 +8896,6 @@
 	)
 	(label "VCCIN"
 		(at 142.24 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15002,7 +14999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SW_E-Switch-400-combined"
+		(property "Footprint" "Footprints:SW_E-Switch-400-combined2"
 			(at 93.98 41.91 0)
 			(effects
 				(font
