@@ -1,4 +1,4 @@
-24510924038905662
+24514399878446130
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56882,11 +56882,25 @@ emi filter
 5
 5
 Footprints
+FABC48R2-reversed
+
+
+0
+48
+48
+Footprints
 SW_E-Switch-400-combined
 
 
 0
 10
+9
+Footprints
+SW_E-Switch-400-combined2
+
+
+0
+16
 9
 Footprints
 SW_E-Switch-400AWMDPxR1M1x

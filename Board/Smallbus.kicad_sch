@@ -4021,7 +4021,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:FABC48R2"
+		(property "Footprint" "Footprints:FABC48R2-reversed"
 			(at 114.3 104.14 0)
 			(effects
 				(font
