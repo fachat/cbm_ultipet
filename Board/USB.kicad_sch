@@ -4643,16 +4643,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 102.87) (xy 193.04 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c70df37-c208-47a0-8f98-fc934c8974bb")
-	)
-	(wire
-		(pts
 			(xy 147.32 200.66) (xy 147.32 205.74)
 		)
 		(stroke
@@ -5430,6 +5420,16 @@
 			(type solid)
 		)
 		(uuid "7ee637b6-56b2-45b3-9b79-d25c0ed783fd")
+	)
+	(wire
+		(pts
+			(xy 181.61 102.87) (xy 193.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8244f068-78f6-4086-ba9a-894e891b2667")
 	)
 	(wire
 		(pts
@@ -6453,28 +6453,6 @@
 	)
 	(global_label "SPI_CLK{slash}CCLK"
 		(shape input)
-		(at 181.61 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "08da5501-c0b9-479d-9b17-842fa46982bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.8362 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_CLK{slash}CCLK"
-		(shape input)
 		(at 63.5 104.14 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6557,6 +6535,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUF_SPI_CLK"
+		(shape input)
+		(at 181.61 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2dfae08d-20c5-43c1-9db2-451f33104a9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.3481 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7248,7 +7248,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:TQFP32-5MM"
+		(property "Footprint" "Package_QFP:LQFP-32_5x5mm_P0.5mm"
 			(at 116.84 165.1 0)
 			(effects
 				(font

@@ -5,6 +5,125 @@
 	(uuid "1bcf262b-f6f4-4a43-bb30-d0e7a281ff55")
 	(paper "User" 459.283 249.072)
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "cbm_ultipet_v1-eagle-import:1N4148DO35-7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2695,6 +2814,12 @@
 		(uuid "0db6cd0f-0a26-490e-9243-569acee3cc29")
 	)
 	(junction
+		(at 172.72 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fa6b8dd-0bcf-4972-9070-90edcf0bb012")
+	)
+	(junction
 		(at 314.96 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4875,6 +5000,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 179.07) (xy 172.72 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c677f7-6829-4bda-a461-5dccff3427d2")
+	)
+	(wire
+		(pts
 			(xy 264.16 53.34) (xy 264.16 66.04)
 		)
 		(stroke
@@ -5583,6 +5718,16 @@
 		)
 		(uuid "e7f0a16a-ba70-469d-9c88-a94725c50175")
 	)
+	(wire
+		(pts
+			(xy 172.72 179.07) (xy 172.72 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e933ead7-421f-4d87-92cd-f5754960ba0a")
+	)
 	(bus
 		(pts
 			(xy 193.04 200.66) (xy 193.04 203.2)
@@ -5873,6 +6018,16 @@
 			(justify left bottom)
 		)
 		(uuid "0174b887-e8eb-4502-9838-1354f6e619cb")
+	)
+	(text "SID2 /CS for \nFPGASID with\nDual SIDs in SID1\nsocket"
+		(exclude_from_sim no)
+		(at 153.162 185.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26b451d3-be66-48d0-a19a-9bb39314fada")
 	)
 	(text "CBM-ULTIPET-V1.1A\n"
 		(exclude_from_sim no)
@@ -8113,6 +8268,71 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/ef987787-576d-4ba9-8915-c171f881d1b8"
 					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 149.86 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ab8723e-76d6-45f5-a961-b7bfdc6cc87f")
+		(property "Reference" "J9"
+			(at 150.495 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 150.495 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 149.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 149.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e860f194-83cd-465f-be07-264aaf11266b")
+		)
+		(instances
+			(project ""
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/ef987787-576d-4ba9-8915-c171f881d1b8"
+					(reference "J9")
 					(unit 1)
 				)
 			)

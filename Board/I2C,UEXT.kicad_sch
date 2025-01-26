@@ -2146,28 +2146,6 @@
 			)
 		)
 	)
-	(global_label "SPI_CLK{slash}CCLK"
-		(shape input)
-		(at 196.85 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c39b2e6-98c8-4510-bd9e-a6dc06fcccfe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.6238 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "{slash}QRD"
 		(shape input)
 		(at 48.26 119.38 180)
@@ -2274,6 +2252,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUF_SPI_CLK"
+		(shape input)
+		(at 196.85 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70397d04-5f53-4358-817b-2fd73b0f00c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.1119 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
