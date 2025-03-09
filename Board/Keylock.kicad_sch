@@ -3296,6 +3296,12 @@
 		(uuid "2291e691-3572-43d1-81f2-d2f2d3b086fa")
 	)
 	(junction
+		(at 208.28 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41d43aae-e8b4-4ae0-a1af-e11166b29305")
+	)
+	(junction
 		(at 177.8 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3470,6 +3476,16 @@
 			(type solid)
 		)
 		(uuid "0e6b042d-c006-477f-9fa6-3aa177d7cc95")
+	)
+	(wire
+		(pts
+			(xy 208.28 54.61) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "109f1d46-9366-4887-9027-b193a27f1bb8")
 	)
 	(wire
 		(pts
@@ -4433,6 +4449,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 54.61) (xy 208.28 53.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a8aff053-5f43-4c21-a332-d15354b75a03")
+	)
+	(wire
+		(pts
 			(xy 256.54 83.82) (xy 264.16 83.82)
 		)
 		(stroke
@@ -4753,7 +4779,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 73.66) (xy 208.28 53.34)
+			(xy 208.28 73.66) (xy 208.28 54.61)
 		)
 		(stroke
 			(width 0.1524)
@@ -4832,7 +4858,7 @@
 		)
 		(uuid "056a1168-c280-49a1-a77c-fdf3def9b22e")
 	)
-	(text "CBM-ULTIPET-V1.1A"
+	(text "CBM-ULTIPET-V1.2A"
 		(exclude_from_sim no)
 		(at 25.4 160.02 0)
 		(effects
@@ -4920,7 +4946,7 @@
 		)
 		(uuid "595a273a-8cf0-4399-9d89-22b14f641508")
 	)
-	(text "CBM-KEYLOCK-1.0B-20240104"
+	(text "CBM-ULTIPET-1.2A-20241010"
 		(exclude_from_sim no)
 		(at 25.4 177.8 0)
 		(effects
@@ -4997,6 +5023,17 @@
 		)
 		(uuid "998bb38b-607d-482a-9d05-7b1db165dcd3")
 	)
+	(text "R1.2A:\n- add KEYLOCK_LED output"
+		(exclude_from_sim no)
+		(at 233.172 172.72 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "bb4d0ed7-4e67-4d85-94bb-3b9b4b4646e3")
+	)
 	(text "On Steve's MX replacement keyboards,\nAlternate Shift Lock is on\n- R9/C1 for Business and\n- R3/C5 for Graphics\nOriginal left shift is:\n- R3/C7 for Business and\n- R8/C0 for Graphics\n(Note: count starts at zero, not one)"
 		(exclude_from_sim no)
 		(at 27.94 68.58 0)
@@ -5032,7 +5069,6 @@
 	)
 	(label "ROW3"
 		(at 144.78 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5043,7 +5079,6 @@
 	)
 	(label "ROW8"
 		(at 106.68 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5054,7 +5089,6 @@
 	)
 	(label "ROW9"
 		(at 109.22 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5065,7 +5099,6 @@
 	)
 	(label "ROW8"
 		(at 144.78 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5076,7 +5109,6 @@
 	)
 	(label "ROW3"
 		(at 109.22 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5087,7 +5119,6 @@
 	)
 	(label "KSEL[0..3]"
 		(at 25.4 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5131,6 +5162,28 @@
 		(uuid "51ef4b53-5ac3-4966-a505-b0e34ca1bc08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.3187 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "KEYLOCK"
+		(shape output)
+		(at 222.25 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "656608a6-9782-4756-8de0-2cf6da80205a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.6414 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

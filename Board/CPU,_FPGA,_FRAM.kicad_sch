@@ -1270,486 +1270,6 @@
 				)
 			)
 		)
-		(symbol "cbm_ultipet_v1-eagle-import:CRYSTAL_RES-SG51"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "QG"
-				(at -7.62 8.255 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -7.62 -10.16 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "cbm_ultipet_v1:SG51"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CRYSTAL_RES-SG51_1_0"
-				(polyline
-					(pts
-						(xy -7.62 7.62) (xy -7.62 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 7.62) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -1.016) (xy -3.81 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 1.016) (xy -2.54 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.826 -0.381) (xy -4.826 0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.826 -0.381) (xy -2.794 -0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.826 0.381) (xy -2.794 0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.175) (xy -3.81 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.175) (xy -1.27 -3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -1.016) (xy -2.54 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.016) (xy -3.81 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 0.381) (xy -2.794 -0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -1.27 -3.175)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.175) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy -7.62 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "CON"
-					(at 2.54 5.588 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "OUT"
-					(at 2.54 -5.842 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "VDD"
-					(at -6.985 4.318 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "VSS"
-					(at -6.985 -5.842 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "CON"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "cbm_ultipet_v1-eagle-import:FRAME_B_L"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4497,227 +4017,6 @@
 				)
 			)
 		)
-		(symbol "cbm_ultipet_v1-eagle-import:SJ2W"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SJ"
-				(at 2.54 0.381 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 2.54 -1.905 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "cbm_ultipet_v1:SJ_2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SJ2W_1_0"
-				(arc
-					(start -1.27 -1.397)
-					(mid 0 -2.6614)
-					(end 1.27 -1.397)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 -0.635)
-					(end 1.27 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.635) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy 1.27 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.635) (xy -1.27 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0.635) (xy 1.27 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 1.397)
-					(mid 0 2.6614)
-					(end -1.27 1.397)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "cbm_ultipet_v1-eagle-import:SPIFLASH"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4965,96 +4264,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "cbm_ultipet_v1-eagle-import:VCC"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#SUPPLY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at -1.905 3.175 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC_1_0"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -9118,12 +8327,6 @@
 		(uuid "33706901-28b7-426d-90ba-da7aac17c0e2")
 	)
 	(junction
-		(at 154.94 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34160d57-88d2-49b9-9dc5-a97431524e50")
-	)
-	(junction
 		(at 524.51 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9212,12 +8415,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "700abb38-cb82-4c16-b1c9-f93ecf3c2ae7")
-	)
-	(junction
-		(at 50.8 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7222b247-3cb6-4185-92e7-d6547ffec0b7")
 	)
 	(junction
 		(at 182.88 281.94)
@@ -9374,12 +8571,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf7cd6af-ac94-4456-9e5c-c660bc4fa7a7")
-	)
-	(junction
-		(at 83.82 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4d837a8-fd22-484e-8700-0bf88acbc116")
 	)
 	(junction
 		(at 320.04 40.64)
@@ -10356,6 +9547,16 @@
 		)
 		(uuid "0d700d2a-591a-4073-b996-e8a457ac1212")
 	)
+	(wire
+		(pts
+			(xy 170.18 25.4) (xy 170.18 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd1d5cd-5923-4317-97a0-2359428376f0")
+	)
 	(bus
 		(pts
 			(xy 129.54 254) (xy 129.54 251.46)
@@ -10458,16 +9659,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 132.08) (xy 109.22 142.24)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0fca494e-9bab-465b-a316-cdf96f4f7f58")
-	)
-	(wire
-		(pts
 			(xy 137.16 274.32) (xy 129.54 274.32)
 		)
 		(stroke
@@ -10515,6 +9706,16 @@
 			(type default)
 		)
 		(uuid "108eb30f-e00c-493f-aa69-ba54965d8c46")
+	)
+	(wire
+		(pts
+			(xy 180.34 40.64) (xy 189.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ca955d-40af-4c2f-b035-2c42554fa419")
 	)
 	(wire
 		(pts
@@ -10615,16 +9816,6 @@
 			(type solid)
 		)
 		(uuid "1324ce04-a62a-45c5-956c-0a0bfa34d55b")
-	)
-	(wire
-		(pts
-			(xy 83.82 129.54) (xy 83.82 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "13950476-a5ea-42fa-bc20-b142e04ac370")
 	)
 	(wire
 		(pts
@@ -10775,16 +9966,6 @@
 			(type solid)
 		)
 		(uuid "178b423b-c52e-42c9-a952-61c987a11224")
-	)
-	(wire
-		(pts
-			(xy 53.34 124.46) (xy 50.8 124.46)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "18187e55-b035-4a9a-a655-4823d8abb169")
 	)
 	(wire
 		(pts
@@ -10945,6 +10126,16 @@
 			(type solid)
 		)
 		(uuid "1d70f2e1-4c41-4a35-a91a-13a495ed9861")
+	)
+	(wire
+		(pts
+			(xy 160.02 40.64) (xy 157.48 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2c1964-5ba1-4be1-899d-d6ef95302964")
 	)
 	(wire
 		(pts
@@ -11128,23 +10319,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 33.02) (xy 170.18 25.4)
+			(xy 109.22 147.32) (xy 127 147.32)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "239222bb-d09b-4cf2-9e6a-17824ee17782")
-	)
-	(wire
-		(pts
-			(xy 160.02 40.64) (xy 154.94 40.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "24751bc0-735e-4f93-beb6-1a84a22fba61")
+		(uuid "24238e87-bd3d-4b26-b6b4-d96b00e677e0")
 	)
 	(wire
 		(pts
@@ -11205,16 +10386,6 @@
 			(type default)
 		)
 		(uuid "263c4869-7c72-4c3b-a6a6-1d0af1260660")
-	)
-	(wire
-		(pts
-			(xy 148.59 25.4) (xy 154.94 25.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "26e78bdd-ca4a-4990-a29b-03ea10c154e8")
 	)
 	(bus
 		(pts
@@ -11778,16 +10949,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 132.08) (xy 83.82 134.62)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3c231148-5ad1-4a28-a376-8bb1557ff592")
-	)
-	(wire
-		(pts
 			(xy 175.26 228.6) (xy 182.88 228.6)
 		)
 		(stroke
@@ -11895,16 +11056,6 @@
 			(type solid)
 		)
 		(uuid "4050f6f9-03c4-4f43-a05e-6fa76fbf5cf3")
-	)
-	(wire
-		(pts
-			(xy 50.8 124.46) (xy 50.8 134.62)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4062c43a-b4c0-4786-9ac7-96c886420b1c")
 	)
 	(wire
 		(pts
@@ -12818,16 +11969,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 25.4) (xy 154.94 25.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "66023a1c-1add-489c-84cc-93405bb1c8a7")
-	)
-	(wire
-		(pts
 			(xy 185.42 269.24) (xy 185.42 289.56)
 		)
 		(stroke
@@ -13238,16 +12379,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 114.3) (xy 86.36 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "75004fb4-1754-4eaa-90d5-69a5bbb7968d")
-	)
-	(wire
-		(pts
 			(xy 265.43 200.66) (xy 261.62 200.66)
 		)
 		(stroke
@@ -13375,16 +12506,6 @@
 			(type solid)
 		)
 		(uuid "79ac5663-20a1-4d1d-804f-1390b9bdd1e0")
-	)
-	(wire
-		(pts
-			(xy 83.82 132.08) (xy 109.22 132.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "79ba5446-af91-4060-9c70-b7d14c4ea9c6")
 	)
 	(wire
 		(pts
@@ -13715,16 +12836,6 @@
 			(type solid)
 		)
 		(uuid "854efc6b-b8bb-4868-a4a5-b75f1cab40c0")
-	)
-	(wire
-		(pts
-			(xy 73.66 134.62) (xy 50.8 134.62)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "85500fc9-e4c7-4dcf-9b8f-b4353f07cc7e")
 	)
 	(wire
 		(pts
@@ -14085,16 +13196,6 @@
 			(type default)
 		)
 		(uuid "94d0a11b-f0a2-4917-9dc5-b37948a62a7e")
-	)
-	(wire
-		(pts
-			(xy 154.94 40.64) (xy 154.94 25.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "953a36e9-7b3d-4e39-b100-66c461a7b76d")
 	)
 	(wire
 		(pts
@@ -14678,7 +13779,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 162.56) (xy 109.22 152.4)
+			(xy 109.22 147.32) (xy 109.22 162.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -14858,16 +13959,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 134.62) (xy 50.8 142.24)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "af95938f-0ce4-4a39-8b1f-ed12e0894d60")
-	)
-	(wire
-		(pts
 			(xy 447.04 59.69) (xy 524.51 59.69)
 		)
 		(stroke
@@ -14995,16 +14086,6 @@
 			(type solid)
 		)
 		(uuid "b39312dd-ae09-418e-8039-e4c212723987")
-	)
-	(wire
-		(pts
-			(xy 78.74 119.38) (xy 83.82 119.38)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b467a381-ed06-4e96-a9ef-4172a8ae941e")
 	)
 	(wire
 		(pts
@@ -15415,6 +14496,16 @@
 			(type default)
 		)
 		(uuid "c2df54ac-d784-4138-9320-b7ac1167b7c6")
+	)
+	(wire
+		(pts
+			(xy 157.48 40.64) (xy 157.48 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ea11ac-a3ed-4047-bde1-7f7e0f933631")
 	)
 	(wire
 		(pts
@@ -16198,6 +15289,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 25.4) (xy 170.18 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0adb76-941e-45f4-a0ad-47a86e65ae95")
+	)
+	(wire
+		(pts
 			(xy 309.88 97.79) (xy 304.8 97.79)
 		)
 		(stroke
@@ -16338,16 +15439,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 114.3) (xy 50.8 111.76)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e2cbe7ca-4818-4907-b890-b353492abf8c")
-	)
-	(wire
-		(pts
 			(xy 445.77 132.08) (xy 445.77 134.62)
 		)
 		(stroke
@@ -16415,16 +15506,6 @@
 			(type solid)
 		)
 		(uuid "e545a4de-d0f8-4205-9408-77dae9ce719e")
-	)
-	(wire
-		(pts
-			(xy 114.3 147.32) (xy 127 147.32)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e57fd85a-a7d4-4bd7-ac65-d3f80e1a534a")
 	)
 	(wire
 		(pts
@@ -16655,16 +15736,6 @@
 			(type default)
 		)
 		(uuid "ec915ef0-f386-4320-b875-4ba269987227")
-	)
-	(wire
-		(pts
-			(xy 53.34 114.3) (xy 50.8 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ed2d85e7-925a-4c20-9a0d-bcddc10aba00")
 	)
 	(wire
 		(pts
@@ -17198,9 +16269,9 @@
 		)
 		(uuid "216013cb-04a8-445d-b13b-dc9f9945e311")
 	)
-	(text "1.0B: \n- add Pulldown from DONE to /RES to ensure proper init\n1.1A:\n- add SPI_NSEL0 for SPI-10/UEXT connector\n"
+	(text "1.0B: \n- add Pulldown from DONE to /RES to ensure proper init\n1.1A:\n- add SPI_NSEL0 for SPI-10/UEXT connector\n1.2A:\n- use last gate on IC3 for shift lock LED\n- remove 50MHz oscillator option"
 		(exclude_from_sim no)
-		(at 405.638 281.686 0)
+		(at 406.4 279.654 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -17209,7 +16280,7 @@
 		)
 		(uuid "5a4e5518-5b4c-4830-91c8-e0a7010d6aba")
 	)
-	(text "CBM-ULTIPET-V1.1A\n"
+	(text "CBM-ULTIPET-V1.2A\n"
 		(exclude_from_sim no)
 		(at 441.96 302.26 0)
 		(effects
@@ -17220,18 +16291,7 @@
 		)
 		(uuid "682315cd-d335-415f-a6e9-8653c12f929a")
 	)
-	(text "Voltage\ndivider\n5V to 3.3V"
-		(exclude_from_sim no)
-		(at 88.9 127 0)
-		(effects
-			(font
-				(size 1.27 1.0795)
-			)
-			(justify left bottom)
-		)
-		(uuid "68d79240-4d0c-4bb9-a915-9499a0ec739a")
-	)
-	(text "CBM-ULTIPET-V1.1A-20240526"
+	(text "CBM-ULTIPET-V1.2A-20241013"
 		(exclude_from_sim no)
 		(at 441.96 325.12 0)
 		(effects
@@ -17299,7 +16359,6 @@
 	)
 	(label "VDA"
 		(at 247.65 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17310,7 +16369,6 @@
 	)
 	(label "V33"
 		(at 518.16 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17319,20 +16377,8 @@
 		)
 		(uuid "087a07ce-80f3-40ad-9ec5-cc18f649c72b")
 	)
-	(label "50MCAN"
-		(at 91.44 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "09c6756e-01bb-4676-bd3c-decbbd46f217")
-	)
 	(label "V33"
 		(at 518.16 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17343,7 +16389,6 @@
 	)
 	(label "E"
 		(at 245.11 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17354,7 +16399,6 @@
 	)
 	(label "DONE"
 		(at 495.3 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17365,7 +16409,6 @@
 	)
 	(label "A[12..15]"
 		(at 48.26 228.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -17376,7 +16419,6 @@
 	)
 	(label "DONE"
 		(at 129.54 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17387,7 +16429,6 @@
 	)
 	(label "/FRAMSEL"
 		(at 96.52 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -17398,7 +16439,6 @@
 	)
 	(label "V33"
 		(at 518.16 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17409,7 +16449,6 @@
 	)
 	(label "SPISELC"
 		(at 307.34 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17420,7 +16459,6 @@
 	)
 	(label "M{slash}X"
 		(at 180.34 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17431,7 +16469,6 @@
 	)
 	(label "V33"
 		(at 518.16 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17442,7 +16479,6 @@
 	)
 	(label "V12"
 		(at 518.16 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17453,7 +16489,6 @@
 	)
 	(label "{FA[15..19] FA18/HSWAP}"
 		(at 43.18 228.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -17464,7 +16499,6 @@
 	)
 	(label "V33"
 		(at 518.16 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17475,7 +16509,6 @@
 	)
 	(label "V33"
 		(at 518.16 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17486,7 +16519,6 @@
 	)
 	(label "V12"
 		(at 518.16 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17497,7 +16529,6 @@
 	)
 	(label "V33"
 		(at 518.16 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17508,7 +16539,6 @@
 	)
 	(label "SPISELC"
 		(at 257.81 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17519,7 +16549,6 @@
 	)
 	(label "50MSMD"
 		(at 86.36 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17530,7 +16559,6 @@
 	)
 	(label "VDA"
 		(at 180.34 261.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -17541,7 +16569,6 @@
 	)
 	(label "V33"
 		(at 518.16 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17552,7 +16579,6 @@
 	)
 	(label "/FPGA_BOOT"
 		(at 256.54 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17563,7 +16589,6 @@
 	)
 	(label "V33"
 		(at 518.16 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17574,7 +16599,6 @@
 	)
 	(label "V12"
 		(at 518.16 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17585,7 +16609,6 @@
 	)
 	(label "DONE"
 		(at 438.15 137.16 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17596,7 +16619,6 @@
 	)
 	(label "SPISELB"
 		(at 260.35 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17607,7 +16629,6 @@
 	)
 	(label "ABORTB"
 		(at 177.8 269.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -17618,7 +16639,6 @@
 	)
 	(label "50M"
 		(at 119.38 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17629,7 +16649,6 @@
 	)
 	(label "V33"
 		(at 518.16 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17640,7 +16659,6 @@
 	)
 	(label "FA15"
 		(at 45.72 269.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -17651,7 +16669,6 @@
 	)
 	(label "SPISELA/CSO_B"
 		(at 299.72 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17662,7 +16679,6 @@
 	)
 	(label "VPB"
 		(at 180.34 254 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17673,7 +16689,6 @@
 	)
 	(label "/FPGA_BOOT"
 		(at 76.2 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17684,7 +16699,6 @@
 	)
 	(label "BE"
 		(at 209.55 256.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17695,7 +16709,6 @@
 	)
 	(label "SPI_NFLASH"
 		(at 256.54 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17706,7 +16719,6 @@
 	)
 	(label "V33"
 		(at 518.16 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17717,7 +16729,6 @@
 	)
 	(label "E"
 		(at 180.34 266.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17728,7 +16739,6 @@
 	)
 	(label "V12"
 		(at 518.16 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17739,7 +16749,6 @@
 	)
 	(label "V33"
 		(at 518.16 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17750,7 +16759,6 @@
 	)
 	(label "/FRAMSEL"
 		(at 251.46 78.74 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17761,7 +16769,6 @@
 	)
 	(label "V33"
 		(at 518.16 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17772,7 +16779,6 @@
 	)
 	(label "SPISELA/CSO_B"
 		(at 293.37 218.44 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17783,7 +16789,6 @@
 	)
 	(label "{slash}BE"
 		(at 260.35 256.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17794,7 +16799,6 @@
 	)
 	(label "V33"
 		(at 518.16 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17805,7 +16809,6 @@
 	)
 	(label "SPI_NFLASH"
 		(at 78.74 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -17816,7 +16819,6 @@
 	)
 	(label "A[0..11]"
 		(at 53.34 228.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -17827,7 +16829,6 @@
 	)
 	(label "50M"
 		(at 243.84 93.98 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17838,7 +16839,6 @@
 	)
 	(label "VPB"
 		(at 209.55 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17849,7 +16849,6 @@
 	)
 	(label "FA15"
 		(at 208.28 87.63 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17860,7 +16859,6 @@
 	)
 	(label "VPA"
 		(at 252.73 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17871,7 +16869,6 @@
 	)
 	(label "VPA"
 		(at 180.34 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -17882,7 +16879,6 @@
 	)
 	(label "MLB"
 		(at 180.34 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17893,7 +16889,6 @@
 	)
 	(label "V33"
 		(at 518.16 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17904,7 +16899,6 @@
 	)
 	(label "V33"
 		(at 518.16 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17915,7 +16909,6 @@
 	)
 	(label "ABORTB"
 		(at 193.04 289.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -17926,7 +16919,6 @@
 	)
 	(label "SPISELB"
 		(at 307.34 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -17937,7 +16929,6 @@
 	)
 	(label "V12"
 		(at 518.16 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18003,6 +16994,28 @@
 		(uuid "0287613f-9bdb-4471-9f7a-c5550b4bf0f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.9938 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "KEYLOCK_LED"
+		(shape output)
+		(at 189.23 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02ce5c8e-c9e3-4eae-8871-3341f86967c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.0361 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18580,50 +17593,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OPENHIGH"
-		(shape bidirectional)
-		(at 86.36 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "237b42a3-20f5-43b2-9e0d-bf7ff713dc78")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.7978 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OPENHIGH"
-		(shape bidirectional)
-		(at 148.59 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "264b00b9-80ca-414d-bd27-d9315861cd0a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.1522 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -20454,6 +19423,28 @@
 			)
 		)
 	)
+	(global_label "KEYLOCK"
+		(shape input)
+		(at 157.48 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9765c7ee-1887-4b34-ad6d-2a01c8f822a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.0886 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RAMA5"
 		(shape bidirectional)
 		(at 356.87 213.36 90)
@@ -22038,7 +21029,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74138D"
+		(property "Value" "74LVC138D"
 			(at 299.72 33.02 0)
 			(effects
 				(font
@@ -22133,6 +21124,72 @@
 		)
 	)
 	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:GND")
+		(at 157.48 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "061b6f98-0906-4f0c-b05e-ffefd128085c")
+		(property "Reference" "#GND0140"
+			(at 157.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5b79682-e3d6-46fb-81a7-214e99f4cac4")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
+					(reference "#GND0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:74125D")
 		(at 144.78 95.25 0)
 		(unit 1)
@@ -22150,7 +21207,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74125D"
+		(property "Value" "74LVC125D"
 			(at 147.32 100.33 0)
 			(effects
 				(font
@@ -22508,72 +21565,6 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
 					(reference "#GND012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:VCC")
-		(at 50.8 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cc9a04c-7483-442b-b20c-cb0efb6df1f7")
-		(property "Reference" "#SUPPLY02"
-			(at 50.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 48.895 106.045 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59f41dce-2ea0-4f2c-be16-25430b18d389")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
-					(reference "#SUPPLY02")
 					(unit 1)
 				)
 			)
@@ -22938,72 +21929,6 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:GND")
-		(at 50.8 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "473d211a-7b97-4b7f-bc3c-d020670ff074")
-		(property "Reference" "#GND010"
-			(at 50.8 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 147.32 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "088578f2-6864-4a62-a52f-ac9d27739a6e")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
-					(reference "#GND010")
 					(unit 1)
 				)
 			)
@@ -23506,79 +22431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:SJ2W")
-		(at 109.22 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51289466-b8a1-43d9-b2e9-ad13c2456a33")
-		(property "Reference" "SJ1"
-			(at 106.68 147.701 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "SJ2W"
-			(at 106.68 145.415 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:SJ_2"
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35a4743c-575f-4843-be28-9a3ef348d035")
-		)
-		(pin "1"
-			(uuid "c6938757-6f2e-4b0c-9e04-314f339a9d76")
-		)
-		(pin "3"
-			(uuid "17dd0ead-a229-4e4f-9815-56f1a9f5a2e8")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
-					(reference "SJ1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:74125D")
 		(at 170.18 40.64 0)
 		(unit 4)
@@ -23596,7 +22448,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74125D"
+		(property "Value" "74LVC125D"
 			(at 172.72 45.72 0)
 			(effects
 				(font
@@ -24382,81 +23234,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:CRYSTAL_RES-SG51")
-		(at 66.04 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79c10db2-809c-4b63-b2a7-6c649a9126b6")
-		(property "Reference" "QG1"
-			(at 58.42 111.125 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "50MHz"
-			(at 58.42 129.54 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:SG51"
-			(at 66.04 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "dab01cf6-165b-4fdc-9963-350fb0a3c8ee")
-		)
-		(pin "1"
-			(uuid "8d9b82bb-fae0-4dbe-844f-5c1b365452a5")
-		)
-		(pin "7"
-			(uuid "da71f702-03b8-43d4-97e5-51e7fdbbca65")
-		)
-		(pin "8"
-			(uuid "79a2cef1-a5d0-4035-a9c8-9c2501d7bc55")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
-					(reference "QG1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:W65C816SPLCC")
 		(at 160.02 259.08 0)
 		(unit 1)
@@ -24979,7 +23756,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74125D"
+		(property "Value" "74LVC125D"
 			(at 416.56 162.56 0)
 			(effects
 				(font
@@ -25287,75 +24064,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:R-EU_0207/2V")
-		(at 78.74 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a3771a06-201b-42d6-99e6-88fdb03b8537")
-		(property "Reference" "R12"
-			(at 74.93 133.1214 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1k5"
-			(at 74.93 137.922 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:0207_2V"
-			(at 78.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "80c08b00-bfbb-478a-b94b-8633c7f741b2")
-		)
-		(pin "1"
-			(uuid "4d2a1e80-a587-418b-bf99-d4225c019230")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:74125D")
 		(at 342.9 309.88 0)
 		(unit 5)
@@ -25373,7 +24081,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74125D"
+		(property "Value" "74LVC125D"
 			(at 345.44 314.96 0)
 			(effects
 				(font
@@ -25457,75 +24165,6 @@
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
 					(reference "IC3")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:R-EU_0207/2V")
-		(at 83.82 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6cd78d7-1099-4c70-93f7-be77820d1790")
-		(property "Reference" "R5"
-			(at 82.3214 128.27 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1k"
-			(at 87.122 128.27 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:0207_2V"
-			(at 83.82 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5266533a-09f4-4410-8d35-e55a662fe6ef")
-		)
-		(pin "1"
-			(uuid "7c9709aa-f99c-4b08-9e9d-977c9f9491a9")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
-					(reference "R5")
-					(unit 1)
 				)
 			)
 		)
@@ -26225,7 +24864,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74138D"
+		(property "Value" "74LVC138D"
 			(at 322.58 325.12 0)
 			(effects
 				(font
@@ -26896,7 +25535,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "74125D"
+		(property "Value" "74LVC125D"
 			(at 416.56 182.88 0)
 			(effects
 				(font

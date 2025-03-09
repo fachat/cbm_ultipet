@@ -59,11 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|53169402|203801413|243c3014-7a91-4718-901e-eeff9911f992|9f1ca3dd-3453-4db8-8906-2558f766c07d",
-        "clearance|53169402|204301413|9f1ca3dd-3453-4db8-8906-2558f766c07d|2fed48f3-1895-442c-bb00-a0eda6bcafb5",
-        "clearance|61494402|205151413|0e0d85a1-df21-4f06-8690-040e590d867d|4a882d31-ebf2-4a66-a7ab-66fe5e5276de",
-        "clearance|61494402|205651413|6450a180-ee4a-4895-906a-1b0cda13b878|0e0d85a1-df21-4f06-8690-040e590d867d",
-        "via_dangling|373264678|71702662|86e1fe4f-9e9f-47e8-929d-a4b8ba6b4d72|00000000-0000-0000-0000-000000000000",
         "via_dangling|401395178|46683662|0ad9aed3-a61b-4ad5-be8e-b9d007e2e308|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -84,7 +79,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -224,6 +219,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         },
         {
           "diameter": 0.8,
@@ -507,6 +506,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "BV33": "HighPower",
       "GND": "HighPower",
       "V12": "HighPower",
       "V33": "HighPower",
@@ -520,7 +520,7 @@
       "idf": "",
       "netlist": "",
       "plot": "gerbers/",
-      "pos_files": "",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -580,11 +580,35 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
