@@ -2,6 +2,8 @@
 
 Note: this is a part of a larger set of repositories, with [upet_family](https://github.com/fachat/upet_family) as the main repository.
 
+WARNING: the PCB has been created with Kicad 8 - upgrading to Kicad 9 mangles a lot of footprints. Only use Kicad 8 for it!
+
 This is a re-incarnation of the Commodore PET computer(s) from the later 1970s.
 
 It is build on a PCB that fits into a C64-II case (with extra cutouts for connectors), and has only parts that can still be obtained new in 2024.
