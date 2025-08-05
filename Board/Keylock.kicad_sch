@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8cdf8408-9493-4dcb-b6b6-8852d3ad932e")
 	(paper "User" 317.652 210.007)
 	(lib_symbols
@@ -65,6 +65,18 @@
 			(symbol "1N4148DO35-10_1_0"
 				(polyline
 					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -1.27 -1.27) (xy 1.27 0)
 					)
 					(stroke
@@ -77,7 +89,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy 1.27 1.27) (xy 1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -102,18 +114,6 @@
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -160,6 +160,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:556N"
 			(exclude_from_sim no)
@@ -221,18 +222,6 @@
 			(symbol "556N_1_0"
 				(polyline
 					(pts
-						(xy -7.62 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -7.62 10.16) (xy -7.62 -10.16)
 					)
 					(stroke
@@ -245,7 +234,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 7.62 10.16)
+						(xy -7.62 -10.16) (xy 7.62 -10.16)
 					)
 					(stroke
 						(width 0.4064)
@@ -267,17 +256,29 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 7.62 10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin input line
-					(at 10.16 2.54 180)
+					(at -10.16 7.62 0)
 					(length 2.54)
-					(name "DIS"
+					(name "TR"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -285,35 +286,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 10.16 -7.62 180)
+				(pin input inverted
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "V+"
+					(name "R"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "THR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -339,17 +322,17 @@
 						)
 					)
 				)
-				(pin input inverted
-					(at -10.16 2.54 0)
+				(pin power_in line
+					(at -10.16 -7.62 0)
 					(length 2.54)
-					(name "R"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -376,16 +359,34 @@
 					)
 				)
 				(pin input line
-					(at -10.16 7.62 0)
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "TR"
+					(name "DIS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "THR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -394,16 +395,16 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 -7.62 0)
+					(at 10.16 -7.62 180)
 					(length 2.54)
-					(name "GND"
+					(name "V+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -413,6 +414,18 @@
 				)
 			)
 			(symbol "556N_2_0"
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -7.62 -7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -7.62 -7.62) (xy 7.62 -7.62)
@@ -427,7 +440,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 7.62) (xy -7.62 -7.62)
+						(xy 7.62 7.62) (xy -7.62 7.62)
 					)
 					(stroke
 						(width 0.4064)
@@ -449,16 +462,22 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 7.62) (xy -7.62 7.62)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "TR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin input inverted
@@ -497,17 +516,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 -5.08 180)
+				(pin output line
+					(at 10.16 5.08 180)
 					(length 2.54)
-					(name "THR"
+					(name "Q"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -534,34 +553,16 @@
 					)
 				)
 				(pin input line
-					(at -10.16 5.08 0)
+					(at 10.16 -5.08 180)
 					(length 2.54)
-					(name "TR"
+					(name "THR"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "Q"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -570,6 +571,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:74138N"
 			(exclude_from_sim no)
@@ -632,18 +634,6 @@
 			(symbol "74138N_1_0"
 				(polyline
 					(pts
-						(xy -10.16 -12.7) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -10.16 10.16) (xy -10.16 -12.7)
 					)
 					(stroke
@@ -656,7 +646,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 7.62 10.16)
+						(xy -10.16 -12.7) (xy 7.62 -12.7)
 					)
 					(stroke
 						(width 0.4064)
@@ -678,6 +668,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 7.62 10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin input line
 					(at -15.24 7.62 0)
 					(length 5.08)
@@ -689,114 +691,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "Y5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "Y4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "Y3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "Y2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "Y1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "Y0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -840,6 +734,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input inverted
 					(at -15.24 -7.62 0)
 					(length 5.08)
@@ -876,17 +788,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 -5.08 0)
+				(pin output inverted
+					(at 12.7 7.62 180)
 					(length 5.08)
-					(name "G1"
+					(name "Y0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -895,16 +807,88 @@
 					)
 				)
 				(pin output inverted
-					(at 12.7 -10.16 180)
+					(at 12.7 5.08 180)
 					(length 5.08)
-					(name "Y7"
+					(name "Y1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "Y2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "Y3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "Y4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "Y5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -930,10 +914,28 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "Y7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74138N_2_0"
-				(text "GND"
-					(at 1.905 -5.842 900)
+				(text "VCC"
+					(at 1.905 2.54 900)
 					(effects
 						(font
 							(size 1.27 1.0795)
@@ -941,8 +943,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "VCC"
-					(at 1.905 2.54 900)
+				(text "GND"
+					(at 1.905 -5.842 900)
 					(effects
 						(font
 							(size 1.27 1.0795)
@@ -987,6 +989,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:7474N"
 			(exclude_from_sim no)
@@ -1049,18 +1052,6 @@
 			(symbol "7474N_1_0"
 				(polyline
 					(pts
-						(xy -7.62 -7.62) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -7.62 7.62) (xy -7.62 -7.62)
 					)
 					(stroke
@@ -1073,7 +1064,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -7.62) (xy 7.62 7.62)
+						(xy -7.62 -7.62) (xy 7.62 -7.62)
 					)
 					(stroke
 						(width 0.4064)
@@ -1095,17 +1086,29 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin input inverted
-					(at -12.7 -5.08 0)
+					(at -12.7 5.08 0)
 					(length 5.08)
-					(name "CLR"
+					(name "PRE"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1150,16 +1153,16 @@
 					)
 				)
 				(pin input inverted
-					(at -12.7 5.08 0)
+					(at -12.7 -5.08 0)
 					(length 5.08)
-					(name "PRE"
+					(name "CLR"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1207,18 +1210,6 @@
 			(symbol "7474N_2_0"
 				(polyline
 					(pts
-						(xy -7.62 -7.62) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -7.62 7.62) (xy -7.62 -7.62)
 					)
 					(stroke
@@ -1231,7 +1222,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -7.62) (xy 7.62 7.62)
+						(xy -7.62 -7.62) (xy 7.62 -7.62)
 					)
 					(stroke
 						(width 0.4064)
@@ -1244,6 +1235,18 @@
 				(polyline
 					(pts
 						(xy 7.62 7.62) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 7.62)
 					)
 					(stroke
 						(width 0.4064)
@@ -1271,24 +1274,6 @@
 						)
 					)
 				)
-				(pin input clock
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -12.7 2.54 0)
 					(length 5.08)
@@ -1300,6 +1285,24 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1326,24 +1329,6 @@
 					)
 				)
 				(pin output line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "~{Q}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
 					(at 12.7 5.08 180)
 					(length 5.08)
 					(name "Q"
@@ -1361,10 +1346,28 @@
 						)
 					)
 				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "~{Q}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "7474N_3_0"
-				(text "GND"
-					(at 1.905 -5.842 900)
+				(text "VCC"
+					(at 1.905 2.54 900)
 					(effects
 						(font
 							(size 1.27 1.0795)
@@ -1372,8 +1375,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "VCC"
-					(at 1.905 2.54 900)
+				(text "GND"
+					(at 1.905 -5.842 900)
 					(effects
 						(font
 							(size 1.27 1.0795)
@@ -1418,6 +1421,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:BC547"
 			(exclude_from_sim no)
@@ -1502,7 +1506,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -2.413) (xy 2.286 -2.413)
+						(xy 1.524 -2.286) (xy 1.905 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -1514,7 +1518,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 -2.286) (xy 1.905 -2.286)
+						(xy 1.524 -2.413) (xy 2.286 -2.413)
 					)
 					(stroke
 						(width 0.254)
@@ -1538,10 +1542,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 -1.778) (xy 1.524 -2.286)
+						(xy 1.778 -1.524) (xy 2.54 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type solid)
 					)
 					(fill
@@ -1550,10 +1554,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 -1.524) (xy 2.54 -2.54)
+						(xy 1.778 -1.778) (xy 1.524 -2.286)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type solid)
 					)
 					(fill
@@ -1586,7 +1590,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 1.27 -2.54)
+						(xy 2.54 2.54) (xy 0.508 1.524)
 					)
 					(stroke
 						(width 0.1524)
@@ -1598,7 +1602,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 0.508 1.524)
+						(xy 2.54 -2.54) (xy 1.27 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -1606,24 +1610,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
 					)
 				)
 				(pin passive line
@@ -1662,7 +1648,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:BC557"
 			(exclude_from_sim no)
@@ -1771,7 +1776,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 2.159) (xy 1.143 1.905)
+						(xy 1.524 2.413) (xy 0.762 1.651)
 					)
 					(stroke
 						(width 0.254)
@@ -1783,7 +1788,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.524 2.413) (xy 0.762 1.651)
+						(xy 1.524 2.159) (xy 1.143 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1843,7 +1848,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 0.508 -1.524)
+						(xy 2.54 2.54) (xy 1.808 2.124)
 					)
 					(stroke
 						(width 0.1524)
@@ -1855,7 +1860,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 1.808 2.124)
+						(xy 2.54 -2.54) (xy 0.508 -1.524)
 					)
 					(stroke
 						(width 0.1524)
@@ -1863,24 +1868,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
 					)
 				)
 				(pin passive line
@@ -1894,6 +1881,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -1920,6 +1925,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:C-EU025-024X044"
 			(exclude_from_sim no)
@@ -1980,17 +1986,6 @@
 			)
 			(symbol "C-EU025-024X044_1_0"
 				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -2.032 -1.016)
 					(end 2.032 -0.508)
 					(stroke
@@ -2001,9 +1996,20 @@
 						(type outline)
 					)
 				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
+						(xy 0 0) (xy 0 -0.508)
 					)
 					(stroke
 						(width 0.1524)
@@ -2015,7 +2021,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -0.508)
+						(xy 0 -2.54) (xy 0 -2.032)
 					)
 					(stroke
 						(width 0.1524)
@@ -2062,6 +2068,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:C-EU025-025X050"
 			(exclude_from_sim no)
@@ -2122,17 +2129,6 @@
 			)
 			(symbol "C-EU025-025X050_1_0"
 				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -2.032 -1.016)
 					(end 2.032 -0.508)
 					(stroke
@@ -2143,9 +2139,20 @@
 						(type outline)
 					)
 				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
+						(xy 0 0) (xy 0 -0.508)
 					)
 					(stroke
 						(width 0.1524)
@@ -2157,7 +2164,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -0.508)
+						(xy 0 -2.54) (xy 0 -2.032)
 					)
 					(stroke
 						(width 0.1524)
@@ -2204,6 +2211,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:CPOL-EUE2-4"
 			(exclude_from_sim no)
@@ -2276,18 +2284,6 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -0.889) (xy 1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.524 0) (xy -1.524 -0.889)
 					)
 					(stroke
@@ -2301,6 +2297,18 @@
 				(polyline
 					(pts
 						(xy -1.524 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.889) (xy 1.524 -0.889)
 					)
 					(stroke
 						(width 0.254)
@@ -2368,6 +2376,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:DOCFIELD"
 			(exclude_from_sim no)
@@ -2429,7 +2438,7 @@
 			(symbol "DOCFIELD_1_0"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 5.08)
+						(xy 0 22.86) (xy 0 35.56)
 					)
 					(stroke
 						(width 0.1016)
@@ -2441,7 +2450,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 71.12 0)
+						(xy 0 22.86) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 15.24) (xy 0 22.86)
 					)
 					(stroke
 						(width 0.1016)
@@ -2477,7 +2498,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 15.24) (xy 0 22.86)
+						(xy 0 0) (xy 0 5.08)
 					)
 					(stroke
 						(width 0.1016)
@@ -2489,31 +2510,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 22.86) (xy 0 35.56)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 22.86) (xy 101.6 22.86)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 71.12 0) (xy 101.6 0)
+						(xy 0 0) (xy 71.12 0)
 					)
 					(stroke
 						(width 0.1016)
@@ -2549,7 +2546,7 @@
 				)
 				(polyline
 					(pts
-						(xy 87.63 5.08) (xy 101.6 5.08)
+						(xy 71.12 0) (xy 101.6 0)
 					)
 					(stroke
 						(width 0.1016)
@@ -2585,7 +2582,43 @@
 				)
 				(polyline
 					(pts
-						(xy 101.6 5.08) (xy 101.6 0)
+						(xy 87.63 5.08) (xy 101.6 5.08)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 0 35.56)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 22.86) (xy 101.6 15.24)
 					)
 					(stroke
 						(width 0.1016)
@@ -2621,7 +2654,7 @@
 				)
 				(polyline
 					(pts
-						(xy 101.6 22.86) (xy 101.6 15.24)
+						(xy 101.6 5.08) (xy 101.6 0)
 					)
 					(stroke
 						(width 0.1016)
@@ -2631,32 +2664,26 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 101.6 35.56) (xy 0 35.56)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
+				(text "TITLE:"
+					(at 1.27 19.05 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
 					)
 				)
-				(polyline
-					(pts
-						(xy 101.6 35.56) (xy 101.6 22.86)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
+				(text "Document Number:"
+					(at 1.27 11.43 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
 					)
 				)
-				(text "${#}/${##}"
-					(at 86.36 1.27 0)
+				(text "Date:"
+					(at 1.27 1.27 0)
 					(effects
 						(font
 							(size 2.54 2.54)
@@ -2682,8 +2709,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "Date:"
-					(at 1.27 1.27 0)
+				(text "Sheet:"
+					(at 72.39 1.27 0)
 					(effects
 						(font
 							(size 2.54 2.54)
@@ -2691,8 +2718,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "Document Number:"
-					(at 1.27 11.43 0)
+				(text "${#}/${##}"
+					(at 86.36 1.27 0)
 					(effects
 						(font
 							(size 2.54 2.54)
@@ -2709,25 +2736,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "Sheet:"
-					(at 72.39 1.27 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "TITLE:"
-					(at 1.27 19.05 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:GND"
 			(power)
@@ -2819,6 +2829,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:JP2E"
 			(exclude_from_sim no)
@@ -2880,6 +2891,18 @@
 			(symbol "JP2E_1_0"
 				(polyline
 					(pts
+						(xy -3.175 0.635) (xy -3.175 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -3.175 0) (xy 3.175 0)
 					)
 					(stroke
@@ -2892,7 +2915,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 0.635) (xy -3.175 0)
+						(xy -2.54 2.54) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0.4064)
@@ -2916,7 +2939,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -2.54 1.27)
+						(xy 0 2.54) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.4064)
@@ -2940,7 +2963,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 1.27)
+						(xy 2.54 2.54) (xy 2.54 1.27)
 					)
 					(stroke
 						(width 0.4064)
@@ -2964,7 +2987,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27)
+						(xy 3.175 0.635) (xy -3.175 0.635)
 					)
 					(stroke
 						(width 0.4064)
@@ -2977,18 +3000,6 @@
 				(polyline
 					(pts
 						(xy 3.175 0) (xy 3.175 0.635)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0.635) (xy -3.175 0.635)
 					)
 					(stroke
 						(width 0.4064)
@@ -3053,6 +3064,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:R-EU_0207/7"
 			(exclude_from_sim no)
@@ -3138,7 +3150,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -0.889) (xy 2.54 0.889)
+						(xy 2.54 0.889) (xy -2.54 0.889)
 					)
 					(stroke
 						(width 0.254)
@@ -3150,7 +3162,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0.889) (xy -2.54 0.889)
+						(xy 2.54 -0.889) (xy 2.54 0.889)
 					)
 					(stroke
 						(width 0.254)
@@ -3197,6 +3209,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cbm_ultipet_v1-eagle-import:VCC"
 			(power)
@@ -3287,7 +3300,228 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Commodore PET SHIFT-LOCK simulator + RESET on long push"
+		(exclude_from_sim no)
+		(at 22.86 33.02 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "056a1168-c280-49a1-a77c-fdf3def9b22e")
+	)
+	(text "CBM-ULTIPET-V1.2A"
+		(exclude_from_sim no)
+		(at 25.4 160.02 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c7dfb05-1477-4b8a-822b-83c1331e41f9")
+	)
+	(text "Business"
+		(exclude_from_sim no)
+		(at 78.74 99.06 90)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "221afdfd-ac8c-44b0-ad5e-b5d03774d99f")
+	)
+	(text "Business"
+		(exclude_from_sim no)
+		(at 129.54 111.76 90)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "24542ef6-0ab9-40c6-bf29-5d52a95fda75")
+	)
+	(text "Business"
+		(exclude_from_sim no)
+		(at 165.1 111.76 90)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a307aa6-5939-4ddc-8bd4-32b202677781")
+	)
+	(text "Low = no key,\nhigh = key pressed"
+		(exclude_from_sim no)
+		(at 142.24 134.62 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b24ded6-d068-4a60-9ff0-0fd1ed843356")
+	)
+	(text "Business"
+		(exclude_from_sim no)
+		(at 287.02 104.14 90)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "511107c8-11b7-4b1d-94c9-594950b5d9fe")
+	)
+	(text "Graphics"
+		(exclude_from_sim no)
+		(at 271.78 104.14 90)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "53d85fec-7586-4882-ae19-b4c041a745e0")
+	)
+	(text "/RES is 3.3V from CPU\nside. That then triggers\n/BRES on 5V side"
+		(exclude_from_sim no)
+		(at 195.58 137.16 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "595a273a-8cf0-4399-9d89-22b14f641508")
+	)
+	(text "CBM-ULTIPET-1.2A-20241010"
+		(exclude_from_sim no)
+		(at 25.4 177.8 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "64a3819b-ca8f-4663-890c-97b14e777968")
+	)
+	(text "Saves the last\nkey press state"
+		(exclude_from_sim no)
+		(at 101.6 55.88 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a3af388-d92a-4ff3-ba62-e78f32470755")
+	)
+	(text "Graphics"
+		(exclude_from_sim no)
+		(at 63.5 99.06 90)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "70d8bfb4-ab36-4eb2-bdfb-6ac1872f60e7")
+	)
+	(text "Graphics"
+		(exclude_from_sim no)
+		(at 149.86 111.76 90)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fc975cc-0129-4618-8fa9-b954c49640cb")
+	)
+	(text "When key state goes up,\ntoggle output"
+		(exclude_from_sim no)
+		(at 180.34 50.8 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "81079f0c-7830-4cf2-8db3-32486052892d")
+	)
+	(text "Inspired by SX64 keyboard and discussions\nwith Steve Gray and Mike Naberezny"
+		(exclude_from_sim no)
+		(at 213.36 35.56 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "8953cdaa-23ac-41df-b1f9-f5a8da61cf23")
+	)
+	(text "Graphics"
+		(exclude_from_sim no)
+		(at 279.4 78.74 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "998bb38b-607d-482a-9d05-7b1db165dcd3")
+	)
+	(text "R1.2A:\n- add KEYLOCK_LED output"
+		(exclude_from_sim no)
+		(at 233.172 172.72 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "bb4d0ed7-4e67-4d85-94bb-3b9b4b4646e3")
+	)
+	(text "On Steve's MX replacement keyboards,\nAlternate Shift Lock is on\n- R9/C1 for Business and\n- R3/C5 for Graphics\nOriginal left shift is:\n- R3/C7 for Business and\n- R8/C0 for Graphics\n(Note: count starts at zero, not one)"
+		(exclude_from_sim no)
+		(at 27.94 68.58 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0731350-21b5-45e1-8ec2-b48378b64383")
+	)
+	(text "Graphics"
+		(exclude_from_sim no)
+		(at 114.3 111.76 90)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5ca56c6-18e2-4084-a6e9-149bb74147df")
+	)
+	(text "Business"
+		(exclude_from_sim no)
+		(at 279.4 127 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7bbd691-6e49-4d8b-9912-fd2292de2657")
 	)
 	(junction
 		(at 43.18 91.44)
@@ -4847,226 +5081,6 @@
 		)
 		(uuid "ff7dea73-486a-4f21-9b91-9fefae06f6c0")
 	)
-	(text "Commodore PET SHIFT-LOCK simulator + RESET on long push"
-		(exclude_from_sim no)
-		(at 22.86 33.02 0)
-		(effects
-			(font
-				(size 3.81 3.2385)
-			)
-			(justify left bottom)
-		)
-		(uuid "056a1168-c280-49a1-a77c-fdf3def9b22e")
-	)
-	(text "CBM-ULTIPET-V1.2A"
-		(exclude_from_sim no)
-		(at 25.4 160.02 0)
-		(effects
-			(font
-				(size 3.81 3.2385)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c7dfb05-1477-4b8a-822b-83c1331e41f9")
-	)
-	(text "Business"
-		(exclude_from_sim no)
-		(at 78.74 99.06 90)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "221afdfd-ac8c-44b0-ad5e-b5d03774d99f")
-	)
-	(text "Business"
-		(exclude_from_sim no)
-		(at 129.54 111.76 90)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "24542ef6-0ab9-40c6-bf29-5d52a95fda75")
-	)
-	(text "Business"
-		(exclude_from_sim no)
-		(at 165.1 111.76 90)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a307aa6-5939-4ddc-8bd4-32b202677781")
-	)
-	(text "Low = no key,\nhigh = key pressed"
-		(exclude_from_sim no)
-		(at 142.24 134.62 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b24ded6-d068-4a60-9ff0-0fd1ed843356")
-	)
-	(text "Business"
-		(exclude_from_sim no)
-		(at 287.02 104.14 90)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "511107c8-11b7-4b1d-94c9-594950b5d9fe")
-	)
-	(text "Graphics"
-		(exclude_from_sim no)
-		(at 271.78 104.14 90)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "53d85fec-7586-4882-ae19-b4c041a745e0")
-	)
-	(text "/RES is 3.3V from CPU\nside. That then triggers\n/BRES on 5V side"
-		(exclude_from_sim no)
-		(at 195.58 137.16 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "595a273a-8cf0-4399-9d89-22b14f641508")
-	)
-	(text "CBM-ULTIPET-1.2A-20241010"
-		(exclude_from_sim no)
-		(at 25.4 177.8 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "64a3819b-ca8f-4663-890c-97b14e777968")
-	)
-	(text "Saves the last\nkey press state"
-		(exclude_from_sim no)
-		(at 101.6 55.88 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a3af388-d92a-4ff3-ba62-e78f32470755")
-	)
-	(text "Graphics"
-		(exclude_from_sim no)
-		(at 63.5 99.06 90)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "70d8bfb4-ab36-4eb2-bdfb-6ac1872f60e7")
-	)
-	(text "Graphics"
-		(exclude_from_sim no)
-		(at 149.86 111.76 90)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fc975cc-0129-4618-8fa9-b954c49640cb")
-	)
-	(text "When key state goes up,\ntoggle output"
-		(exclude_from_sim no)
-		(at 180.34 50.8 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "81079f0c-7830-4cf2-8db3-32486052892d")
-	)
-	(text "Inspired by SX64 keyboard and discussions\nwith Steve Gray and Mike Naberezny"
-		(exclude_from_sim no)
-		(at 213.36 35.56 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "8953cdaa-23ac-41df-b1f9-f5a8da61cf23")
-	)
-	(text "Graphics"
-		(exclude_from_sim no)
-		(at 279.4 78.74 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "998bb38b-607d-482a-9d05-7b1db165dcd3")
-	)
-	(text "R1.2A:\n- add KEYLOCK_LED output"
-		(exclude_from_sim no)
-		(at 233.172 172.72 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "bb4d0ed7-4e67-4d85-94bb-3b9b4b4646e3")
-	)
-	(text "On Steve's MX replacement keyboards,\nAlternate Shift Lock is on\n- R9/C1 for Business and\n- R3/C5 for Graphics\nOriginal left shift is:\n- R3/C7 for Business and\n- R8/C0 for Graphics\n(Note: count starts at zero, not one)"
-		(exclude_from_sim no)
-		(at 27.94 68.58 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0731350-21b5-45e1-8ec2-b48378b64383")
-	)
-	(text "Graphics"
-		(exclude_from_sim no)
-		(at 114.3 111.76 90)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5ca56c6-18e2-4084-a6e9-149bb74147df")
-	)
-	(text "Business"
-		(exclude_from_sim no)
-		(at 279.4 127 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7bbd691-6e49-4d8b-9912-fd2292de2657")
-	)
 	(label "ROW3"
 		(at 144.78 119.38 0)
 		(effects
@@ -6320,7 +6334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:DIL14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 111.76 68.58 0)
 			(effects
 				(font
@@ -6842,7 +6856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:DIL14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 52.07 82.55 0)
 			(effects
 				(font
@@ -6947,7 +6961,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:DIL14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -7184,7 +7198,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:DIL14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 144.78 71.12 0)
 			(effects
 				(font
@@ -7699,7 +7713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:DIL16"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 43.18 83.82 0)
 			(effects
 				(font
@@ -8150,7 +8164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:DIL14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
 			(at 187.96 68.58 0)
 			(effects
 				(font
@@ -8256,7 +8270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:DIL16"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket_LongPads"
 			(at 86.36 124.46 0)
 			(effects
 				(font
