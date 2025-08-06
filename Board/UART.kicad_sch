@@ -9811,7 +9811,7 @@
 		)
 		(uuid "c7da4c5a-0d6b-439f-9f61-d73ae2d0bad0")
 	)
-	(label "RRTS"
+	(label "RDTR"
 		(at 246.38 172.72 90)
 		(effects
 			(font
