@@ -1546,7 +1546,7 @@
 		)
 		(uuid "34b695da-00c8-4a80-96dc-ee7125a90ac2")
 	)
-	(text "CBM-ULTIPET-V1.1A"
+	(text "CBM-ULTIPET-V1.3A"
 		(exclude_from_sim no)
 		(at 202.692 149.352 0)
 		(effects
@@ -1556,7 +1556,7 @@
 		)
 		(uuid "5675b899-34fc-4450-9cef-ef548bee05b1")
 	)
-	(text "CBM-ULTIPET-1.1A-20240527"
+	(text "CBM-ULTIPET-1.1A-20250806"
 		(exclude_from_sim no)
 		(at 208.534 170.18 0)
 		(effects
@@ -1566,9 +1566,9 @@
 		)
 		(uuid "9c05ff13-ba86-4010-a71c-7688c58cc45c")
 	)
-	(text "1.1A:\n- this page is new"
+	(text "1.1A:\n- this page is new\n1.3A:\n- extra labels for SDA/SCL"
 		(exclude_from_sim no)
-		(at 110.744 170.18 0)
+		(at 98.298 164.338 0)
 		(effects
 			(font
 				(size 2.54 2.54)

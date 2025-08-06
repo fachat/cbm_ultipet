@@ -1689,7 +1689,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CBM-ULTIPET-V1.2A"
+	(text "CBM-ULTIPET-V1.3A"
 		(exclude_from_sim no)
 		(at 152.4 149.86 0)
 		(effects
@@ -1700,9 +1700,9 @@
 		)
 		(uuid "09c7c187-2473-47df-9956-d349f06fbade")
 	)
-	(text "1.2A:\n- replace V33 with V33IO"
+	(text "1.2A:\n- replace V33 with V33IO\n1.3A:\n- correct (mirrored) pinout"
 		(exclude_from_sim no)
-		(at 163.322 135.382 0)
+		(at 169.164 130.556 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1711,7 +1711,7 @@
 		)
 		(uuid "55c9c62d-f002-4acc-b212-90922efb079f")
 	)
-	(text "CBM-ULTIPET-V1.2A-20241017"
+	(text "CBM-ULTIPET-V1.3A-20250806"
 		(exclude_from_sim no)
 		(at 154.94 170.18 0)
 		(effects

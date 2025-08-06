@@ -5395,7 +5395,7 @@
 		)
 		(uuid "89616edc-08d6-4b43-9ebe-d3fe48a22f74")
 	)
-	(text "1.1A:\n- Switch to DUAL UART to provide 2nd\n  5V RS232 (shared w/ UEXT)\n- replace pullup on UART /RES \n  with RN7\n1.2A:\n- set /DSRB and /CDB to lo instead of hi\n. add pulldowns to INTA and INTB so high-Z\n  does not trigger IRQ\n1.3A:\n- Add USB-C RS232"
+	(text "1.1A:\n- Switch to DUAL UART to provide 2nd\n  5V RS232 (shared w/ UEXT)\n- replace pullup on UART /RES \n  with RN7\n1.2A:\n- set /DSRB and /CDB to lo instead of hi\n. add pulldowns to INTA and INTB so high-Z\n  does not trigger IRQ\n1.3A:\n- Add USB-C RS232\n- Extend internal connectors"
 		(exclude_from_sim no)
 		(at 295.148 140.97 0)
 		(effects

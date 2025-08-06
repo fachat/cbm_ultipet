@@ -4366,7 +4366,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CBM-ULTIPET-V1.2A"
+	(text "CBM-ULTIPET-V1.3A"
 		(exclude_from_sim no)
 		(at 231.14 210.82 0)
 		(effects

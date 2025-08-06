@@ -13726,9 +13726,9 @@
 		)
 		(uuid "5574d7d3-d221-4913-9982-50835ffa8d72")
 	)
-	(text "1.0B: \n- fix IEEE488 pull up/down resistor values (again)\n1.1A:\n- fully decode PIA addresses\n- replace some discrete Rs with RN7\n- fix 2N2222 footprint for new BOM part\n1.2A:\n- fix addressing 2nd SID by moving BA7 to IC9\n- replace JP8 with a solder jumper (I/O block address)\n- replace 1N4148 with 1N4448 for lower fwd voltage drop"
+	(text "1.0B: \n- fix IEEE488 pull up/down resistor values (again)\n1.1A:\n- fully decode PIA addresses\n- replace some discrete Rs with RN7\n- fix 2N2222 footprint for new BOM part\n1.2A:\n- fix addressing 2nd SID by moving BA7 to IC9\n- replace JP8 with a solder jumper (I/O block address)\n- replace 1N4148 with 1N4448 for lower fwd voltage drop\n1.3A:\n- replace std PET kbd connector with extended / IDC conn"
 		(exclude_from_sim no)
-		(at 314.706 351.536 0)
+		(at 278.638 347.472 0)
 		(effects
 			(font
 				(size 3 3)
@@ -13737,7 +13737,7 @@
 		)
 		(uuid "5bd6af2d-8f7e-4e77-be7f-cd847df00e34")
 	)
-	(text "CBM-ULTIPET-V1.2A"
+	(text "CBM-ULTIPET-V1.3A"
 		(exclude_from_sim no)
 		(at 464.82 340.36 0)
 		(effects
@@ -13748,7 +13748,7 @@
 		)
 		(uuid "5e31792c-2ec3-4ef4-9262-b660a8ceafe2")
 	)
-	(text "CBM-ULTIPET-V1.2A-20241013\n"
+	(text "CBM-ULTIPET-V1.3A-20250806\n"
 		(exclude_from_sim no)
 		(at 464.82 363.22 0)
 		(effects
@@ -28765,7 +28765,7 @@
 			)
 		)
 	)
-	(global_label "SCA"
+	(global_label "SDA"
 		(shape input)
 		(at 76.2 275.59 180)
 		(fields_autoplaced yes)

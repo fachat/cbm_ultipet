@@ -3030,7 +3030,7 @@
 		)
 		(uuid "8afdbaa3-6f06-4ca8-8b4c-84a96b4d73eb")
 	)
-	(text "1.1A:\n- switch between single/dual joystick config\n- switch Joy1/Joy2 on board\n1.2A:\n- switch diodes direction to fix dual mode joystick fire\n- replace 1N4148 with 1N4448 due to lower fwd voltage\n- add clamping diodes to joystick port"
+	(text "1.1A:\n- switch between single/dual joystick config\n- switch Joy1/Joy2 on board\n1.2A:\n- switch diodes direction to fix dual mode joystick fire\n- replace 1N4148 with 1N4448 due to lower fwd voltage\n- add clamping diodes to joystick port\n1.3A:\n- fix joystick connector footprint"
 		(exclude_from_sim no)
 		(at 189.484 35.56 0)
 		(effects
@@ -3081,7 +3081,7 @@
 		)
 		(uuid "c034f26e-8ca8-4693-befe-c1f83a61a949")
 	)
-	(text "CBM-ULTIPET-V1.2A"
+	(text "CBM-ULTIPET-V1.3A"
 		(exclude_from_sim no)
 		(at 187.96 160.02 0)
 		(effects
@@ -3112,7 +3112,7 @@
 		)
 		(uuid "cddb10b5-b26e-4d6c-8f81-80a0bdb83ba6")
 	)
-	(text "CBM-ULTIPET-V1.2A-20241017"
+	(text "CBM-ULTIPET-V1.3A-20250806"
 		(exclude_from_sim no)
 		(at 190.5 180.34 0)
 		(effects
