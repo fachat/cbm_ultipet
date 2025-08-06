@@ -3132,7 +3132,7 @@
 	)
 	(text "CBM-ULTIPET-V1.3A"
 		(exclude_from_sim no)
-		(at 167.64 213.36 0)
+		(at 167.64 228.6 0)
 		(effects
 			(font
 				(size 3.81 3.2385)
@@ -3143,7 +3143,7 @@
 	)
 	(text "(C) A. Fachat"
 		(exclude_from_sim no)
-		(at 167.64 218.44 0)
+		(at 167.64 233.68 0)
 		(effects
 			(font
 				(size 2.54 2.159)
@@ -3152,9 +3152,9 @@
 		)
 		(uuid "3a7c8549-065e-4b71-ab33-1cfc555394bb")
 	)
-	(text "CBM-ULTIPET-1.2A-20241117\n"
+	(text "CBM-ULTIPET-1.3A-20250806\n"
 		(exclude_from_sim no)
-		(at 165.1 236.22 0)
+		(at 165.1 251.46 0)
 		(effects
 			(font
 				(size 2.54 2.159)
@@ -3173,9 +3173,9 @@
 		)
 		(uuid "a22dcef8-41cc-4c10-a380-797871219288")
 	)
-	(text "1.0B: add voltage divider to reduce beeper \n      volume on mixer output\n1.2A: \n- duplicate beeper voltage divider to reduce L/R crosstalk\n- adjust beeper voltage divider resistor values\n- add bypass / gain caps on audio amp"
+	(text "1.0B: add voltage divider to reduce beeper \n      volume on mixer output\n1.2A: \n- duplicate beeper voltage divider to reduce L/R crosstalk\n- adjust beeper voltage divider resistor values\n- add bypass / gain caps on audio amp\n1.3A:\n- fix audio amp circuit for more linearity\n- fix volume control on amp section"
 		(exclude_from_sim no)
-		(at 32.258 231.648 0)
+		(at 32.004 237.744 0)
 		(effects
 			(font
 				(face "DejaVu Sans Mono")
@@ -3839,7 +3839,7 @@
 	)
 	(polyline
 		(pts
-			(xy 30.48 17.78) (xy 30.48 243.84)
+			(xy 30.48 17.78) (xy 30.48 259.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -3909,7 +3909,7 @@
 	)
 	(polyline
 		(pts
-			(xy 30.48 243.84) (xy 259.08 243.84)
+			(xy 30.48 259.08) (xy 259.08 259.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -4319,7 +4319,7 @@
 	)
 	(polyline
 		(pts
-			(xy 259.08 243.84) (xy 259.08 17.78)
+			(xy 259.08 259.08) (xy 259.08 17.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -9025,7 +9025,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:DOCFIELD")
-		(at 157.48 243.84 0)
+		(at 157.48 259.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9033,7 +9033,7 @@
 		(dnp no)
 		(uuid "d3ef2ccf-f073-42d2-a789-1fb526493576")
 		(property "Reference" "#FRAME10"
-			(at 157.48 243.84 0)
+			(at 157.48 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,7 +9042,7 @@
 			)
 		)
 		(property "Value" "DOCFIELD"
-			(at 157.48 243.84 0)
+			(at 157.48 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9051,7 +9051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 243.84 0)
+			(at 157.48 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +9060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 243.84 0)
+			(at 157.48 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9069,7 +9069,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 243.84 0)
+			(at 157.48 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
