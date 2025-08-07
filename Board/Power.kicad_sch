@@ -4721,9 +4721,9 @@
 		)
 		(uuid "16037dcc-32bb-414e-95d5-b126c905a358")
 	)
-	(text "1.1A:\n- change footprint of power switch to a combined one\n1.2A:\n- add LED connector\n- add 3.3V for I/O\n1.3A:\n- USB-C power connector"
+	(text "1.1A:\n- change footprint of power switch to a combined one\n1.2A:\n- add LED connector\n- add 3.3V for I/O\n1.3A:\n- USB-C power connector\n- Fix DS1818 footprint"
 		(exclude_from_sim no)
-		(at 211.836 178.816 0)
+		(at 39.497 146.685 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4797,7 +4797,7 @@
 		)
 		(uuid "a10c9cd2-1894-4920-990d-4100b3df2828")
 	)
-	(text "CSA-ULTIPET-V1.3A-20250806"
+	(text "CSA-ULTIPET-V1.3A-20250807"
 		(exclude_from_sim no)
 		(at 208.28 218.44 0)
 		(effects
@@ -5650,7 +5650,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 157.48) (xy 81.28 154.94)
+			(xy 172.085 191.77) (xy 172.085 189.23)
 		)
 		(stroke
 			(width 0.1524)
@@ -7330,7 +7330,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 134.62) (xy 81.28 132.08)
+			(xy 172.085 168.91) (xy 172.085 166.37)
 		)
 		(stroke
 			(width 0.1524)
@@ -7920,7 +7920,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 147.32) (xy 81.28 144.78)
+			(xy 172.085 181.61) (xy 172.085 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -8880,7 +8880,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 152.4) (xy 48.26 147.32)
+			(xy 213.36 74.295) (xy 213.36 69.215)
 		)
 		(stroke
 			(width 0.1524)
@@ -9120,7 +9120,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 162.56) (xy 48.26 160.02)
+			(xy 213.36 84.455) (xy 213.36 81.915)
 		)
 		(stroke
 			(width 0.1524)
@@ -10481,7 +10481,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:GND")
-		(at 48.26 165.1 0)
+		(at 213.36 86.995 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10489,7 +10489,7 @@
 		(dnp no)
 		(uuid "0f170ad0-1fa3-416d-9ff2-20c6a177739e")
 		(property "Reference" "#GND028"
-			(at 48.26 165.1 0)
+			(at 213.36 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10498,7 +10498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 167.64 0)
+			(at 210.82 89.535 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10507,7 +10507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 165.1 0)
+			(at 213.36 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10516,7 +10516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 165.1 0)
+			(at 213.36 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,7 +10525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 165.1 0)
+			(at 213.36 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10547,7 +10547,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:GND")
-		(at 81.28 160.02 0)
+		(at 172.085 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10555,7 +10555,7 @@
 		(dnp no)
 		(uuid "1119916d-2c15-4fe0-9515-c7c589c46187")
 		(property "Reference" "#GND042"
-			(at 81.28 160.02 0)
+			(at 172.085 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10564,7 +10564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 162.56 0)
+			(at 169.545 196.85 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10573,7 +10573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 160.02 0)
+			(at 172.085 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,7 +10582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 160.02 0)
+			(at 172.085 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +10591,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 160.02 0)
+			(at 172.085 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11046,7 +11046,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:R-EU_0207/2V")
-		(at 81.28 139.7 90)
+		(at 172.085 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11054,7 +11054,7 @@
 		(dnp no)
 		(uuid "22fb43ae-7080-442d-ab26-9fcec8f24792")
 		(property "Reference" "R22"
-			(at 79.7814 143.51 0)
+			(at 170.5864 177.8 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11063,7 +11063,7 @@
 			)
 		)
 		(property "Value" "390"
-			(at 84.582 143.51 0)
+			(at 175.387 177.8 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11072,7 +11072,7 @@
 			)
 		)
 		(property "Footprint" "cbm_ultipet_v1:0207_2V"
-			(at 81.28 139.7 0)
+			(at 172.085 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11081,7 +11081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 139.7 0)
+			(at 172.085 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11090,7 +11090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 139.7 0)
+			(at 172.085 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11612,7 +11612,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:3.3V")
-		(at 48.26 147.32 0)
+		(at 213.36 69.215 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11620,7 +11620,7 @@
 		(dnp no)
 		(uuid "34aead6f-1164-40fe-bf2d-749dca5b5953")
 		(property "Reference" "#V033"
-			(at 48.26 147.32 0)
+			(at 213.36 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11629,7 +11629,7 @@
 			)
 		)
 		(property "Value" "V33"
-			(at 47.244 143.764 0)
+			(at 212.344 65.659 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11638,7 +11638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 147.32 0)
+			(at 213.36 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11647,7 +11647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 147.32 0)
+			(at 213.36 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +11656,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 147.32 0)
+			(at 213.36 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12701,7 +12701,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:VCC")
-		(at 81.28 129.54 0)
+		(at 172.085 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12709,7 +12709,7 @@
 		(dnp no)
 		(uuid "59ae9eef-7324-4f0c-a63b-ae53aab31284")
 		(property "Reference" "#V021"
-			(at 81.28 129.54 0)
+			(at 172.085 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12718,7 +12718,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 79.375 126.365 0)
+			(at 170.18 160.655 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12727,7 +12727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 129.54 0)
+			(at 172.085 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12736,7 +12736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 129.54 0)
+			(at 172.085 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12745,7 +12745,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 129.54 0)
+			(at 172.085 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13037,7 +13037,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:C-EUC0603")
-		(at 48.26 154.94 0)
+		(at 213.36 76.835 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13045,7 +13045,7 @@
 		(dnp no)
 		(uuid "650a8ee4-1480-4d01-acb5-d17b950e33fa")
 		(property "Reference" "C45"
-			(at 49.784 154.559 0)
+			(at 214.884 76.454 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13054,7 +13054,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 49.784 159.639 0)
+			(at 214.884 81.534 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13063,7 +13063,7 @@
 			)
 		)
 		(property "Footprint" "cbm_ultipet_v1:C0603"
-			(at 48.26 154.94 0)
+			(at 213.36 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13072,7 +13072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 154.94 0)
+			(at 213.36 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13081,7 +13081,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 154.94 0)
+			(at 213.36 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14763,7 +14763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:TO92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 190.5 102.87 0)
 			(effects
 				(font
@@ -15014,7 +15014,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:LED3MM")
-		(at 81.28 149.86 0)
+		(at 172.085 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15022,7 +15022,7 @@
 		(dnp no)
 		(uuid "9ff13114-c866-4033-9730-4d115a522a2e")
 		(property "Reference" "LED1"
-			(at 84.836 154.432 90)
+			(at 175.641 188.722 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15031,7 +15031,7 @@
 			)
 		)
 		(property "Value" "LED3MM"
-			(at 86.995 154.432 90)
+			(at 177.8 188.722 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15041,7 +15041,7 @@
 			)
 		)
 		(property "Footprint" "cbm_ultipet_v1:LED3MM"
-			(at 81.28 149.86 0)
+			(at 172.085 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15050,7 +15050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 149.86 0)
+			(at 172.085 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15059,7 +15059,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 149.86 0)
+			(at 172.085 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
