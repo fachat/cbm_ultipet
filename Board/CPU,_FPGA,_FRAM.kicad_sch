@@ -1493,6 +1493,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Oscillator:SG-8002CE"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SG-8002CE"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm"
+				(at 17.78 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CMOS Clock Oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Crystal Clock Oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*SMD*SeikoEpson*SG8002CE*3.2x2.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SG-8002CE_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762)
+						(xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SG-8002CE_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "cbm_ultipet_v1-eagle-import:74125D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4001,540 +4173,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cbm_ultipet_v1-eagle-import:RENOSCXLH"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JS6"
-				(at -10.16 8.255 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -10.16 -10.16 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "cbm_ultipet_v1:RENJS6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RENOSCXLH_1_0"
-				(polyline
-					(pts
-						(xy -10.16 7.62) (xy -10.16 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 7.62) (xy 5.08 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 1.016) (xy -5.08 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -1.016) (xy -6.35 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.366 0.381) (xy -5.334 0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.366 -0.381) (xy -7.366 0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.366 -0.381) (xy -5.334 -0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 3.175) (xy -3.81 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 1.016) (xy -6.35 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -1.016) (xy -5.08 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -3.175) (xy -6.35 -1.016)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -3.175) (xy -3.81 -3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.334 0.381) (xy -5.334 -0.381)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.175) (xy -3.81 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.175) (xy -3.81 3.175)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -5.08) (xy -3.81 -3.175)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 4.064 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 0) (xy 4.064 -1.524)
-					)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.064 -2.54)
-					(radius 0.9652)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy -10.16 -7.62)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "VDD"
-					(at -9.525 4.318 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "VSS"
-					(at -9.525 -5.842 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "EN"
-					(at 0 5.588 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "OUT"
-					(at 0 -5.842 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin power_in line
-					(at -15.24 5.08 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "OUT1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -2.54 180)
-					(length 5.08)
-					(name "OUT2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "cbm_ultipet_v1-eagle-import:SPIFLASH"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6037,6 +5675,151 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "csa_ultracpu-eagle-import:R-EU_0207/2V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "csa_ultracpu:0207_2V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-EU_0207/2V_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy 2.54 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -8872,7 +8655,7 @@
 		)
 		(uuid "216013cb-04a8-445d-b13b-dc9f9945e311")
 	)
-	(text "1.0B: \n- add Pulldown from DONE to /RES to ensure proper init\n1.1A:\n- add SPI_NSEL0 for SPI-10/UEXT connector\n1.2A:\n- use last gate on IC3 for shift lock LED\n- remove 50MHz oscillator option\n1.3A:\n- move (I)RGB out to N/P pair driver pins\n  to prep for HDMI\n- replace 5V SRAM with 3.3V type"
+	(text "1.0B: \n- add Pulldown from DONE to /RES to ensure proper init\n1.1A:\n- add SPI_NSEL0 for SPI-10/UEXT connector\n1.2A:\n- use last gate on IC3 for shift lock LED\n- remove 50MHz oscillator option\n1.3A:\n- move (I)RGB out to N/P pair driver pins\n  to prep for HDMI\n- replace 5V SRAM with 3.3V type\n- different footprint for clock oscillator"
 		(exclude_from_sim no)
 		(at 305.054 300.736 0)
 		(effects
@@ -8981,6 +8764,12 @@
 		(uuid "fe33f004-8039-4dd3-aa38-ec919f46bfca")
 	)
 	(junction
+		(at 68.58 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0043412f-afc9-4f1d-a3f9-62dbc916dd47")
+	)
+	(junction
 		(at 524.51 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9009,12 +8798,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06d5052f-0036-46a4-bbe4-ec993f646696")
-	)
-	(junction
-		(at 50.8 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08db9afc-37d9-437c-bbdd-d763ee122c74")
 	)
 	(junction
 		(at 96.52 68.58)
@@ -9794,16 +9577,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 157.48) (xy 50.8 157.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "035d995c-6aea-4ce2-b9e8-3f8513504c25")
-	)
-	(wire
-		(pts
 			(xy 213.36 95.25) (xy 213.36 107.95)
 		)
 		(stroke
@@ -9901,16 +9674,6 @@
 			(type default)
 		)
 		(uuid "08ccc280-52d7-4469-b2d7-b84ac9a66e71")
-	)
-	(wire
-		(pts
-			(xy 76.2 149.86) (xy 83.82 149.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "095915b6-2b78-433b-9762-999db95a6e22")
 	)
 	(wire
 		(pts
@@ -10174,16 +9937,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 149.86) (xy 66.04 149.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0f9752cb-2bb8-4d15-9c8d-73efea5250ba")
-	)
-	(wire
-		(pts
 			(xy 515.62 86.36) (xy 524.51 86.36)
 		)
 		(stroke
@@ -10404,16 +10157,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 157.48) (xy 78.74 157.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "178b423b-c52e-42c9-a952-61c987a11224")
-	)
-	(wire
-		(pts
 			(xy 247.65 198.12) (xy 247.65 215.9)
 		)
 		(stroke
@@ -10451,16 +10194,6 @@
 			(type solid)
 		)
 		(uuid "19250bf8-b5ed-4faf-9ecb-fbaedc5d001f")
-	)
-	(wire
-		(pts
-			(xy 78.74 162.56) (xy 109.22 162.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "197f4ccf-a8fb-4c91-94a2-2b835f872662")
 	)
 	(wire
 		(pts
@@ -10804,6 +10537,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 137.16) (xy 68.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4be85f-d884-4d29-9a89-637614c88948")
+	)
+	(wire
+		(pts
 			(xy 175.26 236.22) (xy 182.88 236.22)
 		)
 		(stroke
@@ -11104,16 +10847,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 167.64) (xy 50.8 167.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3a69221c-7303-435c-b8c5-4803e8e6701d")
-	)
-	(wire
-		(pts
 			(xy 259.08 184.15) (xy 259.08 200.66)
 		)
 		(stroke
@@ -11201,6 +10934,16 @@
 			(type default)
 		)
 		(uuid "3d399439-1560-47fc-808d-563a0901638d")
+	)
+	(wire
+		(pts
+			(xy 54.61 147.32) (xy 60.96 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d415aef-9bd0-49c3-b330-3cdd27a04d94")
 	)
 	(wire
 		(pts
@@ -12144,6 +11887,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 133.35) (xy 68.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68587a44-008d-49a8-81fb-3e4a3d8b6511")
+	)
+	(wire
+		(pts
 			(xy 240.03 200.66) (xy 240.03 214.63)
 		)
 		(stroke
@@ -12754,13 +12507,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 167.64) (xy 50.8 170.18)
+			(xy 54.61 137.16) (xy 68.58 137.16)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "85207037-025d-47d9-b4e9-a7e42bc118a1")
+		(uuid "845ed724-3312-4516-ba4c-3bd0f65fc761")
 	)
 	(wire
 		(pts
@@ -13414,16 +13167,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 157.48) (xy 50.8 149.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a5bdfdf4-0a1a-4f15-9c8f-0ec64659d2e9")
-	)
-	(wire
-		(pts
 			(xy 320.04 40.64) (xy 320.04 43.18)
 		)
 		(stroke
@@ -13521,16 +13264,6 @@
 			(type default)
 		)
 		(uuid "a86133a6-9da1-49b4-809d-6faf8ccb4d86")
-	)
-	(wire
-		(pts
-			(xy 109.22 147.32) (xy 109.22 162.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a8a0f951-4ab1-4756-b536-aab47e5d823a")
 	)
 	(wire
 		(pts
@@ -13691,6 +13424,16 @@
 			(type default)
 		)
 		(uuid "afa27ed2-c127-43ef-abc0-cc6f7db31de8")
+	)
+	(wire
+		(pts
+			(xy 68.58 154.94) (xy 68.58 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00c5849-c50b-4834-b3e0-08683c481ff6")
 	)
 	(wire
 		(pts
@@ -14514,6 +14257,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 147.32) (xy 109.22 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd27d4ac-5fbc-4799-8ff8-a5cd817f9482")
+	)
+	(wire
+		(pts
 			(xy 255.27 194.31) (xy 251.46 194.31)
 		)
 		(stroke
@@ -14551,16 +14304,6 @@
 			(type default)
 		)
 		(uuid "cebefd17-f124-492c-ba55-bcfb296f080f")
-	)
-	(wire
-		(pts
-			(xy 83.82 149.86) (xy 83.82 157.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cefa75ee-5f39-4802-a6ed-16d8eae819e0")
 	)
 	(wire
 		(pts
@@ -15364,16 +15107,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 157.48) (xy 50.8 157.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f87a966f-305d-4d6c-a285-23d099e359ff")
-	)
-	(wire
-		(pts
 			(xy 127 82.55) (xy 144.78 82.55)
 		)
 		(stroke
@@ -15711,16 +15444,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f33797c-bbe0-417a-a395-efbc2b978e60")
-	)
-	(label "50MSMD"
-		(at 86.36 162.56 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "71c613cc-306e-4a7e-b79e-aee8ed138d81")
 	)
 	(label "VDA"
 		(at 180.34 261.62 0)
@@ -19190,6 +18913,28 @@
 			)
 		)
 	)
+	(global_label "V33"
+		(shape bidirectional)
+		(at 68.58 133.35 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "c0f867c8-d922-4501-9cc6-a2ee8bcecdf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 125.8984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CPHI2"
 		(shape bidirectional)
 		(at 294.64 87.63 90)
@@ -20026,28 +19771,6 @@
 			)
 		)
 	)
-	(global_label "V33"
-		(shape bidirectional)
-		(at 45.72 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "f82cc9db-a90b-4651-b768-cf505e815f99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.2684 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SYNC"
 		(shape bidirectional)
 		(at 320.04 87.63 90)
@@ -20491,72 +20214,6 @@
 		)
 	)
 	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:GND")
-		(at 50.8 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fa9c7ca-df13-4f42-8f72-0e13404d3df4")
-		(property "Reference" "#GND057"
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 175.26 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "276b8f81-2c00-4c72-8974-822c3e74c365")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
-					(reference "#GND057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74LVC1G04")
 		(at 234.95 256.54 180)
 		(unit 1)
@@ -20625,75 +20282,6 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:R-EU_0207/2V")
-		(at 71.12 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1562fe73-d16d-4176-a5fd-3dda76dcc22c")
-		(property "Reference" "R30"
-			(at 67.31 148.3614 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 67.31 153.162 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:0207_2V"
-			(at 71.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7453034b-879d-4345-ab7c-5bd1c0cef751")
-		)
-		(pin "1"
-			(uuid "b3be7904-3f2f-45a5-b94b-3612e762b1db")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -22144,6 +21732,149 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
 					(reference "#GND09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "csa_ultracpu-eagle-import:R-EU_0207/2V")
+		(at 54.61 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6de64665-1922-4b32-9d0a-070dda9f8770")
+		(property "Reference" "R47"
+			(at 56.1086 138.43 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 51.308 138.43 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 54.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38909114-dc77-4d6c-849b-6f66f77601f8")
+		)
+		(pin "2"
+			(uuid "253c1fa9-2b15-4cee-9484-e0927815ce83")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Oscillator:SG-8002CE")
+		(at 68.58 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f25e533-02ae-47b4-a0e4-592d31d751dc")
+		(property "Reference" "X1"
+			(at 81.28 141.0014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SG-8002CE"
+			(at 81.28 143.5414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm"
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-8002DC"
+			(at 66.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CMOS Clock Oscillator"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aba59b99-31bb-4303-abca-bce4f6a0ba3c")
+		)
+		(pin "4"
+			(uuid "70c17cb7-53b2-4dc4-8fdd-13dc497b5930")
+		)
+		(pin "3"
+			(uuid "af8f0aa4-342b-4259-9272-9fbdee9c4b4e")
+		)
+		(pin "1"
+			(uuid "392fd2e9-f1cb-447d-80a8-7e493545ccdb")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -24501,6 +24232,72 @@
 		)
 	)
 	(symbol
+		(lib_id "csa_ultracpu-eagle-import:GND")
+		(at 68.58 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dee4367c-9041-494b-9500-482618a9b627")
+		(property "Reference" "#GND06"
+			(at 68.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 163.83 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58a703a7-b388-41b7-99e2-dfdaa25b9a1a")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:74138D")
 		(at 398.78 46.99 0)
 		(unit 2)
@@ -25625,84 +25422,6 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
 					(reference "#GND07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:RENOSCXLH")
-		(at 68.58 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffdb72c8-5d66-44e2-b30c-675981274a43")
-		(property "Reference" "JS1"
-			(at 58.42 154.305 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "RENOSCXLH"
-			(at 58.42 172.72 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:RENJS6"
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6f864835-7c5b-4014-8277-afbaa56e14e6")
-		)
-		(pin "1"
-			(uuid "8600d546-24bc-4f6d-a4d8-5bbf68ed2b7d")
-		)
-		(pin "4"
-			(uuid "d1b5ce6d-85a1-427d-996a-3ecfb591dae3")
-		)
-		(pin "5"
-			(uuid "cc5a7ac5-4dfc-4c05-87ae-d1f4997ddf86")
-		)
-		(pin "6"
-			(uuid "2a4c66e6-c57a-4252-b28d-a88256686c26")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/c1121991-0565-423b-8c3b-d37496a455be"
-					(reference "JS1")
 					(unit 1)
 				)
 			)

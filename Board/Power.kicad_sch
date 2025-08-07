@@ -4687,97 +4687,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "micropet_v3-eagle-import:VCC"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#SUPPLY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at -1.905 3.175 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC_1_0"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "1000mA, according to LDI1117 datasheet\n(linear regulator though)"
 		(exclude_from_sim no)
@@ -6431,6 +6340,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 25.4) (xy 82.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cfedfcc-a5d8-4058-b98d-846210248fd4")
+	)
+	(wire
+		(pts
 			(xy 132.08 96.52) (xy 132.08 93.98)
 		)
 		(stroke
@@ -6468,6 +6387,16 @@
 			(type solid)
 		)
 		(uuid "3f320141-f48a-423d-8712-230a96b090b0")
+	)
+	(wire
+		(pts
+			(xy 85.09 25.4) (xy 82.55 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "405a2263-72fb-4c37-aea2-8893be315a8b")
 	)
 	(wire
 		(pts
@@ -7768,16 +7697,6 @@
 			(type solid)
 		)
 		(uuid "8bdd6571-a7e2-4f5b-958c-63211cc57368")
-	)
-	(wire
-		(pts
-			(xy 82.55 27.94) (xy 82.55 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c15f968-7631-4afd-9ee9-e68d606295d2")
 	)
 	(wire
 		(pts
@@ -9673,6 +9592,28 @@
 			)
 		)
 	)
+	(global_label "VCCIN"
+		(shape input)
+		(at 85.09 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dca47c3-68d6-417f-add8-8c1e1f91eef9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.6391 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "V12"
 		(shape bidirectional)
 		(at 297.18 48.26 0)
@@ -10599,72 +10540,6 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/f2a7836e-baa5-4eed-9e59-e26d91b4d1a6"
 					(reference "#GND028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "micropet_v3-eagle-import:VCC")
-		(at 82.55 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10210c7e-a9af-4f21-962e-05a6f72783c0")
-		(property "Reference" "#V049"
-			(at 82.55 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 80.645 22.225 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a04d176e-f974-4954-9636-ca6ff089d86c")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/f2a7836e-baa5-4eed-9e59-e26d91b4d1a6"
-					(reference "#V049")
 					(unit 1)
 				)
 			)

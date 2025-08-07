@@ -14978,7 +14978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-42_W15.24mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket_LongPads"
 			(at 111.76 58.42 0)
 			(effects
 				(font
@@ -19171,7 +19171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-42_W15.24mm_Socket_LongPads"
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket_LongPads"
 			(at 80.01 132.08 0)
 			(effects
 				(font
