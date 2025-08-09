@@ -13726,12 +13726,12 @@
 		)
 		(uuid "5574d7d3-d221-4913-9982-50835ffa8d72")
 	)
-	(text "1.0B: \n- fix IEEE488 pull up/down resistor values (again)\n1.1A:\n- fully decode PIA addresses\n- replace some discrete Rs with RN7\n- fix 2N2222 footprint for new BOM part\n1.2A:\n- fix addressing 2nd SID by moving BA7 to IC9\n- replace JP8 with a solder jumper (I/O block address)\n- replace 1N4148 with 1N4448 for lower fwd voltage drop\n1.3A:\n- replace std PET kbd connector with extended / IDC conn"
+	(text "1.0B: \n- fix IEEE488 pull up/down resistor values (again)\n1.1A:\n- fully decode PIA addresses\n- replace some discrete Rs with RN7\n- fix 2N2222 footprint for new BOM part\n1.2A:\n- fix addressing 2nd SID by moving BA7 to IC9\n- replace JP8 with a solder jumper (I/O block address)\n- replace 1N4148 with 1N4448 for lower fwd voltage drop\n1.3A:\n- replace std PET kbd connector with extended / IDC conn\n- add IRQ and NMI option to IDC conn"
 		(exclude_from_sim no)
 		(at 278.638 347.472 0)
 		(effects
 			(font
-				(size 3 3)
+				(size 2.54 2.54)
 			)
 			(justify left)
 		)
@@ -13748,7 +13748,7 @@
 		)
 		(uuid "5e31792c-2ec3-4ef4-9262-b660a8ceafe2")
 	)
-	(text "CBM-ULTIPET-V1.3A-20250806\n"
+	(text "CBM-ULTIPET-V1.3A-20250809\n"
 		(exclude_from_sim no)
 		(at 464.82 363.22 0)
 		(effects
@@ -13780,6 +13780,16 @@
 			(justify left bottom)
 		)
 		(uuid "87580d13-715b-491a-b144-00db9b440a16")
+	)
+	(text "For use with \ntwo-row IDC\nkeyboard \nconnector"
+		(exclude_from_sim no)
+		(at 62.23 336.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f7c8c39-50d8-4b40-821b-14d68c10e733")
 	)
 	(text "1-2: ATNA disabled\n2-3: Control via C2 MTR"
 		(exclude_from_sim no)
@@ -18611,6 +18621,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 330.2) (xy 93.98 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40709a05-a0d7-46b2-8c52-082d9cd3a031")
+	)
+	(wire
+		(pts
 			(xy 345.44 238.76) (xy 345.44 264.16)
 		)
 		(stroke
@@ -18818,6 +18838,16 @@
 			(type solid)
 		)
 		(uuid "466d5bcf-1dc6-47aa-81c1-1121da95c4a3")
+	)
+	(wire
+		(pts
+			(xy 71.12 342.9) (xy 85.09 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46de1a97-4634-481d-b53a-255b17021948")
 	)
 	(wire
 		(pts
@@ -19688,6 +19718,16 @@
 			(type solid)
 		)
 		(uuid "5a614f3c-50c0-496a-9b47-d39486a9097a")
+	)
+	(wire
+		(pts
+			(xy 71.12 330.2) (xy 85.09 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7c7ec2-b2c5-4d92-8bd9-f71964c584d5")
 	)
 	(wire
 		(pts
@@ -25279,6 +25319,16 @@
 		)
 		(uuid "e555bd45-6683-4e31-801d-ce866211d3fc")
 	)
+	(wire
+		(pts
+			(xy 87.63 342.9) (xy 93.98 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e556c0f6-f7ac-4a8e-964e-4a30e2962e6c")
+	)
 	(bus
 		(pts
 			(xy 251.46 127) (xy 251.46 129.54)
@@ -26679,6 +26729,16 @@
 		)
 		(uuid "395cc30d-83fd-4c51-b052-4b3e7f155bec")
 	)
+	(label "DEC0"
+		(at 73.66 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ba259f2-8f48-4399-a6f0-60d5b2b5d98e")
+	)
 	(label "EOIOUT"
 		(at 172.72 101.6 90)
 		(effects
@@ -27228,6 +27288,16 @@
 			(justify left bottom)
 		)
 		(uuid "ad6d1406-d061-4d9c-aa11-3966a67ab4f1")
+	)
+	(label "DEC1"
+		(at 73.66 342.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae68cef5-3ab1-49d6-89b1-f68eda31bbb1")
 	)
 	(label "DEC2"
 		(at 55.88 281.94 0)
@@ -29086,6 +29156,28 @@
 		(uuid "33356c44-4067-4543-b035-a9ebb1fd4bce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.2023 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}NMI"
+		(shape input)
+		(at 93.98 342.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3340b73e-0ad7-4752-8df8-be54adc32022")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6824 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31484,6 +31576,28 @@
 		(uuid "92db75a1-172d-4a67-a60e-c8d34f24d288")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.1109 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "{slash}IRQ"
+		(shape input)
+		(at 93.98 330.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93799681-bc94-4ca5-8147-999c025f25d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.501 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40397,6 +40511,76 @@
 		)
 	)
 	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:JP1E")
+		(at 85.09 327.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8556411b-dca2-4f93-a2c8-cc5aca137e66")
+		(property "Reference" "JP18"
+			(at 83.82 327.66 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "JP1E"
+			(at 90.805 327.66 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:JP1"
+			(at 85.09 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cbaea0e7-1ca7-43e0-b811-a89e51a3eac6")
+		)
+		(pin "1"
+			(uuid "28c52ad5-f149-497e-996a-35c9d89114d4")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
+					(reference "JP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:JP2E")
 		(at 457.2 241.3 0)
 		(unit 1)
@@ -44702,6 +44886,76 @@
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
 					(reference "IC22")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:JP1E")
+		(at 85.09 340.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f51e3a0e-eb5e-4e69-9662-dee11ab072de")
+		(property "Reference" "JP22"
+			(at 83.82 340.36 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "JP1E"
+			(at 90.805 340.36 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:JP1"
+			(at 85.09 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51d1fb41-324d-4ca3-868a-9dfdf751c16d")
+		)
+		(pin "1"
+			(uuid "87ff01a7-5976-4da7-9b40-c1b7fb4aa4f0")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
+					(reference "JP22")
+					(unit 1)
 				)
 			)
 		)
