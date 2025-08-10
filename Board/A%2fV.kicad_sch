@@ -5475,7 +5475,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:C025-024X044"
+		(property "Footprint" "cbm_ultipet_v1:C025-025X050"
 			(at 279.4 68.58 0)
 			(effects
 				(font
@@ -7636,7 +7636,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:C025-024X044"
+		(property "Footprint" "cbm_ultipet_v1:C025-025X050"
 			(at 287.02 68.58 0)
 			(effects
 				(font
