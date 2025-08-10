@@ -11278,7 +11278,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "16255 UART"
 			(at 173.9748 132.08 0)
 			(effects
 				(font
