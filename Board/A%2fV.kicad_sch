@@ -5208,7 +5208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33919f62-d9e8-4250-81e9-d0251814ce79")
-		(property "Reference" "U$5"
+		(property "Reference" "UX5"
 			(at 189.865 153.162 0)
 			(effects
 				(font
@@ -5263,7 +5263,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/122e60a4-4a83-4478-ae42-3d8b51948846"
-					(reference "U$5")
+					(reference "UX5")
 					(unit 1)
 				)
 			)
@@ -5387,7 +5387,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "400f47a2-5d20-468e-a1e7-bdb746d2b58e")
-		(property "Reference" "U$8"
+		(property "Reference" "UX8"
 			(at 174.625 153.162 0)
 			(effects
 				(font
@@ -5442,7 +5442,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/122e60a4-4a83-4478-ae42-3d8b51948846"
-					(reference "U$8")
+					(reference "UX8")
 					(unit 1)
 				)
 			)
@@ -6371,7 +6371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e38fab6-c480-4a68-8e9c-a7103ce90db8")
-		(property "Reference" "U$6"
+		(property "Reference" "UX6"
 			(at 182.245 153.162 0)
 			(effects
 				(font
@@ -6426,7 +6426,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/122e60a4-4a83-4478-ae42-3d8b51948846"
-					(reference "U$6")
+					(reference "UX6")
 					(unit 1)
 				)
 			)
@@ -7687,7 +7687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c837b4dc-411a-4040-8830-d2d39e4ee600")
-		(property "Reference" "U$11"
+		(property "Reference" "UX11"
 			(at 159.385 153.162 0)
 			(effects
 				(font
@@ -7742,7 +7742,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/122e60a4-4a83-4478-ae42-3d8b51948846"
-					(reference "U$11")
+					(reference "UX11")
 					(unit 1)
 				)
 			)
@@ -8110,7 +8110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8561cd8-d958-45e0-a758-ca45c1feea0e")
-		(property "Reference" "U$10"
+		(property "Reference" "UX10"
 			(at 167.005 153.162 0)
 			(effects
 				(font
@@ -8165,7 +8165,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/122e60a4-4a83-4478-ae42-3d8b51948846"
-					(reference "U$10")
+					(reference "UX10")
 					(unit 1)
 				)
 			)

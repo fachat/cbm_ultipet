@@ -10101,7 +10101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96f1adbd-938e-4ba4-941e-9473323d15ee")
-		(property "Reference" "U$23"
+		(property "Reference" "UX23"
 			(at 220.98 157.48 0)
 			(effects
 				(font
@@ -10234,7 +10234,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/ef987787-576d-4ba9-8915-c171f881d1b8"
-					(reference "U$23")
+					(reference "UX23")
 					(unit 1)
 				)
 			)
@@ -11078,7 +11078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf63dea7-1bea-446c-b9b3-7c682220b14f")
-		(property "Reference" "U$22"
+		(property "Reference" "UX22"
 			(at 220.98 91.44 0)
 			(effects
 				(font
@@ -11211,7 +11211,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/ef987787-576d-4ba9-8915-c171f881d1b8"
-					(reference "U$22")
+					(reference "UX22")
 					(unit 1)
 				)
 			)

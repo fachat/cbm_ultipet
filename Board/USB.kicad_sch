@@ -8900,7 +8900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ffa508c-cceb-4e71-90eb-9e97b560c8e3")
-		(property "Reference" "U$13"
+		(property "Reference" "UX13"
 			(at 228.6 40.64 0)
 			(effects
 				(font
@@ -8979,7 +8979,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/d2c8cba7-54fd-4ca0-bac7-9d690d7d8e89"
-					(reference "U$13")
+					(reference "UX13")
 					(unit 1)
 				)
 			)
@@ -10032,7 +10032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f11b01c-5d1a-4a26-a9d7-6a6dcd0bbda1")
-		(property "Reference" "U$9"
+		(property "Reference" "UX9"
 			(at 281.94 190.5 0)
 			(effects
 				(font
@@ -10111,7 +10111,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/d2c8cba7-54fd-4ca0-bac7-9d690d7d8e89"
-					(reference "U$9")
+					(reference "UX9")
 					(unit 1)
 				)
 			)
@@ -10557,7 +10557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f01d4ac-9c86-4ceb-95d3-abc25b68ae7e")
-		(property "Reference" "U$15"
+		(property "Reference" "UX15"
 			(at 167.005 188.722 0)
 			(effects
 				(font
@@ -10612,7 +10612,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/d2c8cba7-54fd-4ca0-bac7-9d690d7d8e89"
-					(reference "U$15")
+					(reference "UX15")
 					(unit 1)
 				)
 			)
@@ -11376,7 +11376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9613fc4-4fd5-4278-a7ce-0bcf86f2d188")
-		(property "Reference" "U$14"
+		(property "Reference" "UX14"
 			(at 174.625 188.722 0)
 			(effects
 				(font
@@ -11431,7 +11431,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/d2c8cba7-54fd-4ca0-bac7-9d690d7d8e89"
-					(reference "U$14")
+					(reference "UX14")
 					(unit 1)
 				)
 			)
@@ -11512,7 +11512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0381033-cb18-49f7-a69c-981f1f935416")
-		(property "Reference" "U$12"
+		(property "Reference" "UX12"
 			(at 129.54 81.28 0)
 			(effects
 				(font
@@ -11585,7 +11585,7 @@
 		(instances
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/d2c8cba7-54fd-4ca0-bac7-9d690d7d8e89"
-					(reference "U$12")
+					(reference "UX12")
 					(unit 1)
 				)
 			)
