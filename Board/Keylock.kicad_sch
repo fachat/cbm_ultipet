@@ -6439,7 +6439,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:E2-4"
+		(property "Footprint" "cbm_ultipet_v1:E2-5"
 			(at 177.8 170.18 0)
 			(effects
 				(font

@@ -10909,7 +10909,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:E2,5-6"
+		(property "Footprint" "cbm_ultipet_v1:E2-5"
 			(at 198.12 30.48 0)
 			(effects
 				(font
@@ -11481,7 +11481,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:E2,5-6"
+		(property "Footprint" "cbm_ultipet_v1:E2-5"
 			(at 198.12 73.66 0)
 			(effects
 				(font
@@ -13341,7 +13341,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:E2,5-6"
+		(property "Footprint" "cbm_ultipet_v1:E2-5"
 			(at 198.12 40.64 0)
 			(effects
 				(font
@@ -16111,7 +16111,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_ultipet_v1:E2,5-6"
+		(property "Footprint" "cbm_ultipet_v1:E2-5"
 			(at 198.12 83.82 0)
 			(effects
 				(font

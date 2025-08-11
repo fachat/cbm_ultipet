@@ -22413,7 +22413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.issi.com/WW/pdf/61-64C5128AL.pdf"
+		(property "Datasheet" "AS7C34096A"
 			(at 59.69 245.11 0)
 			(effects
 				(font
