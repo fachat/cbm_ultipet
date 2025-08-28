@@ -1,0 +1,8827 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f9e1d292-8490-4108-87bc-0ce2e9be72ff")
+	(paper "A4")
+	(lib_symbols
+		(symbol "cbm_ultipet_v1-eagle-import:1503_09"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -2.54 6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "cbm_ultipet_v1:1503_09"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1503_09_1_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.032 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.524 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 4.064) (xy -1.778 4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.524) (xy -1.778 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 4.826) (xy -2.286 4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 2.54) (xy -2.032 4.826)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0) (xy -2.032 -2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -2.286) (xy -2.286 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 4.064) (xy -2.032 4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.524) (xy -2.032 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.54) (xy 1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.778 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.302 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.572 4.064)
+					(end 5.588 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 5.08 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 1.27 -0.762 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 1.397 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "cbm_ultipet_v1:HDR15RA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_1_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_2_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_3_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_4_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_5_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_6_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_7_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_8_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_9_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_10_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_11_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_12_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_13_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_14_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "D-SUB15-HDR15RA_15_0"
+				(arc
+					(start 0.889 -0.889)
+					(mid 0.0038 0)
+					(end 0.889 0.889)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "F"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cbm_ultipet_v1-eagle-import:USB-A-H"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "cbm_ultipet_v1:USB-A-H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB-A-H_1_0"
+				(polyline
+					(pts
+						(xy 0 8.89) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 8.89) (xy 0 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "USB"
+					(at 3.81 0 900)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "GND@1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "GND@1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -5.08 90)
+					(length 2.54)
+					(name "GND@2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "GND@2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:1503_09")
+		(at 148.59 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13c3b344-bb1c-47e3-8efc-4bb8f5b4898c")
+		(property "Reference" "X6"
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1503_09"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:Korean_PJ-3240-5A"
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac7e0c08-da55-42d1-a886-61812a1236a3")
+		)
+		(pin "3"
+			(uuid "040de083-7a70-4c74-806e-d06993041d79")
+		)
+		(pin "1"
+			(uuid "bab8fccd-42e1-49e9-9597-14de545149c4")
+		)
+		(pin "4"
+			(uuid "53bd87ca-ea6f-437d-b9d5-6a01d1a8f290")
+		)
+		(pin "5"
+			(uuid "daebd73b-e4fc-4486-9222-021c9fb4b9a9")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 119.38 0)
+		(unit 12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15718576-1201-45db-af9e-5b3fb2f3df21")
+		(property "Reference" "X1"
+			(at 191.77 120.142 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 117.983 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bc53481-1b43-4ea7-9637-51183a2c9557")
+		)
+		(pin "1"
+			(uuid "bcb83129-20bf-4f8a-b2fa-1c87ab131eeb")
+		)
+		(pin "3"
+			(uuid "ee41dbe0-e6a2-4c69-bf53-f28056980af5")
+		)
+		(pin "4"
+			(uuid "6cb6f3ca-e7a6-4dab-80ee-7fc04b2e25ee")
+		)
+		(pin "5"
+			(uuid "a33944b4-f07b-4692-bd77-1fb183191d18")
+		)
+		(pin "6"
+			(uuid "6c78775b-b6a1-4210-bf13-15e9f7b5f095")
+		)
+		(pin "7"
+			(uuid "e600e7cd-1637-49ea-9a52-e8103c44e778")
+		)
+		(pin "8"
+			(uuid "ad69d53a-b28d-4f9e-ab74-c45512d06fd6")
+		)
+		(pin "9"
+			(uuid "d7596d46-e973-4395-8e50-8acc83ad4a52")
+		)
+		(pin "10"
+			(uuid "1e64a156-c889-4b84-9df1-0d09611574e2")
+		)
+		(pin "11"
+			(uuid "c4c140e1-b9a7-4b6f-a99e-f66cf5b4cbb2")
+		)
+		(pin "12"
+			(uuid "fba945f1-a991-41eb-8a50-c4e423c5bf31")
+		)
+		(pin "13"
+			(uuid "4e384627-d2e9-4c0c-931e-b50e9b94628a")
+		)
+		(pin "14"
+			(uuid "43a6b00d-134b-49b7-b367-e83862e6b0b4")
+		)
+		(pin "15"
+			(uuid "ece57a78-e8b0-420c-b423-6fa81f0d83aa")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 12)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:USB-A-H")
+		(at 128.27 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16ff09ad-3c08-453f-be7b-893c38ee2ed4")
+		(property "Reference" "USB1"
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "USB-A-H"
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:USB-A-H"
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2346"
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D-"
+			(uuid "af792eb7-7fe6-4357-9e1a-8880025d6085")
+		)
+		(pin "D+"
+			(uuid "ea2bc000-958d-4765-8d35-9d58113acd02")
+		)
+		(pin "GND"
+			(uuid "bc823bfa-31ad-4e15-971f-e020279edc8c")
+		)
+		(pin "GND@1"
+			(uuid "37a17928-c8a5-46b3-90b8-de144455bc57")
+		)
+		(pin "VBUS"
+			(uuid "fdb8bcb4-60ba-4200-af8d-3c54f2008733")
+		)
+		(pin "GND@2"
+			(uuid "30f35150-1cbf-4a28-90ee-ab0b45dc10e7")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "USB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 114.3 0)
+		(unit 10)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1955cd86-63c7-4280-8482-46a821dd5589")
+		(property "Reference" "X1"
+			(at 191.77 115.062 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 112.903 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "422ba16b-d846-4dd4-9826-2f3bb9e2170d")
+		)
+		(pin "1"
+			(uuid "4a8265c4-a083-4cdc-97e7-78ad2350c6c6")
+		)
+		(pin "3"
+			(uuid "1addab1a-d220-444d-b57c-eea33e751116")
+		)
+		(pin "4"
+			(uuid "a05127f5-f7f2-4c82-bda8-ab33ad185d79")
+		)
+		(pin "5"
+			(uuid "07f9be17-7925-4c27-8318-860d3858378a")
+		)
+		(pin "6"
+			(uuid "204c3d89-6f43-4299-a789-ed0bc9e6e759")
+		)
+		(pin "7"
+			(uuid "73d5afe4-ca19-470e-ac54-3820040e8f9d")
+		)
+		(pin "8"
+			(uuid "c3920de0-661a-4f3b-9e62-114aaa37ced1")
+		)
+		(pin "9"
+			(uuid "3ac38102-a0c5-4b48-939e-548ca5f5270f")
+		)
+		(pin "10"
+			(uuid "265d5a95-9fe9-4d88-9691-a21947b10828")
+		)
+		(pin "11"
+			(uuid "a33819a9-90f9-4e5c-81dc-4509aedc0fcf")
+		)
+		(pin "12"
+			(uuid "d33fb062-0a80-4de1-bc8a-1c51ea8cfefb")
+		)
+		(pin "13"
+			(uuid "b3b7fa7c-01bb-43d2-86a0-b50ae581f91e")
+		)
+		(pin "14"
+			(uuid "fa36572c-6ede-4428-a0cf-c4b57f154871")
+		)
+		(pin "15"
+			(uuid "58fe398c-e816-4643-9183-ff68b3028c21")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 10)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 96.52 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a3ebef7-fd93-49ac-86c3-661e4443b101")
+		(property "Reference" "X1"
+			(at 191.77 97.282 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 95.123 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8226d46-b1d8-48ec-aa39-17bf28cfc3f6")
+		)
+		(pin "2"
+			(uuid "d5d2c35a-77db-43da-b0ce-ab5a2ba3e506")
+		)
+		(pin "3"
+			(uuid "ec56630e-1fab-415f-93e3-14da1a9bff27")
+		)
+		(pin "4"
+			(uuid "36f73851-e6cb-4a61-87e1-d8cf2734034c")
+		)
+		(pin "5"
+			(uuid "387c6832-ecd7-42e4-96c5-37b803849c80")
+		)
+		(pin "6"
+			(uuid "f2b72d71-59e1-4ba6-a454-b79c01ceace0")
+		)
+		(pin "7"
+			(uuid "1cdd7d79-0e2c-4165-9297-f3ecd0c6e5de")
+		)
+		(pin "8"
+			(uuid "eb346681-a3bc-4022-ae1c-41528d249fa5")
+		)
+		(pin "9"
+			(uuid "e78b2e0e-2e5e-4113-840b-7d00aba26449")
+		)
+		(pin "10"
+			(uuid "6867ba8e-1719-46aa-b3e6-8cf4aa51c96e")
+		)
+		(pin "11"
+			(uuid "7902d760-fc10-499f-9e3f-e602305510f7")
+		)
+		(pin "12"
+			(uuid "ad900795-aee6-4d52-bd3d-5a818ea008a4")
+		)
+		(pin "13"
+			(uuid "6273711a-a4c4-4a47-9a07-d6a5990f57a8")
+		)
+		(pin "14"
+			(uuid "b9e4b9ec-8f14-414c-a59d-9bfba81829ba")
+		)
+		(pin "15"
+			(uuid "283fe945-14e4-4843-bd78-dd6c8b645e1f")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 124.46 0)
+		(unit 14)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e47b54b-dc6b-4989-930e-f511a794bc24")
+		(property "Reference" "X1"
+			(at 191.77 125.222 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 123.063 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e93c15af-6778-4f92-8268-1df4cce83448")
+		)
+		(pin "1"
+			(uuid "315e5920-ee43-4028-a60b-3dc8b32cd5ee")
+		)
+		(pin "3"
+			(uuid "23090ea5-dfce-4b37-aa3d-3c6336631a9a")
+		)
+		(pin "4"
+			(uuid "e99ab269-3056-46cc-bbd9-7b7bc6a16e96")
+		)
+		(pin "5"
+			(uuid "4da97212-4c64-458e-9bd0-d42adf20921b")
+		)
+		(pin "6"
+			(uuid "ca107973-48d9-4282-8f6f-0adac565928d")
+		)
+		(pin "7"
+			(uuid "d80a7c13-ea26-47c9-a337-98ff4fb922ba")
+		)
+		(pin "8"
+			(uuid "70f23fec-8a98-4e5c-8397-7d1e663a278e")
+		)
+		(pin "9"
+			(uuid "a8e2ab06-49dc-4758-bfc0-7065c81699ba")
+		)
+		(pin "10"
+			(uuid "98c3a9dd-0199-4e1d-92b2-b074e231a2df")
+		)
+		(pin "11"
+			(uuid "ed31a35c-2e81-4ae2-8b9c-737b17e5345d")
+		)
+		(pin "12"
+			(uuid "2548eb38-9e3d-4d69-ad88-5be44ab517b1")
+		)
+		(pin "13"
+			(uuid "03d1d87b-5510-40b6-8716-a0b1ab577f86")
+		)
+		(pin "14"
+			(uuid "9cc40592-8c91-4e6d-8bf7-9a07a6c4093d")
+		)
+		(pin "15"
+			(uuid "1e6cfd59-3ef0-44c8-99b1-4a0a2a625fc9")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 14)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 114.3 0)
+		(unit 10)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2236e1c2-6ffb-4c7e-818a-f1c1ad5caee8")
+		(property "Reference" "X3"
+			(at 209.55 115.062 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 112.903 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "422ba16b-d846-4dd4-9826-2f3bb9e2170e")
+		)
+		(pin "1"
+			(uuid "4a8265c4-a083-4cdc-97e7-78ad2350c6c7")
+		)
+		(pin "3"
+			(uuid "1addab1a-d220-444d-b57c-eea33e751117")
+		)
+		(pin "4"
+			(uuid "a05127f5-f7f2-4c82-bda8-ab33ad185d7a")
+		)
+		(pin "5"
+			(uuid "07f9be17-7925-4c27-8318-860d3858378b")
+		)
+		(pin "6"
+			(uuid "204c3d89-6f43-4299-a789-ed0bc9e6e75a")
+		)
+		(pin "7"
+			(uuid "73d5afe4-ca19-470e-ac54-3820040e8f9e")
+		)
+		(pin "8"
+			(uuid "c3920de0-661a-4f3b-9e62-114aaa37ced2")
+		)
+		(pin "9"
+			(uuid "3ac38102-a0c5-4b48-939e-548ca5f52710")
+		)
+		(pin "10"
+			(uuid "ab5c7084-e1e7-4a85-90c2-8db61d65273d")
+		)
+		(pin "11"
+			(uuid "a33819a9-90f9-4e5c-81dc-4509aedc0fd0")
+		)
+		(pin "12"
+			(uuid "d33fb062-0a80-4de1-bc8a-1c51ea8cfefc")
+		)
+		(pin "13"
+			(uuid "b3b7fa7c-01bb-43d2-86a0-b50ae581f91f")
+		)
+		(pin "14"
+			(uuid "fa36572c-6ede-4428-a0cf-c4b57f154872")
+		)
+		(pin "15"
+			(uuid "58fe398c-e816-4643-9183-ff68b3028c22")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 10)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 99.06 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27ac2908-6244-4ee8-a1b4-5b833cdd2158")
+		(property "Reference" "X7"
+			(at 228.6 99.822 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 97.663 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27378170-499b-4b65-801f-48b0acdc0a0b")
+		)
+		(pin "1"
+			(uuid "725361df-7dec-4ec4-9677-5377430f0b42")
+		)
+		(pin "3"
+			(uuid "d075c8f3-4334-4d6e-aed7-c444f1e5e3e3")
+		)
+		(pin "4"
+			(uuid "f05077c8-86e6-455d-bfad-b74fe6045a72")
+		)
+		(pin "5"
+			(uuid "d04acc74-7878-453d-84e1-2d0afc7b36cf")
+		)
+		(pin "6"
+			(uuid "92fbee61-0334-47f3-94bc-4290b59d84e3")
+		)
+		(pin "7"
+			(uuid "3b437338-80c5-4474-9bb4-0c4bd1e22835")
+		)
+		(pin "8"
+			(uuid "3a9a5168-98bb-44c3-8392-c5d1bd391a1e")
+		)
+		(pin "9"
+			(uuid "c7b574c0-49c5-4e5c-9dd4-8cfd1c18baa2")
+		)
+		(pin "10"
+			(uuid "de022fad-7291-4857-a673-b571ce638ea3")
+		)
+		(pin "11"
+			(uuid "3a494191-b24b-450d-b0af-2ce089f1c535")
+		)
+		(pin "12"
+			(uuid "40489ea3-ed15-478f-9094-4ee0c30a29ae")
+		)
+		(pin "13"
+			(uuid "07dcd3a4-36a2-4b5d-89ef-0b3f49ac2003")
+		)
+		(pin "14"
+			(uuid "2e407e66-311b-433b-bc4b-0369da9b3e18")
+		)
+		(pin "15"
+			(uuid "00099c3f-2328-49ea-9c20-a95aca9e77e8")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 96.52 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "302fc849-3cf8-4bc6-ad81-da95832beb57")
+		(property "Reference" "X3"
+			(at 209.55 97.282 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 95.123 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8226d46-b1d8-48ec-aa39-17bf28cfc3f7")
+		)
+		(pin "2"
+			(uuid "d5d2c35a-77db-43da-b0ce-ab5a2ba3e507")
+		)
+		(pin "3"
+			(uuid "f0b0cb5a-42ec-4644-aa50-5b294304aef5")
+		)
+		(pin "4"
+			(uuid "36f73851-e6cb-4a61-87e1-d8cf2734034d")
+		)
+		(pin "5"
+			(uuid "387c6832-ecd7-42e4-96c5-37b803849c81")
+		)
+		(pin "6"
+			(uuid "f2b72d71-59e1-4ba6-a454-b79c01ceace1")
+		)
+		(pin "7"
+			(uuid "1cdd7d79-0e2c-4165-9297-f3ecd0c6e5df")
+		)
+		(pin "8"
+			(uuid "eb346681-a3bc-4022-ae1c-41528d249fa6")
+		)
+		(pin "9"
+			(uuid "e78b2e0e-2e5e-4113-840b-7d00aba2644a")
+		)
+		(pin "10"
+			(uuid "6867ba8e-1719-46aa-b3e6-8cf4aa51c96f")
+		)
+		(pin "11"
+			(uuid "7902d760-fc10-499f-9e3f-e602305510f8")
+		)
+		(pin "12"
+			(uuid "ad900795-aee6-4d52-bd3d-5a818ea008a5")
+		)
+		(pin "13"
+			(uuid "6273711a-a4c4-4a47-9a07-d6a5990f57a9")
+		)
+		(pin "14"
+			(uuid "b9e4b9ec-8f14-414c-a59d-9bfba81829bb")
+		)
+		(pin "15"
+			(uuid "283fe945-14e4-4843-bd78-dd6c8b645e20")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 109.22 0)
+		(unit 8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32733642-38b6-4c54-83cc-38c662be33e2")
+		(property "Reference" "X1"
+			(at 191.77 109.982 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 107.823 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b5b52ec-bacd-468f-b02d-b101e23be234")
+		)
+		(pin "1"
+			(uuid "884e1424-5781-4c5d-962a-b2b0f6b79e8e")
+		)
+		(pin "3"
+			(uuid "a9d908c1-5ba5-4e28-acc5-df6dc449143d")
+		)
+		(pin "4"
+			(uuid "ef5ce56a-8591-4036-9e16-5c06e0d4f380")
+		)
+		(pin "5"
+			(uuid "0406296a-17f1-418e-93b9-60b427235bf8")
+		)
+		(pin "6"
+			(uuid "414ff6a9-b528-444c-a449-99278d3d9c2a")
+		)
+		(pin "7"
+			(uuid "3ca2acdc-00f1-42a9-83e9-153c9391afb6")
+		)
+		(pin "8"
+			(uuid "58b4e218-82ef-44ca-8c6f-2e362407bc46")
+		)
+		(pin "9"
+			(uuid "87983808-7c80-486e-8f2b-5acef4117b17")
+		)
+		(pin "10"
+			(uuid "5d4e3383-2f1d-49ff-9a53-329ed79c69b4")
+		)
+		(pin "11"
+			(uuid "9fce6ac6-8aaa-45ca-a73c-436fa9c15540")
+		)
+		(pin "12"
+			(uuid "fb5fbf07-811f-4995-a3d7-0c496cd02378")
+		)
+		(pin "13"
+			(uuid "18d1a193-2634-4b39-84eb-14a121e5c740")
+		)
+		(pin "14"
+			(uuid "84e64b11-0529-481c-a1cd-46114de511cd")
+		)
+		(pin "15"
+			(uuid "f6cf500e-9afe-4e6b-9cdc-c02a0cae255d")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 116.84 0)
+		(unit 11)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38dfecfb-67c9-4fa4-932a-a9784c09a172")
+		(property "Reference" "X7"
+			(at 228.6 117.602 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 115.443 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73c911bc-3f71-488d-8483-22c8c801520c")
+		)
+		(pin "1"
+			(uuid "54ff00bc-c9ce-4215-8729-16f46947d1a4")
+		)
+		(pin "3"
+			(uuid "077ad450-4127-4cf5-8aa7-c0ceb1016b4f")
+		)
+		(pin "4"
+			(uuid "067ad7b4-75c8-4891-873c-62b2903b63cb")
+		)
+		(pin "5"
+			(uuid "1d7d8420-7923-48bc-99e8-59062d65b928")
+		)
+		(pin "6"
+			(uuid "ac010462-3877-4e22-b865-6dd593447566")
+		)
+		(pin "7"
+			(uuid "12e8678b-8cb4-43c6-b141-ffdd6668366a")
+		)
+		(pin "8"
+			(uuid "d9982183-e192-426f-ab1c-074d95b43d22")
+		)
+		(pin "9"
+			(uuid "92909c3c-62af-48a2-9dd4-d0cad4d7c543")
+		)
+		(pin "10"
+			(uuid "a7d78e50-5338-4dc7-b601-87818f5dc7dc")
+		)
+		(pin "11"
+			(uuid "a4c0281e-0c96-4a76-8a5b-b29d85c6f724")
+		)
+		(pin "12"
+			(uuid "4c739741-50b5-40ed-b0ff-129abdd8f80a")
+		)
+		(pin "13"
+			(uuid "8b525a6d-1f54-4526-b4fb-e96b17e6f842")
+		)
+		(pin "14"
+			(uuid "88f2ffae-b739-4059-8e9c-d78edc586532")
+		)
+		(pin "15"
+			(uuid "03133552-6218-4c8f-859d-df382b81dbf2")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 11)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 96.52 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ab817c2-82e6-461f-afa5-1dfb87e6ab9a")
+		(property "Reference" "X2"
+			(at 173.99 97.282 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 95.123 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8226d46-b1d8-48ec-aa39-17bf28cfc3f8")
+		)
+		(pin "2"
+			(uuid "d5d2c35a-77db-43da-b0ce-ab5a2ba3e508")
+		)
+		(pin "3"
+			(uuid "029c931d-ea34-4cf3-a091-f737a5892503")
+		)
+		(pin "4"
+			(uuid "36f73851-e6cb-4a61-87e1-d8cf2734034e")
+		)
+		(pin "5"
+			(uuid "387c6832-ecd7-42e4-96c5-37b803849c82")
+		)
+		(pin "6"
+			(uuid "f2b72d71-59e1-4ba6-a454-b79c01ceace2")
+		)
+		(pin "7"
+			(uuid "1cdd7d79-0e2c-4165-9297-f3ecd0c6e5e0")
+		)
+		(pin "8"
+			(uuid "eb346681-a3bc-4022-ae1c-41528d249fa7")
+		)
+		(pin "9"
+			(uuid "e78b2e0e-2e5e-4113-840b-7d00aba2644b")
+		)
+		(pin "10"
+			(uuid "6867ba8e-1719-46aa-b3e6-8cf4aa51c970")
+		)
+		(pin "11"
+			(uuid "7902d760-fc10-499f-9e3f-e602305510f9")
+		)
+		(pin "12"
+			(uuid "ad900795-aee6-4d52-bd3d-5a818ea008a6")
+		)
+		(pin "13"
+			(uuid "6273711a-a4c4-4a47-9a07-d6a5990f57aa")
+		)
+		(pin "14"
+			(uuid "b9e4b9ec-8f14-414c-a59d-9bfba81829bc")
+		)
+		(pin "15"
+			(uuid "283fe945-14e4-4843-bd78-dd6c8b645e21")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 121.92 0)
+		(unit 13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ba68689-9002-4d9d-adb8-0798fb5c4363")
+		(property "Reference" "X7"
+			(at 228.6 122.682 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 120.523 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7a332e9-4fd5-42a9-b082-959c697e93bb")
+		)
+		(pin "1"
+			(uuid "0849b3cb-e279-49b4-9e36-f999a8b8d9fb")
+		)
+		(pin "3"
+			(uuid "ee8b590d-c288-4c0f-8197-17937d26bbed")
+		)
+		(pin "4"
+			(uuid "4efde384-f14a-4321-9977-39a8e0dd7932")
+		)
+		(pin "5"
+			(uuid "57fc904d-0c2e-4edb-8514-a6198361a90c")
+		)
+		(pin "6"
+			(uuid "34de3fcc-0a06-444a-a302-e1f6ea753d1a")
+		)
+		(pin "7"
+			(uuid "bc977fac-c634-4798-9047-cf3d8fc150a9")
+		)
+		(pin "8"
+			(uuid "1bbb522c-5b77-450f-840b-c88c2736b96b")
+		)
+		(pin "9"
+			(uuid "8cc08a0c-059f-406b-8b65-14d66c239f26")
+		)
+		(pin "10"
+			(uuid "c90df36e-12d0-4477-bf40-f60a5e2e93ca")
+		)
+		(pin "11"
+			(uuid "fe3fa896-1eca-480b-b0d6-cdeea8c1e076")
+		)
+		(pin "12"
+			(uuid "591bdad6-b22c-405c-be43-102435c63fbf")
+		)
+		(pin "13"
+			(uuid "41f1dc71-fd62-4d4c-a1fc-83de60704171")
+		)
+		(pin "14"
+			(uuid "46d5ebad-8593-41d8-988c-62a88e4d728b")
+		)
+		(pin "15"
+			(uuid "012670c3-f005-4df5-85e1-b2ca68109d98")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 13)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 93.98 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46e63b41-a368-49bc-98fd-60fb23ee2fea")
+		(property "Reference" "X1"
+			(at 191.77 94.742 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 92.583 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d6e9eed-5005-4e1d-8d10-95d34777404d")
+		)
+		(pin "1"
+			(uuid "b6ba310c-c160-40ed-85f7-5bf8bab20462")
+		)
+		(pin "3"
+			(uuid "1099ef52-6900-47cb-8c8f-eab54edeae0e")
+		)
+		(pin "4"
+			(uuid "54ed1654-9ef2-440a-a9f0-aa8217f8ebdb")
+		)
+		(pin "5"
+			(uuid "6e88fc7f-a680-4ffb-80bd-be5470468bbc")
+		)
+		(pin "6"
+			(uuid "6bd3f783-542b-455d-8b6c-371f6b3a54d4")
+		)
+		(pin "7"
+			(uuid "e6ecc5de-2f88-4478-8a2f-d48306b92efe")
+		)
+		(pin "8"
+			(uuid "b8b22ec9-9408-4ca3-9cf4-f1bdbaeccba0")
+		)
+		(pin "9"
+			(uuid "96b5f2d3-c49f-4db8-bb14-c4e48d967004")
+		)
+		(pin "10"
+			(uuid "d65bcc12-df2f-44ed-a798-040fab5c6ec2")
+		)
+		(pin "11"
+			(uuid "3d6dfa14-0e4a-4d1f-8c2f-339aef23e46c")
+		)
+		(pin "12"
+			(uuid "cc37ed44-fdf7-47ad-bc7e-893d1ba9f968")
+		)
+		(pin "13"
+			(uuid "fdb6961f-b34b-4c27-9530-0d532f849a1d")
+		)
+		(pin "14"
+			(uuid "7447b464-6f04-4eba-b3db-5d607f1f881b")
+		)
+		(pin "15"
+			(uuid "623ecc8b-48bd-4ae9-818b-d249b011667a")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "518ff0df-51c9-470d-8918-5c0572f2a873")
+		(property "Reference" "X3"
+			(at 209.55 92.202 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 90.043 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f8ece7b-29e8-4a95-a678-1641b259f4fd")
+		)
+		(pin "1"
+			(uuid "ae3d7c47-00fc-488c-9c8e-26c5a4c392f4")
+		)
+		(pin "3"
+			(uuid "b2b3ddc0-c4ed-4983-9d24-a37f02b7db28")
+		)
+		(pin "4"
+			(uuid "55f4a656-29ad-4ec5-9c1e-b1af43cc7151")
+		)
+		(pin "5"
+			(uuid "67d1a9e1-ecd3-4557-a961-7ffee19fcf6a")
+		)
+		(pin "6"
+			(uuid "67f6ef10-75c5-419f-bf0f-007c52ca1792")
+		)
+		(pin "7"
+			(uuid "b1cf4b58-4ac7-41e7-80ed-d96b23d3499d")
+		)
+		(pin "8"
+			(uuid "a24e923f-9b46-4db6-82f5-b74dc41cde50")
+		)
+		(pin "9"
+			(uuid "e25f7f97-6efa-4ad2-a893-ca100ef4f5ee")
+		)
+		(pin "10"
+			(uuid "b7108293-3d82-4af0-b835-3e31572ab571")
+		)
+		(pin "11"
+			(uuid "84477b3c-58a7-4948-9e59-b26ca9c90286")
+		)
+		(pin "12"
+			(uuid "7699f8b6-bb43-4ab6-9cb9-ba431178cc6c")
+		)
+		(pin "13"
+			(uuid "366edcdb-6ee9-49f2-abed-e9ff7c2ab254")
+		)
+		(pin "14"
+			(uuid "77e2715d-13ac-4152-81d0-0b1f8a33f900")
+		)
+		(pin "15"
+			(uuid "51e5f7f9-99b7-425f-a7ca-ca55889d45a1")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 93.98 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "582a435c-6ec1-4591-a97b-63044d78716c")
+		(property "Reference" "X7"
+			(at 228.6 94.742 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 92.583 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3146c69d-90eb-457f-aa8b-73bb78a06755")
+		)
+		(pin "1"
+			(uuid "b6ba310c-c160-40ed-85f7-5bf8bab20463")
+		)
+		(pin "3"
+			(uuid "1099ef52-6900-47cb-8c8f-eab54edeae0f")
+		)
+		(pin "4"
+			(uuid "54ed1654-9ef2-440a-a9f0-aa8217f8ebdc")
+		)
+		(pin "5"
+			(uuid "6e88fc7f-a680-4ffb-80bd-be5470468bbd")
+		)
+		(pin "6"
+			(uuid "6bd3f783-542b-455d-8b6c-371f6b3a54d5")
+		)
+		(pin "7"
+			(uuid "e6ecc5de-2f88-4478-8a2f-d48306b92eff")
+		)
+		(pin "8"
+			(uuid "b8b22ec9-9408-4ca3-9cf4-f1bdbaeccba1")
+		)
+		(pin "9"
+			(uuid "96b5f2d3-c49f-4db8-bb14-c4e48d967005")
+		)
+		(pin "10"
+			(uuid "d65bcc12-df2f-44ed-a798-040fab5c6ec3")
+		)
+		(pin "11"
+			(uuid "3d6dfa14-0e4a-4d1f-8c2f-339aef23e46d")
+		)
+		(pin "12"
+			(uuid "cc37ed44-fdf7-47ad-bc7e-893d1ba9f969")
+		)
+		(pin "13"
+			(uuid "fdb6961f-b34b-4c27-9530-0d532f849a1e")
+		)
+		(pin "14"
+			(uuid "7447b464-6f04-4eba-b3db-5d607f1f881c")
+		)
+		(pin "15"
+			(uuid "623ecc8b-48bd-4ae9-818b-d249b011667b")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 127 0)
+		(unit 15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "586e2a32-51f9-4185-adae-1bed33ffb2df")
+		(property "Reference" "X2"
+			(at 173.99 127.762 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 125.603 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9638a8d-1078-48f3-88ed-9ba89bd40865")
+		)
+		(pin "1"
+			(uuid "d8bc58f3-447d-4f5c-aa30-e846e77ed49f")
+		)
+		(pin "3"
+			(uuid "1874a9da-6ae4-49ab-b3f4-f41c15987665")
+		)
+		(pin "4"
+			(uuid "a6ea3270-ec24-4cd6-88fe-3544b3ac9db2")
+		)
+		(pin "5"
+			(uuid "69331b73-fca5-4520-8f55-5531fb0ea5bf")
+		)
+		(pin "6"
+			(uuid "ee9ca45f-67ec-402f-8b30-7a8d652a1754")
+		)
+		(pin "7"
+			(uuid "9818b0e9-a0a0-4319-a0a6-4ce726305be0")
+		)
+		(pin "8"
+			(uuid "629ed917-8204-40a3-b404-56ddc35d7a8b")
+		)
+		(pin "9"
+			(uuid "1e0c9914-8e34-4c58-9132-b8b37bb71235")
+		)
+		(pin "10"
+			(uuid "c52c3d23-d261-4af4-8fa9-38be494e9346")
+		)
+		(pin "11"
+			(uuid "e0b200f3-f63f-4f3d-925c-618a3ea327d9")
+		)
+		(pin "12"
+			(uuid "eb4994c0-ea98-4002-811e-079d5e75c8d7")
+		)
+		(pin "13"
+			(uuid "b1f8c12d-d750-4f75-bb1c-4fe0b0ba9052")
+		)
+		(pin "14"
+			(uuid "1ae36c12-1116-4c87-8aa0-0ed82617667a")
+		)
+		(pin "15"
+			(uuid "98c595d2-f452-41ba-87fd-214b3f811dbe")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 15)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 127 0)
+		(unit 15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "589811d9-e241-4132-bdef-0ce67418aeb4")
+		(property "Reference" "X3"
+			(at 209.55 127.762 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 125.603 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9638a8d-1078-48f3-88ed-9ba89bd40866")
+		)
+		(pin "1"
+			(uuid "d8bc58f3-447d-4f5c-aa30-e846e77ed4a0")
+		)
+		(pin "3"
+			(uuid "1874a9da-6ae4-49ab-b3f4-f41c15987666")
+		)
+		(pin "4"
+			(uuid "a6ea3270-ec24-4cd6-88fe-3544b3ac9db3")
+		)
+		(pin "5"
+			(uuid "69331b73-fca5-4520-8f55-5531fb0ea5c0")
+		)
+		(pin "6"
+			(uuid "ee9ca45f-67ec-402f-8b30-7a8d652a1755")
+		)
+		(pin "7"
+			(uuid "9818b0e9-a0a0-4319-a0a6-4ce726305be1")
+		)
+		(pin "8"
+			(uuid "629ed917-8204-40a3-b404-56ddc35d7a8c")
+		)
+		(pin "9"
+			(uuid "1e0c9914-8e34-4c58-9132-b8b37bb71236")
+		)
+		(pin "10"
+			(uuid "c52c3d23-d261-4af4-8fa9-38be494e9347")
+		)
+		(pin "11"
+			(uuid "e0b200f3-f63f-4f3d-925c-618a3ea327da")
+		)
+		(pin "12"
+			(uuid "eb4994c0-ea98-4002-811e-079d5e75c8d8")
+		)
+		(pin "13"
+			(uuid "b1f8c12d-d750-4f75-bb1c-4fe0b0ba9053")
+		)
+		(pin "14"
+			(uuid "1ae36c12-1116-4c87-8aa0-0ed82617667b")
+		)
+		(pin "15"
+			(uuid "536c147c-cb7e-43ae-9b75-8c74e3f41986")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 15)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c4ca987-bac1-4bbf-a96a-5eef6854c7a6")
+		(property "Reference" "X2"
+			(at 173.99 92.202 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 90.043 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f8ece7b-29e8-4a95-a678-1641b259f4fe")
+		)
+		(pin "1"
+			(uuid "59adc6da-2564-49ed-89b4-bcbf0147c7ee")
+		)
+		(pin "3"
+			(uuid "b2b3ddc0-c4ed-4983-9d24-a37f02b7db29")
+		)
+		(pin "4"
+			(uuid "55f4a656-29ad-4ec5-9c1e-b1af43cc7152")
+		)
+		(pin "5"
+			(uuid "67d1a9e1-ecd3-4557-a961-7ffee19fcf6b")
+		)
+		(pin "6"
+			(uuid "67f6ef10-75c5-419f-bf0f-007c52ca1793")
+		)
+		(pin "7"
+			(uuid "b1cf4b58-4ac7-41e7-80ed-d96b23d3499e")
+		)
+		(pin "8"
+			(uuid "a24e923f-9b46-4db6-82f5-b74dc41cde51")
+		)
+		(pin "9"
+			(uuid "e25f7f97-6efa-4ad2-a893-ca100ef4f5ef")
+		)
+		(pin "10"
+			(uuid "b7108293-3d82-4af0-b835-3e31572ab572")
+		)
+		(pin "11"
+			(uuid "84477b3c-58a7-4948-9e59-b26ca9c90287")
+		)
+		(pin "12"
+			(uuid "7699f8b6-bb43-4ab6-9cb9-ba431178cc6d")
+		)
+		(pin "13"
+			(uuid "366edcdb-6ee9-49f2-abed-e9ff7c2ab255")
+		)
+		(pin "14"
+			(uuid "77e2715d-13ac-4152-81d0-0b1f8a33f901")
+		)
+		(pin "15"
+			(uuid "51e5f7f9-99b7-425f-a7ca-ca55889d45a2")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61f79ead-c235-4f02-bb90-b6980b72f129")
+		(property "Reference" "X1"
+			(at 191.77 92.202 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 90.043 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f8ece7b-29e8-4a95-a678-1641b259f4ff")
+		)
+		(pin "1"
+			(uuid "cb269b5b-5790-4915-a8dc-892b68c8ae44")
+		)
+		(pin "3"
+			(uuid "b2b3ddc0-c4ed-4983-9d24-a37f02b7db2a")
+		)
+		(pin "4"
+			(uuid "55f4a656-29ad-4ec5-9c1e-b1af43cc7153")
+		)
+		(pin "5"
+			(uuid "67d1a9e1-ecd3-4557-a961-7ffee19fcf6c")
+		)
+		(pin "6"
+			(uuid "67f6ef10-75c5-419f-bf0f-007c52ca1794")
+		)
+		(pin "7"
+			(uuid "b1cf4b58-4ac7-41e7-80ed-d96b23d3499f")
+		)
+		(pin "8"
+			(uuid "a24e923f-9b46-4db6-82f5-b74dc41cde52")
+		)
+		(pin "9"
+			(uuid "e25f7f97-6efa-4ad2-a893-ca100ef4f5f0")
+		)
+		(pin "10"
+			(uuid "b7108293-3d82-4af0-b835-3e31572ab573")
+		)
+		(pin "11"
+			(uuid "84477b3c-58a7-4948-9e59-b26ca9c90288")
+		)
+		(pin "12"
+			(uuid "7699f8b6-bb43-4ab6-9cb9-ba431178cc6e")
+		)
+		(pin "13"
+			(uuid "366edcdb-6ee9-49f2-abed-e9ff7c2ab256")
+		)
+		(pin "14"
+			(uuid "77e2715d-13ac-4152-81d0-0b1f8a33f902")
+		)
+		(pin "15"
+			(uuid "51e5f7f9-99b7-425f-a7ca-ca55889d45a3")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 119.38 0)
+		(unit 12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "646ff8fc-d695-496c-8b22-c108382e9ab7")
+		(property "Reference" "X2"
+			(at 173.99 120.142 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 117.983 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bc53481-1b43-4ea7-9637-51183a2c9558")
+		)
+		(pin "1"
+			(uuid "bcb83129-20bf-4f8a-b2fa-1c87ab131eec")
+		)
+		(pin "3"
+			(uuid "ee41dbe0-e6a2-4c69-bf53-f28056980af6")
+		)
+		(pin "4"
+			(uuid "6cb6f3ca-e7a6-4dab-80ee-7fc04b2e25ef")
+		)
+		(pin "5"
+			(uuid "a33944b4-f07b-4692-bd77-1fb183191d19")
+		)
+		(pin "6"
+			(uuid "6c78775b-b6a1-4210-bf13-15e9f7b5f096")
+		)
+		(pin "7"
+			(uuid "e600e7cd-1637-49ea-9a52-e8103c44e779")
+		)
+		(pin "8"
+			(uuid "ad69d53a-b28d-4f9e-ab74-c45512d06fd7")
+		)
+		(pin "9"
+			(uuid "d7596d46-e973-4395-8e50-8acc83ad4a53")
+		)
+		(pin "10"
+			(uuid "1e64a156-c889-4b84-9df1-0d09611574e3")
+		)
+		(pin "11"
+			(uuid "c4c140e1-b9a7-4b6f-a99e-f66cf5b4cbb3")
+		)
+		(pin "12"
+			(uuid "f8eefdb6-9213-4f3c-94b9-14b1c57f254c")
+		)
+		(pin "13"
+			(uuid "4e384627-d2e9-4c0c-931e-b50e9b94628b")
+		)
+		(pin "14"
+			(uuid "43a6b00d-134b-49b7-b367-e83862e6b0b5")
+		)
+		(pin "15"
+			(uuid "ece57a78-e8b0-420c-b423-6fa81f0d83ab")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 12)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 121.92 0)
+		(unit 13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "697d8985-9bc1-4101-b454-8ac699badb5b")
+		(property "Reference" "X2"
+			(at 173.99 122.682 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 120.523 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7a332e9-4fd5-42a9-b082-959c697e93bc")
+		)
+		(pin "1"
+			(uuid "0849b3cb-e279-49b4-9e36-f999a8b8d9fc")
+		)
+		(pin "3"
+			(uuid "ee8b590d-c288-4c0f-8197-17937d26bbee")
+		)
+		(pin "4"
+			(uuid "4efde384-f14a-4321-9977-39a8e0dd7933")
+		)
+		(pin "5"
+			(uuid "57fc904d-0c2e-4edb-8514-a6198361a90d")
+		)
+		(pin "6"
+			(uuid "34de3fcc-0a06-444a-a302-e1f6ea753d1b")
+		)
+		(pin "7"
+			(uuid "bc977fac-c634-4798-9047-cf3d8fc150aa")
+		)
+		(pin "8"
+			(uuid "1bbb522c-5b77-450f-840b-c88c2736b96c")
+		)
+		(pin "9"
+			(uuid "8cc08a0c-059f-406b-8b65-14d66c239f27")
+		)
+		(pin "10"
+			(uuid "c90df36e-12d0-4477-bf40-f60a5e2e93cb")
+		)
+		(pin "11"
+			(uuid "fe3fa896-1eca-480b-b0d6-cdeea8c1e077")
+		)
+		(pin "12"
+			(uuid "591bdad6-b22c-405c-be43-102435c63fc0")
+		)
+		(pin "13"
+			(uuid "9a70f98e-54e4-4fee-8d5e-90e2b34b6f85")
+		)
+		(pin "14"
+			(uuid "46d5ebad-8593-41d8-988c-62a88e4d728c")
+		)
+		(pin "15"
+			(uuid "012670c3-f005-4df5-85e1-b2ca68109d99")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 13)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 119.38 0)
+		(unit 12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "725caadb-fc4a-4913-9b70-dd74dac5b9b4")
+		(property "Reference" "X3"
+			(at 209.55 120.142 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 117.983 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bc53481-1b43-4ea7-9637-51183a2c9559")
+		)
+		(pin "1"
+			(uuid "bcb83129-20bf-4f8a-b2fa-1c87ab131eed")
+		)
+		(pin "3"
+			(uuid "ee41dbe0-e6a2-4c69-bf53-f28056980af7")
+		)
+		(pin "4"
+			(uuid "6cb6f3ca-e7a6-4dab-80ee-7fc04b2e25f0")
+		)
+		(pin "5"
+			(uuid "a33944b4-f07b-4692-bd77-1fb183191d1a")
+		)
+		(pin "6"
+			(uuid "6c78775b-b6a1-4210-bf13-15e9f7b5f097")
+		)
+		(pin "7"
+			(uuid "e600e7cd-1637-49ea-9a52-e8103c44e77a")
+		)
+		(pin "8"
+			(uuid "ad69d53a-b28d-4f9e-ab74-c45512d06fd8")
+		)
+		(pin "9"
+			(uuid "d7596d46-e973-4395-8e50-8acc83ad4a54")
+		)
+		(pin "10"
+			(uuid "1e64a156-c889-4b84-9df1-0d09611574e4")
+		)
+		(pin "11"
+			(uuid "c4c140e1-b9a7-4b6f-a99e-f66cf5b4cbb4")
+		)
+		(pin "12"
+			(uuid "ab9b69aa-9215-4b10-986d-a55848f3522e")
+		)
+		(pin "13"
+			(uuid "4e384627-d2e9-4c0c-931e-b50e9b94628c")
+		)
+		(pin "14"
+			(uuid "43a6b00d-134b-49b7-b367-e83862e6b0b6")
+		)
+		(pin "15"
+			(uuid "ece57a78-e8b0-420c-b423-6fa81f0d83ac")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 12)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 111.76 0)
+		(unit 9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7857a67a-3307-4d92-8cd2-e8e9c0810a57")
+		(property "Reference" "X1"
+			(at 191.77 112.522 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 110.363 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1db6eada-a453-4ea9-93e9-99e7d5f7acb3")
+		)
+		(pin "1"
+			(uuid "2a1e92fd-e7b5-4f84-9b74-95be6035cc7c")
+		)
+		(pin "3"
+			(uuid "c20b6085-863c-42d9-9d79-0e52a7e68459")
+		)
+		(pin "4"
+			(uuid "65824af7-003f-42fb-a8d5-db04aea9c7e6")
+		)
+		(pin "5"
+			(uuid "7fd7326f-422c-4997-abbf-a90c3d7676f9")
+		)
+		(pin "6"
+			(uuid "a3205568-e809-4d90-8b20-19b6b75ce0b0")
+		)
+		(pin "7"
+			(uuid "1bb40707-cbcf-497f-a5bf-36a152218910")
+		)
+		(pin "8"
+			(uuid "804cffa6-920b-497a-a22c-799f09a7f936")
+		)
+		(pin "9"
+			(uuid "08df0aed-8be1-4142-a68c-f31b5e6228aa")
+		)
+		(pin "10"
+			(uuid "a6a46f10-6cfa-4af3-ab1e-f3ce1805a3d5")
+		)
+		(pin "11"
+			(uuid "3ac6764e-27b2-4c42-8a7a-b5c7ab779906")
+		)
+		(pin "12"
+			(uuid "0a11d77a-5e49-4d6c-be4b-1d2c35dd1ca9")
+		)
+		(pin "13"
+			(uuid "cf2701d7-9cf9-4810-a320-87a57c4252e2")
+		)
+		(pin "14"
+			(uuid "5a19b5f4-0cdc-4e2a-a850-acc7f78d1f54")
+		)
+		(pin "15"
+			(uuid "e9b995fe-1488-48cf-baf1-719093a7bdeb")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 9)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 109.22 0)
+		(unit 8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79b2b90b-8b51-4bff-b5e5-c5871d83fcb0")
+		(property "Reference" "X3"
+			(at 209.55 109.982 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 107.823 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b5b52ec-bacd-468f-b02d-b101e23be235")
+		)
+		(pin "1"
+			(uuid "884e1424-5781-4c5d-962a-b2b0f6b79e8f")
+		)
+		(pin "3"
+			(uuid "a9d908c1-5ba5-4e28-acc5-df6dc449143e")
+		)
+		(pin "4"
+			(uuid "ef5ce56a-8591-4036-9e16-5c06e0d4f381")
+		)
+		(pin "5"
+			(uuid "0406296a-17f1-418e-93b9-60b427235bf9")
+		)
+		(pin "6"
+			(uuid "414ff6a9-b528-444c-a449-99278d3d9c2b")
+		)
+		(pin "7"
+			(uuid "3ca2acdc-00f1-42a9-83e9-153c9391afb7")
+		)
+		(pin "8"
+			(uuid "06a4eccc-2d5d-4664-92b3-5b79c4b19f7d")
+		)
+		(pin "9"
+			(uuid "87983808-7c80-486e-8f2b-5acef4117b18")
+		)
+		(pin "10"
+			(uuid "5d4e3383-2f1d-49ff-9a53-329ed79c69b5")
+		)
+		(pin "11"
+			(uuid "9fce6ac6-8aaa-45ca-a73c-436fa9c15541")
+		)
+		(pin "12"
+			(uuid "fb5fbf07-811f-4995-a3d7-0c496cd02379")
+		)
+		(pin "13"
+			(uuid "18d1a193-2634-4b39-84eb-14a121e5c741")
+		)
+		(pin "14"
+			(uuid "84e64b11-0529-481c-a1cd-46114de511ce")
+		)
+		(pin "15"
+			(uuid "f6cf500e-9afe-4e6b-9cdc-c02a0cae255e")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 96.52 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a51704a-c7db-4896-9a2a-c87b2139a95a")
+		(property "Reference" "X7"
+			(at 228.6 97.282 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 95.123 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8226d46-b1d8-48ec-aa39-17bf28cfc3f9")
+		)
+		(pin "2"
+			(uuid "d5d2c35a-77db-43da-b0ce-ab5a2ba3e509")
+		)
+		(pin "3"
+			(uuid "a55321ec-1455-4982-b820-41a868437991")
+		)
+		(pin "4"
+			(uuid "36f73851-e6cb-4a61-87e1-d8cf2734034f")
+		)
+		(pin "5"
+			(uuid "387c6832-ecd7-42e4-96c5-37b803849c83")
+		)
+		(pin "6"
+			(uuid "f2b72d71-59e1-4ba6-a454-b79c01ceace3")
+		)
+		(pin "7"
+			(uuid "1cdd7d79-0e2c-4165-9297-f3ecd0c6e5e1")
+		)
+		(pin "8"
+			(uuid "eb346681-a3bc-4022-ae1c-41528d249fa8")
+		)
+		(pin "9"
+			(uuid "e78b2e0e-2e5e-4113-840b-7d00aba2644c")
+		)
+		(pin "10"
+			(uuid "6867ba8e-1719-46aa-b3e6-8cf4aa51c971")
+		)
+		(pin "11"
+			(uuid "7902d760-fc10-499f-9e3f-e602305510fa")
+		)
+		(pin "12"
+			(uuid "ad900795-aee6-4d52-bd3d-5a818ea008a7")
+		)
+		(pin "13"
+			(uuid "6273711a-a4c4-4a47-9a07-d6a5990f57ab")
+		)
+		(pin "14"
+			(uuid "b9e4b9ec-8f14-414c-a59d-9bfba81829bd")
+		)
+		(pin "15"
+			(uuid "283fe945-14e4-4843-bd78-dd6c8b645e22")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 119.38 0)
+		(unit 12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c4fc8be-f35e-42c1-9026-6023750391e6")
+		(property "Reference" "X7"
+			(at 228.6 120.142 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 117.983 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bc53481-1b43-4ea7-9637-51183a2c955a")
+		)
+		(pin "1"
+			(uuid "bcb83129-20bf-4f8a-b2fa-1c87ab131eee")
+		)
+		(pin "3"
+			(uuid "ee41dbe0-e6a2-4c69-bf53-f28056980af8")
+		)
+		(pin "4"
+			(uuid "6cb6f3ca-e7a6-4dab-80ee-7fc04b2e25f1")
+		)
+		(pin "5"
+			(uuid "a33944b4-f07b-4692-bd77-1fb183191d1b")
+		)
+		(pin "6"
+			(uuid "6c78775b-b6a1-4210-bf13-15e9f7b5f098")
+		)
+		(pin "7"
+			(uuid "e600e7cd-1637-49ea-9a52-e8103c44e77b")
+		)
+		(pin "8"
+			(uuid "ad69d53a-b28d-4f9e-ab74-c45512d06fd9")
+		)
+		(pin "9"
+			(uuid "d7596d46-e973-4395-8e50-8acc83ad4a55")
+		)
+		(pin "10"
+			(uuid "1e64a156-c889-4b84-9df1-0d09611574e5")
+		)
+		(pin "11"
+			(uuid "c4c140e1-b9a7-4b6f-a99e-f66cf5b4cbb5")
+		)
+		(pin "12"
+			(uuid "f8d66be6-3c5b-4442-a90f-e7f58c9229e7")
+		)
+		(pin "13"
+			(uuid "4e384627-d2e9-4c0c-931e-b50e9b94628d")
+		)
+		(pin "14"
+			(uuid "43a6b00d-134b-49b7-b367-e83862e6b0b7")
+		)
+		(pin "15"
+			(uuid "ece57a78-e8b0-420c-b423-6fa81f0d83ad")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 12)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 109.22 0)
+		(unit 8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86a7b9c9-2c3e-4cf6-8da2-52ab78fbb583")
+		(property "Reference" "X2"
+			(at 173.99 109.982 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 107.823 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b5b52ec-bacd-468f-b02d-b101e23be236")
+		)
+		(pin "1"
+			(uuid "884e1424-5781-4c5d-962a-b2b0f6b79e90")
+		)
+		(pin "3"
+			(uuid "a9d908c1-5ba5-4e28-acc5-df6dc449143f")
+		)
+		(pin "4"
+			(uuid "ef5ce56a-8591-4036-9e16-5c06e0d4f382")
+		)
+		(pin "5"
+			(uuid "0406296a-17f1-418e-93b9-60b427235bfa")
+		)
+		(pin "6"
+			(uuid "414ff6a9-b528-444c-a449-99278d3d9c2c")
+		)
+		(pin "7"
+			(uuid "3ca2acdc-00f1-42a9-83e9-153c9391afb8")
+		)
+		(pin "8"
+			(uuid "dd85c2cc-fcba-48ec-a718-6cbd276efc29")
+		)
+		(pin "9"
+			(uuid "87983808-7c80-486e-8f2b-5acef4117b19")
+		)
+		(pin "10"
+			(uuid "5d4e3383-2f1d-49ff-9a53-329ed79c69b6")
+		)
+		(pin "11"
+			(uuid "9fce6ac6-8aaa-45ca-a73c-436fa9c15542")
+		)
+		(pin "12"
+			(uuid "fb5fbf07-811f-4995-a3d7-0c496cd0237a")
+		)
+		(pin "13"
+			(uuid "18d1a193-2634-4b39-84eb-14a121e5c742")
+		)
+		(pin "14"
+			(uuid "84e64b11-0529-481c-a1cd-46114de511cf")
+		)
+		(pin "15"
+			(uuid "f6cf500e-9afe-4e6b-9cdc-c02a0cae255f")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:1503_09")
+		(at 148.59 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "882500b5-0e8b-476f-9960-bc68a992b435")
+		(property "Reference" "X5"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1503_09"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:Korean_PJ-3240-5A"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C145814"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1048541c-864a-41d8-8011-fad43313eebf")
+		)
+		(pin "3"
+			(uuid "e915c51f-b644-4243-989c-7ddd8dd9b8c0")
+		)
+		(pin "1"
+			(uuid "cfa1eb10-14bd-4f11-800b-24161cc5d493")
+		)
+		(pin "4"
+			(uuid "0f46ae28-fb66-4aa0-ad91-d4538f216aca")
+		)
+		(pin "5"
+			(uuid "63c16a62-ea5f-4083-8b9a-860680516549")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 99.06 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a19fc13-72a3-42af-b7f8-2cdeb4efa8c1")
+		(property "Reference" "X3"
+			(at 209.55 99.822 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 97.663 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27378170-499b-4b65-801f-48b0acdc0a09")
+		)
+		(pin "1"
+			(uuid "725361df-7dec-4ec4-9677-5377430f0b40")
+		)
+		(pin "3"
+			(uuid "d075c8f3-4334-4d6e-aed7-c444f1e5e3e1")
+		)
+		(pin "4"
+			(uuid "38d741d9-e751-4c88-b9f9-e74c19b0938f")
+		)
+		(pin "5"
+			(uuid "d04acc74-7878-453d-84e1-2d0afc7b36cd")
+		)
+		(pin "6"
+			(uuid "92fbee61-0334-47f3-94bc-4290b59d84e1")
+		)
+		(pin "7"
+			(uuid "3b437338-80c5-4474-9bb4-0c4bd1e22833")
+		)
+		(pin "8"
+			(uuid "3a9a5168-98bb-44c3-8392-c5d1bd391a1c")
+		)
+		(pin "9"
+			(uuid "c7b574c0-49c5-4e5c-9dd4-8cfd1c18baa0")
+		)
+		(pin "10"
+			(uuid "de022fad-7291-4857-a673-b571ce638ea1")
+		)
+		(pin "11"
+			(uuid "3a494191-b24b-450d-b0af-2ce089f1c533")
+		)
+		(pin "12"
+			(uuid "40489ea3-ed15-478f-9094-4ee0c30a29ac")
+		)
+		(pin "13"
+			(uuid "07dcd3a4-36a2-4b5d-89ef-0b3f49ac2001")
+		)
+		(pin "14"
+			(uuid "2e407e66-311b-433b-bc4b-0369da9b3e16")
+		)
+		(pin "15"
+			(uuid "00099c3f-2328-49ea-9c20-a95aca9e77e6")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 101.6 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dae25b6-2340-4fb4-b09a-abd9579e303b")
+		(property "Reference" "X3"
+			(at 209.55 102.362 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 100.203 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b875403b-1a72-4be3-a9b8-c18db79a1b2e")
+		)
+		(pin "2"
+			(uuid "35344de6-5fd8-48e4-9063-5ab073735e95")
+		)
+		(pin "3"
+			(uuid "bcc12133-fea7-4048-882d-c264a5d83417")
+		)
+		(pin "4"
+			(uuid "af98cda2-c4bb-46ec-9a73-45a8d1b51ad1")
+		)
+		(pin "5"
+			(uuid "69b84cd6-9aa5-42b4-9e89-e08d4176c4b9")
+		)
+		(pin "6"
+			(uuid "f72381fd-e488-46b6-bfb8-f5562e010501")
+		)
+		(pin "7"
+			(uuid "d2b03e82-e09d-4693-9bfc-de569683db4d")
+		)
+		(pin "8"
+			(uuid "44a11aff-49c0-4c06-bbb1-579f92aaf5d0")
+		)
+		(pin "9"
+			(uuid "13a6a70d-6a63-44af-8bc7-0e9b2e84b351")
+		)
+		(pin "10"
+			(uuid "ee910f86-32fa-447f-8d18-9ebf1c22e6e4")
+		)
+		(pin "11"
+			(uuid "1465cc8e-82e4-4de7-b3c0-9b662d46bdb9")
+		)
+		(pin "12"
+			(uuid "297c6aa2-bbe1-48af-9a73-4abba0b15b32")
+		)
+		(pin "13"
+			(uuid "72b276ba-470d-4309-bdf4-ab0bb9314e88")
+		)
+		(pin "14"
+			(uuid "dc01682c-fab8-43a3-b85c-f2a4c736ca2c")
+		)
+		(pin "15"
+			(uuid "0d1928db-9fdf-4950-bac6-a4b9dbf544e6")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 99.06 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "922898c1-f449-46cb-aacf-ebbd2ba652c7")
+		(property "Reference" "X1"
+			(at 191.77 99.822 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 97.663 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27378170-499b-4b65-801f-48b0acdc0a0a")
+		)
+		(pin "1"
+			(uuid "725361df-7dec-4ec4-9677-5377430f0b41")
+		)
+		(pin "3"
+			(uuid "d075c8f3-4334-4d6e-aed7-c444f1e5e3e2")
+		)
+		(pin "4"
+			(uuid "06db97a1-c934-43da-95d4-16c53b6f912c")
+		)
+		(pin "5"
+			(uuid "d04acc74-7878-453d-84e1-2d0afc7b36ce")
+		)
+		(pin "6"
+			(uuid "92fbee61-0334-47f3-94bc-4290b59d84e2")
+		)
+		(pin "7"
+			(uuid "3b437338-80c5-4474-9bb4-0c4bd1e22834")
+		)
+		(pin "8"
+			(uuid "3a9a5168-98bb-44c3-8392-c5d1bd391a1d")
+		)
+		(pin "9"
+			(uuid "c7b574c0-49c5-4e5c-9dd4-8cfd1c18baa1")
+		)
+		(pin "10"
+			(uuid "de022fad-7291-4857-a673-b571ce638ea2")
+		)
+		(pin "11"
+			(uuid "3a494191-b24b-450d-b0af-2ce089f1c534")
+		)
+		(pin "12"
+			(uuid "40489ea3-ed15-478f-9094-4ee0c30a29ad")
+		)
+		(pin "13"
+			(uuid "07dcd3a4-36a2-4b5d-89ef-0b3f49ac2002")
+		)
+		(pin "14"
+			(uuid "2e407e66-311b-433b-bc4b-0369da9b3e17")
+		)
+		(pin "15"
+			(uuid "00099c3f-2328-49ea-9c20-a95aca9e77e7")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 101.6 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92ef9a0b-c68c-4132-9c60-6440d33bec19")
+		(property "Reference" "X2"
+			(at 173.99 102.362 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 100.203 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b875403b-1a72-4be3-a9b8-c18db79a1b2f")
+		)
+		(pin "2"
+			(uuid "35344de6-5fd8-48e4-9063-5ab073735e96")
+		)
+		(pin "3"
+			(uuid "bcc12133-fea7-4048-882d-c264a5d83418")
+		)
+		(pin "4"
+			(uuid "af98cda2-c4bb-46ec-9a73-45a8d1b51ad2")
+		)
+		(pin "5"
+			(uuid "36c69925-45ba-461a-b5b5-cead709383a7")
+		)
+		(pin "6"
+			(uuid "f72381fd-e488-46b6-bfb8-f5562e010502")
+		)
+		(pin "7"
+			(uuid "d2b03e82-e09d-4693-9bfc-de569683db4e")
+		)
+		(pin "8"
+			(uuid "44a11aff-49c0-4c06-bbb1-579f92aaf5d1")
+		)
+		(pin "9"
+			(uuid "13a6a70d-6a63-44af-8bc7-0e9b2e84b352")
+		)
+		(pin "10"
+			(uuid "ee910f86-32fa-447f-8d18-9ebf1c22e6e5")
+		)
+		(pin "11"
+			(uuid "1465cc8e-82e4-4de7-b3c0-9b662d46bdba")
+		)
+		(pin "12"
+			(uuid "297c6aa2-bbe1-48af-9a73-4abba0b15b33")
+		)
+		(pin "13"
+			(uuid "72b276ba-470d-4309-bdf4-ab0bb9314e89")
+		)
+		(pin "14"
+			(uuid "dc01682c-fab8-43a3-b85c-f2a4c736ca2d")
+		)
+		(pin "15"
+			(uuid "0d1928db-9fdf-4950-bac6-a4b9dbf544e7")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:USB-A-H")
+		(at 102.87 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9422df04-0ae0-4a26-9600-5c6d260b41a0")
+		(property "Reference" "USB2"
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "USB-A-H"
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:USB-A-H_14mm_Distance"
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2345"
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D-"
+			(uuid "20108c18-bb89-4f43-8cc7-f568bea8c104")
+		)
+		(pin "D+"
+			(uuid "8d6705f6-f170-4336-8239-433ebe96a7af")
+		)
+		(pin "GND"
+			(uuid "2e631a24-1c68-4221-9892-7b602574a0db")
+		)
+		(pin "GND@1"
+			(uuid "ae02f283-f182-4e94-8976-70711749c3a1")
+		)
+		(pin "VBUS"
+			(uuid "2dcbc1e3-95e0-4ad0-9480-c1bcda06a723")
+		)
+		(pin "GND@2"
+			(uuid "2b7314c1-e924-45c2-a28e-5247f99ec251")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "USB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 104.14 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96fd139e-aecf-47d9-80f8-47ceb7b870fa")
+		(property "Reference" "X2"
+			(at 173.99 104.902 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 102.743 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a87849a-9fa6-47c8-88cb-7475c32b67fb")
+		)
+		(pin "1"
+			(uuid "e5b381b8-f87e-42dc-a319-df0cfefa551a")
+		)
+		(pin "3"
+			(uuid "fdc6ffb6-2141-49d4-ab7e-a516aa471836")
+		)
+		(pin "4"
+			(uuid "3cfbcb3f-c1ca-4439-a5e5-70b61034ce77")
+		)
+		(pin "5"
+			(uuid "6d5b8178-8654-4f3e-90a9-bbdda38b3aed")
+		)
+		(pin "6"
+			(uuid "7749ac45-2f61-4760-ab85-f637b11a9bb9")
+		)
+		(pin "7"
+			(uuid "cfc988e3-69f9-4cc5-8ecf-165a62a84406")
+		)
+		(pin "8"
+			(uuid "b425e5e3-4f88-4731-9ba9-26deb11a2a07")
+		)
+		(pin "9"
+			(uuid "c1e1884d-5ce7-4a87-ae09-9c1ad818dfed")
+		)
+		(pin "10"
+			(uuid "54739c33-36b9-4c78-8c24-98a4186fcaf5")
+		)
+		(pin "11"
+			(uuid "e3eb6210-5c99-4e82-b4fb-45c49c40bdf9")
+		)
+		(pin "12"
+			(uuid "be5a0a07-069c-40a1-a6e2-0e87191af396")
+		)
+		(pin "13"
+			(uuid "0de6edbb-1207-4f24-b955-c91572e9c909")
+		)
+		(pin "14"
+			(uuid "633e80e3-ddcb-4ba4-b8b1-c0814284e16f")
+		)
+		(pin "15"
+			(uuid "7db89d0e-23f3-45ad-9071-06080dec49a0")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:1503_09")
+		(at 110.49 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e2c29de-d284-4738-83af-93e5c2218687")
+		(property "Reference" "X8"
+			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1503_09"
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal"
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2939183"
+			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67ddea6c-f29e-4dfe-9a76-efc3c212f399")
+		)
+		(pin "3"
+			(uuid "254cace0-031d-4595-9d55-1a582b71c939")
+		)
+		(pin "1"
+			(uuid "3183c1c9-e880-470e-a367-4daf0727ea5f")
+		)
+		(pin "4"
+			(uuid "12a220f1-ef6d-4fdc-aace-34b722228b6a")
+		)
+		(pin "5"
+			(uuid "723ccf50-81bb-4fdd-b49d-91b98cfa5c7c")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 114.3 0)
+		(unit 10)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0a3a518-61e9-45ce-92be-a6a8366e86fa")
+		(property "Reference" "X2"
+			(at 173.99 115.062 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 112.903 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "422ba16b-d846-4dd4-9826-2f3bb9e2170f")
+		)
+		(pin "1"
+			(uuid "4a8265c4-a083-4cdc-97e7-78ad2350c6c8")
+		)
+		(pin "3"
+			(uuid "1addab1a-d220-444d-b57c-eea33e751118")
+		)
+		(pin "4"
+			(uuid "a05127f5-f7f2-4c82-bda8-ab33ad185d7b")
+		)
+		(pin "5"
+			(uuid "07f9be17-7925-4c27-8318-860d3858378c")
+		)
+		(pin "6"
+			(uuid "204c3d89-6f43-4299-a789-ed0bc9e6e75b")
+		)
+		(pin "7"
+			(uuid "73d5afe4-ca19-470e-ac54-3820040e8f9f")
+		)
+		(pin "8"
+			(uuid "c3920de0-661a-4f3b-9e62-114aaa37ced3")
+		)
+		(pin "9"
+			(uuid "3ac38102-a0c5-4b48-939e-548ca5f52711")
+		)
+		(pin "10"
+			(uuid "78832f64-138f-4fc9-b4a6-5dc6e47bc060")
+		)
+		(pin "11"
+			(uuid "a33819a9-90f9-4e5c-81dc-4509aedc0fd1")
+		)
+		(pin "12"
+			(uuid "d33fb062-0a80-4de1-bc8a-1c51ea8cfefd")
+		)
+		(pin "13"
+			(uuid "b3b7fa7c-01bb-43d2-86a0-b50ae581f920")
+		)
+		(pin "14"
+			(uuid "fa36572c-6ede-4428-a0cf-c4b57f154873")
+		)
+		(pin "15"
+			(uuid "58fe398c-e816-4643-9183-ff68b3028c23")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 10)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 106.68 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3394288-bf97-4799-bce0-dd76ceefc47c")
+		(property "Reference" "X3"
+			(at 209.55 107.442 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 105.283 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c91c69a3-cc8c-42c8-89d9-4891d7e35274")
+		)
+		(pin "1"
+			(uuid "8dc092be-6b40-4ef0-95af-cd3be509c2ed")
+		)
+		(pin "3"
+			(uuid "107df125-05d1-494b-b1aa-eb443698ae13")
+		)
+		(pin "4"
+			(uuid "46047679-efd6-4ba6-b36a-ca1754e56ac7")
+		)
+		(pin "5"
+			(uuid "fc809a85-d791-466e-87d0-02ef2a97820f")
+		)
+		(pin "6"
+			(uuid "e0eaaacd-5882-4885-a78a-eb3f4e9c5f04")
+		)
+		(pin "7"
+			(uuid "67d76d30-e790-4a42-a7d5-ad59af9676c7")
+		)
+		(pin "8"
+			(uuid "305fda7d-32a7-47c4-85ec-e59d9f97102b")
+		)
+		(pin "9"
+			(uuid "ece7d9cd-ae8d-4269-b6c9-bdf69eab2ec1")
+		)
+		(pin "10"
+			(uuid "d8af7ced-5b5b-4306-b2d9-493d827fbd9f")
+		)
+		(pin "11"
+			(uuid "4da978e9-7bb4-4c6c-99ca-9c3c5b146006")
+		)
+		(pin "12"
+			(uuid "51f2e974-e529-41bb-b1d1-7c41d42e3a2c")
+		)
+		(pin "13"
+			(uuid "d6ad22e8-79ce-45d7-b6eb-06a746d2c491")
+		)
+		(pin "14"
+			(uuid "387e22df-7147-44e6-8299-c05219a07e62")
+		)
+		(pin "15"
+			(uuid "bc8a0ea1-8e0d-4cdb-b6f4-85cf37f82665")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 106.68 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3ad7b5c-4246-4d37-a257-2f9f64bd6129")
+		(property "Reference" "X1"
+			(at 191.77 107.442 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 105.283 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c91c69a3-cc8c-42c8-89d9-4891d7e35275")
+		)
+		(pin "1"
+			(uuid "8dc092be-6b40-4ef0-95af-cd3be509c2ee")
+		)
+		(pin "3"
+			(uuid "107df125-05d1-494b-b1aa-eb443698ae14")
+		)
+		(pin "4"
+			(uuid "46047679-efd6-4ba6-b36a-ca1754e56ac8")
+		)
+		(pin "5"
+			(uuid "fc809a85-d791-466e-87d0-02ef2a978210")
+		)
+		(pin "6"
+			(uuid "e0eaaacd-5882-4885-a78a-eb3f4e9c5f05")
+		)
+		(pin "7"
+			(uuid "134a33bd-d655-478b-b2ee-bb05564e35e1")
+		)
+		(pin "8"
+			(uuid "305fda7d-32a7-47c4-85ec-e59d9f97102c")
+		)
+		(pin "9"
+			(uuid "ece7d9cd-ae8d-4269-b6c9-bdf69eab2ec2")
+		)
+		(pin "10"
+			(uuid "d8af7ced-5b5b-4306-b2d9-493d827fbda0")
+		)
+		(pin "11"
+			(uuid "4da978e9-7bb4-4c6c-99ca-9c3c5b146007")
+		)
+		(pin "12"
+			(uuid "51f2e974-e529-41bb-b1d1-7c41d42e3a2d")
+		)
+		(pin "13"
+			(uuid "d6ad22e8-79ce-45d7-b6eb-06a746d2c492")
+		)
+		(pin "14"
+			(uuid "387e22df-7147-44e6-8299-c05219a07e63")
+		)
+		(pin "15"
+			(uuid "bc8a0ea1-8e0d-4cdb-b6f4-85cf37f82666")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 116.84 0)
+		(unit 11)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeef16a4-8b3c-4a3c-8381-810c452d43f7")
+		(property "Reference" "X2"
+			(at 173.99 117.602 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 115.443 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73c911bc-3f71-488d-8483-22c8c801520d")
+		)
+		(pin "1"
+			(uuid "54ff00bc-c9ce-4215-8729-16f46947d1a5")
+		)
+		(pin "3"
+			(uuid "077ad450-4127-4cf5-8aa7-c0ceb1016b50")
+		)
+		(pin "4"
+			(uuid "067ad7b4-75c8-4891-873c-62b2903b63cc")
+		)
+		(pin "5"
+			(uuid "1d7d8420-7923-48bc-99e8-59062d65b929")
+		)
+		(pin "6"
+			(uuid "ac010462-3877-4e22-b865-6dd593447567")
+		)
+		(pin "7"
+			(uuid "12e8678b-8cb4-43c6-b141-ffdd6668366b")
+		)
+		(pin "8"
+			(uuid "d9982183-e192-426f-ab1c-074d95b43d23")
+		)
+		(pin "9"
+			(uuid "92909c3c-62af-48a2-9dd4-d0cad4d7c544")
+		)
+		(pin "10"
+			(uuid "a7d78e50-5338-4dc7-b601-87818f5dc7dd")
+		)
+		(pin "11"
+			(uuid "56bd5d01-7e78-441c-8487-5e0f8ddf05ca")
+		)
+		(pin "12"
+			(uuid "4c739741-50b5-40ed-b0ff-129abdd8f80b")
+		)
+		(pin "13"
+			(uuid "8b525a6d-1f54-4526-b4fb-e96b17e6f843")
+		)
+		(pin "14"
+			(uuid "88f2ffae-b739-4059-8e9c-d78edc586533")
+		)
+		(pin "15"
+			(uuid "03133552-6218-4c8f-859d-df382b81dbf3")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 11)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 99.06 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b075a6ef-653e-4225-a2db-2caec739f069")
+		(property "Reference" "X2"
+			(at 173.99 99.822 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 97.663 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27378170-499b-4b65-801f-48b0acdc0a0c")
+		)
+		(pin "1"
+			(uuid "725361df-7dec-4ec4-9677-5377430f0b43")
+		)
+		(pin "3"
+			(uuid "d075c8f3-4334-4d6e-aed7-c444f1e5e3e4")
+		)
+		(pin "4"
+			(uuid "eb67976d-970b-4981-a5f5-09b77456414d")
+		)
+		(pin "5"
+			(uuid "d04acc74-7878-453d-84e1-2d0afc7b36d0")
+		)
+		(pin "6"
+			(uuid "92fbee61-0334-47f3-94bc-4290b59d84e4")
+		)
+		(pin "7"
+			(uuid "3b437338-80c5-4474-9bb4-0c4bd1e22836")
+		)
+		(pin "8"
+			(uuid "3a9a5168-98bb-44c3-8392-c5d1bd391a1f")
+		)
+		(pin "9"
+			(uuid "c7b574c0-49c5-4e5c-9dd4-8cfd1c18baa3")
+		)
+		(pin "10"
+			(uuid "de022fad-7291-4857-a673-b571ce638ea4")
+		)
+		(pin "11"
+			(uuid "3a494191-b24b-450d-b0af-2ce089f1c536")
+		)
+		(pin "12"
+			(uuid "40489ea3-ed15-478f-9094-4ee0c30a29af")
+		)
+		(pin "13"
+			(uuid "07dcd3a4-36a2-4b5d-89ef-0b3f49ac2004")
+		)
+		(pin "14"
+			(uuid "2e407e66-311b-433b-bc4b-0369da9b3e19")
+		)
+		(pin "15"
+			(uuid "00099c3f-2328-49ea-9c20-a95aca9e77e9")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 101.6 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8863528-f497-48f1-ae77-0a1739fd627c")
+		(property "Reference" "X1"
+			(at 191.77 102.362 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 100.203 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b875403b-1a72-4be3-a9b8-c18db79a1b30")
+		)
+		(pin "2"
+			(uuid "35344de6-5fd8-48e4-9063-5ab073735e97")
+		)
+		(pin "3"
+			(uuid "bcc12133-fea7-4048-882d-c264a5d83419")
+		)
+		(pin "4"
+			(uuid "af98cda2-c4bb-46ec-9a73-45a8d1b51ad3")
+		)
+		(pin "5"
+			(uuid "a8469e07-84a3-43af-b791-8d6daa689783")
+		)
+		(pin "6"
+			(uuid "f72381fd-e488-46b6-bfb8-f5562e010503")
+		)
+		(pin "7"
+			(uuid "d2b03e82-e09d-4693-9bfc-de569683db4f")
+		)
+		(pin "8"
+			(uuid "44a11aff-49c0-4c06-bbb1-579f92aaf5d2")
+		)
+		(pin "9"
+			(uuid "13a6a70d-6a63-44af-8bc7-0e9b2e84b353")
+		)
+		(pin "10"
+			(uuid "ee910f86-32fa-447f-8d18-9ebf1c22e6e6")
+		)
+		(pin "11"
+			(uuid "1465cc8e-82e4-4de7-b3c0-9b662d46bdbb")
+		)
+		(pin "12"
+			(uuid "297c6aa2-bbe1-48af-9a73-4abba0b15b34")
+		)
+		(pin "13"
+			(uuid "72b276ba-470d-4309-bdf4-ab0bb9314e8a")
+		)
+		(pin "14"
+			(uuid "dc01682c-fab8-43a3-b85c-f2a4c736ca2e")
+		)
+		(pin "15"
+			(uuid "0d1928db-9fdf-4950-bac6-a4b9dbf544e8")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:USB-A-H")
+		(at 88.9 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdad6780-c276-411a-b49b-5ea1b61290aa")
+		(property "Reference" "USB3"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "USB-A-H"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:USB-A-H"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C456018"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D-"
+			(uuid "b4ca27dd-41a1-4ace-bc8d-8639b833d7f0")
+		)
+		(pin "D+"
+			(uuid "2b4a255d-e70f-40c1-9baa-17faaebba485")
+		)
+		(pin "GND"
+			(uuid "1e2357d0-db7a-4251-b92b-a37358873cbc")
+		)
+		(pin "GND@1"
+			(uuid "81850539-506d-4019-bac7-b4de422659ab")
+		)
+		(pin "VBUS"
+			(uuid "7acdf284-48e0-4f10-a76e-f4dd2d3c0892")
+		)
+		(pin "GND@2"
+			(uuid "87fca748-3853-49a9-91d2-385890ce2d5e")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "USB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 124.46 0)
+		(unit 14)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be4306e9-0f42-439f-b393-4de2dacd2cb7")
+		(property "Reference" "X3"
+			(at 209.55 125.222 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 123.063 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e93c15af-6778-4f92-8268-1df4cce83449")
+		)
+		(pin "1"
+			(uuid "315e5920-ee43-4028-a60b-3dc8b32cd5ef")
+		)
+		(pin "3"
+			(uuid "23090ea5-dfce-4b37-aa3d-3c6336631a9b")
+		)
+		(pin "4"
+			(uuid "e99ab269-3056-46cc-bbd9-7b7bc6a16e97")
+		)
+		(pin "5"
+			(uuid "4da97212-4c64-458e-9bd0-d42adf20921c")
+		)
+		(pin "6"
+			(uuid "ca107973-48d9-4282-8f6f-0adac565928e")
+		)
+		(pin "7"
+			(uuid "d80a7c13-ea26-47c9-a337-98ff4fb922bb")
+		)
+		(pin "8"
+			(uuid "70f23fec-8a98-4e5c-8397-7d1e663a278f")
+		)
+		(pin "9"
+			(uuid "a8e2ab06-49dc-4758-bfc0-7065c81699bb")
+		)
+		(pin "10"
+			(uuid "98c3a9dd-0199-4e1d-92b2-b074e231a2e0")
+		)
+		(pin "11"
+			(uuid "ed31a35c-2e81-4ae2-8b9c-737b17e5345e")
+		)
+		(pin "12"
+			(uuid "2548eb38-9e3d-4d69-ad88-5be44ab517b2")
+		)
+		(pin "13"
+			(uuid "03d1d87b-5510-40b6-8716-a0b1ab577f87")
+		)
+		(pin "14"
+			(uuid "a9c1985f-d963-4c39-bc74-3987afa71a7b")
+		)
+		(pin "15"
+			(uuid "1e6cfd59-3ef0-44c8-99b1-4a0a2a625fca")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 14)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 111.76 0)
+		(unit 9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be9a5609-6ea7-435b-8d4a-2277eec78801")
+		(property "Reference" "X2"
+			(at 173.99 112.522 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 110.363 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1db6eada-a453-4ea9-93e9-99e7d5f7acb4")
+		)
+		(pin "1"
+			(uuid "2a1e92fd-e7b5-4f84-9b74-95be6035cc7d")
+		)
+		(pin "3"
+			(uuid "c20b6085-863c-42d9-9d79-0e52a7e6845a")
+		)
+		(pin "4"
+			(uuid "65824af7-003f-42fb-a8d5-db04aea9c7e7")
+		)
+		(pin "5"
+			(uuid "7fd7326f-422c-4997-abbf-a90c3d7676fa")
+		)
+		(pin "6"
+			(uuid "a3205568-e809-4d90-8b20-19b6b75ce0b1")
+		)
+		(pin "7"
+			(uuid "1bb40707-cbcf-497f-a5bf-36a152218911")
+		)
+		(pin "8"
+			(uuid "804cffa6-920b-497a-a22c-799f09a7f937")
+		)
+		(pin "9"
+			(uuid "3cd9765a-ec8f-43af-883e-31d27ebf5f0d")
+		)
+		(pin "10"
+			(uuid "a6a46f10-6cfa-4af3-ab1e-f3ce1805a3d6")
+		)
+		(pin "11"
+			(uuid "3ac6764e-27b2-4c42-8a7a-b5c7ab779907")
+		)
+		(pin "12"
+			(uuid "0a11d77a-5e49-4d6c-be4b-1d2c35dd1caa")
+		)
+		(pin "13"
+			(uuid "cf2701d7-9cf9-4810-a320-87a57c4252e3")
+		)
+		(pin "14"
+			(uuid "5a19b5f4-0cdc-4e2a-a850-acc7f78d1f55")
+		)
+		(pin "15"
+			(uuid "e9b995fe-1488-48cf-baf1-719093a7bdec")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 9)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 124.46 0)
+		(unit 14)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bef82f8c-c4d5-4f87-be3e-4a1cbe69afc2")
+		(property "Reference" "X2"
+			(at 173.99 125.222 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 123.063 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e93c15af-6778-4f92-8268-1df4cce8344a")
+		)
+		(pin "1"
+			(uuid "315e5920-ee43-4028-a60b-3dc8b32cd5f0")
+		)
+		(pin "3"
+			(uuid "23090ea5-dfce-4b37-aa3d-3c6336631a9c")
+		)
+		(pin "4"
+			(uuid "e99ab269-3056-46cc-bbd9-7b7bc6a16e98")
+		)
+		(pin "5"
+			(uuid "4da97212-4c64-458e-9bd0-d42adf20921d")
+		)
+		(pin "6"
+			(uuid "ca107973-48d9-4282-8f6f-0adac565928f")
+		)
+		(pin "7"
+			(uuid "d80a7c13-ea26-47c9-a337-98ff4fb922bc")
+		)
+		(pin "8"
+			(uuid "70f23fec-8a98-4e5c-8397-7d1e663a2790")
+		)
+		(pin "9"
+			(uuid "a8e2ab06-49dc-4758-bfc0-7065c81699bc")
+		)
+		(pin "10"
+			(uuid "98c3a9dd-0199-4e1d-92b2-b074e231a2e1")
+		)
+		(pin "11"
+			(uuid "ed31a35c-2e81-4ae2-8b9c-737b17e5345f")
+		)
+		(pin "12"
+			(uuid "2548eb38-9e3d-4d69-ad88-5be44ab517b3")
+		)
+		(pin "13"
+			(uuid "03d1d87b-5510-40b6-8716-a0b1ab577f88")
+		)
+		(pin "14"
+			(uuid "fdd51e57-c7b3-450a-bbbf-792e82bf3ea1")
+		)
+		(pin "15"
+			(uuid "1e6cfd59-3ef0-44c8-99b1-4a0a2a625fcb")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 14)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 121.92 0)
+		(unit 13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0650f58-c642-494b-bb5b-824d0dfe99cd")
+		(property "Reference" "X1"
+			(at 191.77 122.682 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 120.523 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7a332e9-4fd5-42a9-b082-959c697e93bd")
+		)
+		(pin "1"
+			(uuid "0849b3cb-e279-49b4-9e36-f999a8b8d9fd")
+		)
+		(pin "3"
+			(uuid "ee8b590d-c288-4c0f-8197-17937d26bbef")
+		)
+		(pin "4"
+			(uuid "4efde384-f14a-4321-9977-39a8e0dd7934")
+		)
+		(pin "5"
+			(uuid "57fc904d-0c2e-4edb-8514-a6198361a90e")
+		)
+		(pin "6"
+			(uuid "34de3fcc-0a06-444a-a302-e1f6ea753d1c")
+		)
+		(pin "7"
+			(uuid "bc977fac-c634-4798-9047-cf3d8fc150ab")
+		)
+		(pin "8"
+			(uuid "1bbb522c-5b77-450f-840b-c88c2736b96d")
+		)
+		(pin "9"
+			(uuid "8cc08a0c-059f-406b-8b65-14d66c239f28")
+		)
+		(pin "10"
+			(uuid "c90df36e-12d0-4477-bf40-f60a5e2e93cc")
+		)
+		(pin "11"
+			(uuid "fe3fa896-1eca-480b-b0d6-cdeea8c1e078")
+		)
+		(pin "12"
+			(uuid "591bdad6-b22c-405c-be43-102435c63fc1")
+		)
+		(pin "13"
+			(uuid "f5062528-26ef-494a-b1a4-337cdf9c3d8b")
+		)
+		(pin "14"
+			(uuid "46d5ebad-8593-41d8-988c-62a88e4d728d")
+		)
+		(pin "15"
+			(uuid "012670c3-f005-4df5-85e1-b2ca68109d9a")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 13)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 124.46 0)
+		(unit 14)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c72e1b0d-bddd-48d9-b185-316b52fa1016")
+		(property "Reference" "X7"
+			(at 228.6 125.222 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 123.063 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e93c15af-6778-4f92-8268-1df4cce8344b")
+		)
+		(pin "1"
+			(uuid "315e5920-ee43-4028-a60b-3dc8b32cd5f1")
+		)
+		(pin "3"
+			(uuid "23090ea5-dfce-4b37-aa3d-3c6336631a9d")
+		)
+		(pin "4"
+			(uuid "e99ab269-3056-46cc-bbd9-7b7bc6a16e99")
+		)
+		(pin "5"
+			(uuid "4da97212-4c64-458e-9bd0-d42adf20921e")
+		)
+		(pin "6"
+			(uuid "ca107973-48d9-4282-8f6f-0adac5659290")
+		)
+		(pin "7"
+			(uuid "d80a7c13-ea26-47c9-a337-98ff4fb922bd")
+		)
+		(pin "8"
+			(uuid "70f23fec-8a98-4e5c-8397-7d1e663a2791")
+		)
+		(pin "9"
+			(uuid "a8e2ab06-49dc-4758-bfc0-7065c81699bd")
+		)
+		(pin "10"
+			(uuid "98c3a9dd-0199-4e1d-92b2-b074e231a2e2")
+		)
+		(pin "11"
+			(uuid "ed31a35c-2e81-4ae2-8b9c-737b17e53460")
+		)
+		(pin "12"
+			(uuid "2548eb38-9e3d-4d69-ad88-5be44ab517b4")
+		)
+		(pin "13"
+			(uuid "03d1d87b-5510-40b6-8716-a0b1ab577f89")
+		)
+		(pin "14"
+			(uuid "1ae5d5f9-418d-45eb-8c5c-251f37ef6012")
+		)
+		(pin "15"
+			(uuid "1e6cfd59-3ef0-44c8-99b1-4a0a2a625fcc")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 14)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 116.84 0)
+		(unit 11)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccb1702e-e42c-465c-9ea9-f2b314a27c7b")
+		(property "Reference" "X3"
+			(at 209.55 117.602 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 115.443 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73c911bc-3f71-488d-8483-22c8c801520e")
+		)
+		(pin "1"
+			(uuid "54ff00bc-c9ce-4215-8729-16f46947d1a6")
+		)
+		(pin "3"
+			(uuid "077ad450-4127-4cf5-8aa7-c0ceb1016b51")
+		)
+		(pin "4"
+			(uuid "067ad7b4-75c8-4891-873c-62b2903b63cd")
+		)
+		(pin "5"
+			(uuid "1d7d8420-7923-48bc-99e8-59062d65b92a")
+		)
+		(pin "6"
+			(uuid "ac010462-3877-4e22-b865-6dd593447568")
+		)
+		(pin "7"
+			(uuid "12e8678b-8cb4-43c6-b141-ffdd6668366c")
+		)
+		(pin "8"
+			(uuid "d9982183-e192-426f-ab1c-074d95b43d24")
+		)
+		(pin "9"
+			(uuid "92909c3c-62af-48a2-9dd4-d0cad4d7c545")
+		)
+		(pin "10"
+			(uuid "a7d78e50-5338-4dc7-b601-87818f5dc7de")
+		)
+		(pin "11"
+			(uuid "ce2583fb-2f60-4494-b0d9-3f66627cb199")
+		)
+		(pin "12"
+			(uuid "4c739741-50b5-40ed-b0ff-129abdd8f80c")
+		)
+		(pin "13"
+			(uuid "8b525a6d-1f54-4526-b4fb-e96b17e6f844")
+		)
+		(pin "14"
+			(uuid "88f2ffae-b739-4059-8e9c-d78edc586534")
+		)
+		(pin "15"
+			(uuid "03133552-6218-4c8f-859d-df382b81dbf4")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 11)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 104.14 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfe1c64a-277f-4050-91e3-1ac15ee07aaf")
+		(property "Reference" "X7"
+			(at 228.6 104.902 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 102.743 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a87849a-9fa6-47c8-88cb-7475c32b67fc")
+		)
+		(pin "1"
+			(uuid "e5b381b8-f87e-42dc-a319-df0cfefa551b")
+		)
+		(pin "3"
+			(uuid "fdc6ffb6-2141-49d4-ab7e-a516aa471837")
+		)
+		(pin "4"
+			(uuid "3cfbcb3f-c1ca-4439-a5e5-70b61034ce78")
+		)
+		(pin "5"
+			(uuid "6d5b8178-8654-4f3e-90a9-bbdda38b3aee")
+		)
+		(pin "6"
+			(uuid "dac77bd8-3e0c-4175-9eae-e989090c50b6")
+		)
+		(pin "7"
+			(uuid "cfc988e3-69f9-4cc5-8ecf-165a62a84407")
+		)
+		(pin "8"
+			(uuid "b425e5e3-4f88-4731-9ba9-26deb11a2a08")
+		)
+		(pin "9"
+			(uuid "c1e1884d-5ce7-4a87-ae09-9c1ad818dfee")
+		)
+		(pin "10"
+			(uuid "54739c33-36b9-4c78-8c24-98a4186fcaf6")
+		)
+		(pin "11"
+			(uuid "e3eb6210-5c99-4e82-b4fb-45c49c40bdfa")
+		)
+		(pin "12"
+			(uuid "be5a0a07-069c-40a1-a6e2-0e87191af397")
+		)
+		(pin "13"
+			(uuid "0de6edbb-1207-4f24-b955-c91572e9c90a")
+		)
+		(pin "14"
+			(uuid "633e80e3-ddcb-4ba4-b8b1-c0814284e170")
+		)
+		(pin "15"
+			(uuid "7db89d0e-23f3-45ad-9071-06080dec49a1")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 93.98 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0afabb5-d77e-41d1-91dd-d22a173831f5")
+		(property "Reference" "X2"
+			(at 173.99 94.742 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 92.583 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ee3eef2-7f38-4ae8-8155-404f4ed76008")
+		)
+		(pin "1"
+			(uuid "b6ba310c-c160-40ed-85f7-5bf8bab20464")
+		)
+		(pin "3"
+			(uuid "1099ef52-6900-47cb-8c8f-eab54edeae10")
+		)
+		(pin "4"
+			(uuid "54ed1654-9ef2-440a-a9f0-aa8217f8ebdd")
+		)
+		(pin "5"
+			(uuid "6e88fc7f-a680-4ffb-80bd-be5470468bbe")
+		)
+		(pin "6"
+			(uuid "6bd3f783-542b-455d-8b6c-371f6b3a54d6")
+		)
+		(pin "7"
+			(uuid "e6ecc5de-2f88-4478-8a2f-d48306b92f00")
+		)
+		(pin "8"
+			(uuid "b8b22ec9-9408-4ca3-9cf4-f1bdbaeccba2")
+		)
+		(pin "9"
+			(uuid "96b5f2d3-c49f-4db8-bb14-c4e48d967006")
+		)
+		(pin "10"
+			(uuid "d65bcc12-df2f-44ed-a798-040fab5c6ec4")
+		)
+		(pin "11"
+			(uuid "3d6dfa14-0e4a-4d1f-8c2f-339aef23e46e")
+		)
+		(pin "12"
+			(uuid "cc37ed44-fdf7-47ad-bc7e-893d1ba9f96a")
+		)
+		(pin "13"
+			(uuid "fdb6961f-b34b-4c27-9530-0d532f849a1f")
+		)
+		(pin "14"
+			(uuid "7447b464-6f04-4eba-b3db-5d607f1f881d")
+		)
+		(pin "15"
+			(uuid "623ecc8b-48bd-4ae9-818b-d249b011667c")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 127 0)
+		(unit 15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d17065c9-11fc-46a4-a134-3c806d9f26aa")
+		(property "Reference" "X1"
+			(at 191.77 127.762 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 125.603 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9638a8d-1078-48f3-88ed-9ba89bd40867")
+		)
+		(pin "1"
+			(uuid "d8bc58f3-447d-4f5c-aa30-e846e77ed4a1")
+		)
+		(pin "3"
+			(uuid "1874a9da-6ae4-49ab-b3f4-f41c15987667")
+		)
+		(pin "4"
+			(uuid "a6ea3270-ec24-4cd6-88fe-3544b3ac9db4")
+		)
+		(pin "5"
+			(uuid "69331b73-fca5-4520-8f55-5531fb0ea5c1")
+		)
+		(pin "6"
+			(uuid "ee9ca45f-67ec-402f-8b30-7a8d652a1756")
+		)
+		(pin "7"
+			(uuid "9818b0e9-a0a0-4319-a0a6-4ce726305be2")
+		)
+		(pin "8"
+			(uuid "629ed917-8204-40a3-b404-56ddc35d7a8d")
+		)
+		(pin "9"
+			(uuid "1e0c9914-8e34-4c58-9132-b8b37bb71237")
+		)
+		(pin "10"
+			(uuid "c52c3d23-d261-4af4-8fa9-38be494e9348")
+		)
+		(pin "11"
+			(uuid "e0b200f3-f63f-4f3d-925c-618a3ea327db")
+		)
+		(pin "12"
+			(uuid "eb4994c0-ea98-4002-811e-079d5e75c8d9")
+		)
+		(pin "13"
+			(uuid "b1f8c12d-d750-4f75-bb1c-4fe0b0ba9054")
+		)
+		(pin "14"
+			(uuid "1ae36c12-1116-4c87-8aa0-0ed82617667c")
+		)
+		(pin "15"
+			(uuid "03f16fc8-6dd8-487a-b31d-bd0c9d9c2de8")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 15)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 172.72 106.68 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d22fe1a7-c1a1-4851-bf33-7aa3840b73fc")
+		(property "Reference" "X2"
+			(at 173.99 107.442 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 170.18 105.283 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C75754"
+			(at 173.99 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c91c69a3-cc8c-42c8-89d9-4891d7e35276")
+		)
+		(pin "1"
+			(uuid "8dc092be-6b40-4ef0-95af-cd3be509c2ef")
+		)
+		(pin "3"
+			(uuid "107df125-05d1-494b-b1aa-eb443698ae15")
+		)
+		(pin "4"
+			(uuid "46047679-efd6-4ba6-b36a-ca1754e56ac9")
+		)
+		(pin "5"
+			(uuid "fc809a85-d791-466e-87d0-02ef2a978211")
+		)
+		(pin "6"
+			(uuid "e0eaaacd-5882-4885-a78a-eb3f4e9c5f06")
+		)
+		(pin "7"
+			(uuid "c59c15b0-5f4c-46f1-a94b-f287d98de1da")
+		)
+		(pin "8"
+			(uuid "305fda7d-32a7-47c4-85ec-e59d9f97102d")
+		)
+		(pin "9"
+			(uuid "ece7d9cd-ae8d-4269-b6c9-bdf69eab2ec3")
+		)
+		(pin "10"
+			(uuid "d8af7ced-5b5b-4306-b2d9-493d827fbda1")
+		)
+		(pin "11"
+			(uuid "4da978e9-7bb4-4c6c-99ca-9c3c5b146008")
+		)
+		(pin "12"
+			(uuid "51f2e974-e529-41bb-b1d1-7c41d42e3a2e")
+		)
+		(pin "13"
+			(uuid "d6ad22e8-79ce-45d7-b6eb-06a746d2c493")
+		)
+		(pin "14"
+			(uuid "387e22df-7147-44e6-8299-c05219a07e64")
+		)
+		(pin "15"
+			(uuid "bc8a0ea1-8e0d-4cdb-b6f4-85cf37f82667")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X2")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 93.98 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3656b6a-3280-459d-9cac-1496ca0d3892")
+		(property "Reference" "X3"
+			(at 209.55 94.742 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 92.583 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1d14a18-0810-45e6-9395-251c0dba5b6e")
+		)
+		(pin "1"
+			(uuid "b6ba310c-c160-40ed-85f7-5bf8bab20465")
+		)
+		(pin "3"
+			(uuid "1099ef52-6900-47cb-8c8f-eab54edeae11")
+		)
+		(pin "4"
+			(uuid "54ed1654-9ef2-440a-a9f0-aa8217f8ebde")
+		)
+		(pin "5"
+			(uuid "6e88fc7f-a680-4ffb-80bd-be5470468bbf")
+		)
+		(pin "6"
+			(uuid "6bd3f783-542b-455d-8b6c-371f6b3a54d7")
+		)
+		(pin "7"
+			(uuid "e6ecc5de-2f88-4478-8a2f-d48306b92f01")
+		)
+		(pin "8"
+			(uuid "b8b22ec9-9408-4ca3-9cf4-f1bdbaeccba3")
+		)
+		(pin "9"
+			(uuid "96b5f2d3-c49f-4db8-bb14-c4e48d967007")
+		)
+		(pin "10"
+			(uuid "d65bcc12-df2f-44ed-a798-040fab5c6ec5")
+		)
+		(pin "11"
+			(uuid "3d6dfa14-0e4a-4d1f-8c2f-339aef23e46f")
+		)
+		(pin "12"
+			(uuid "cc37ed44-fdf7-47ad-bc7e-893d1ba9f96b")
+		)
+		(pin "13"
+			(uuid "fdb6961f-b34b-4c27-9530-0d532f849a20")
+		)
+		(pin "14"
+			(uuid "7447b464-6f04-4eba-b3db-5d607f1f881e")
+		)
+		(pin "15"
+			(uuid "623ecc8b-48bd-4ae9-818b-d249b011667d")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 111.76 0)
+		(unit 9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d64c51b2-8729-44ba-ad2d-6fc47959078e")
+		(property "Reference" "X3"
+			(at 209.55 112.522 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 110.363 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1db6eada-a453-4ea9-93e9-99e7d5f7acb5")
+		)
+		(pin "1"
+			(uuid "2a1e92fd-e7b5-4f84-9b74-95be6035cc7e")
+		)
+		(pin "3"
+			(uuid "c20b6085-863c-42d9-9d79-0e52a7e6845b")
+		)
+		(pin "4"
+			(uuid "65824af7-003f-42fb-a8d5-db04aea9c7e8")
+		)
+		(pin "5"
+			(uuid "7fd7326f-422c-4997-abbf-a90c3d7676fb")
+		)
+		(pin "6"
+			(uuid "a3205568-e809-4d90-8b20-19b6b75ce0b2")
+		)
+		(pin "7"
+			(uuid "1bb40707-cbcf-497f-a5bf-36a152218912")
+		)
+		(pin "8"
+			(uuid "804cffa6-920b-497a-a22c-799f09a7f938")
+		)
+		(pin "9"
+			(uuid "49ac9541-c593-481e-8b82-dd1fd250e369")
+		)
+		(pin "10"
+			(uuid "a6a46f10-6cfa-4af3-ab1e-f3ce1805a3d7")
+		)
+		(pin "11"
+			(uuid "3ac6764e-27b2-4c42-8a7a-b5c7ab779908")
+		)
+		(pin "12"
+			(uuid "0a11d77a-5e49-4d6c-be4b-1d2c35dd1cab")
+		)
+		(pin "13"
+			(uuid "cf2701d7-9cf9-4810-a320-87a57c4252e4")
+		)
+		(pin "14"
+			(uuid "5a19b5f4-0cdc-4e2a-a850-acc7f78d1f56")
+		)
+		(pin "15"
+			(uuid "e9b995fe-1488-48cf-baf1-719093a7bded")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 9)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 106.68 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d96d2ba2-8a1f-4e18-b34e-e751ce3fa8f7")
+		(property "Reference" "X7"
+			(at 228.6 107.442 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 105.283 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c91c69a3-cc8c-42c8-89d9-4891d7e35277")
+		)
+		(pin "1"
+			(uuid "8dc092be-6b40-4ef0-95af-cd3be509c2f0")
+		)
+		(pin "3"
+			(uuid "107df125-05d1-494b-b1aa-eb443698ae16")
+		)
+		(pin "4"
+			(uuid "46047679-efd6-4ba6-b36a-ca1754e56aca")
+		)
+		(pin "5"
+			(uuid "fc809a85-d791-466e-87d0-02ef2a978212")
+		)
+		(pin "6"
+			(uuid "e0eaaacd-5882-4885-a78a-eb3f4e9c5f07")
+		)
+		(pin "7"
+			(uuid "ee853fec-5140-499f-a5ca-fb28e78fa683")
+		)
+		(pin "8"
+			(uuid "305fda7d-32a7-47c4-85ec-e59d9f97102e")
+		)
+		(pin "9"
+			(uuid "ece7d9cd-ae8d-4269-b6c9-bdf69eab2ec4")
+		)
+		(pin "10"
+			(uuid "d8af7ced-5b5b-4306-b2d9-493d827fbda2")
+		)
+		(pin "11"
+			(uuid "4da978e9-7bb4-4c6c-99ca-9c3c5b146009")
+		)
+		(pin "12"
+			(uuid "51f2e974-e529-41bb-b1d1-7c41d42e3a2f")
+		)
+		(pin "13"
+			(uuid "d6ad22e8-79ce-45d7-b6eb-06a746d2c494")
+		)
+		(pin "14"
+			(uuid "387e22df-7147-44e6-8299-c05219a07e65")
+		)
+		(pin "15"
+			(uuid "bc8a0ea1-8e0d-4cdb-b6f4-85cf37f82668")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 127 0)
+		(unit 15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e24e2257-9b34-4e20-be58-d3f17d84694c")
+		(property "Reference" "X7"
+			(at 228.6 127.762 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 125.603 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 127.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9638a8d-1078-48f3-88ed-9ba89bd40868")
+		)
+		(pin "1"
+			(uuid "d8bc58f3-447d-4f5c-aa30-e846e77ed4a2")
+		)
+		(pin "3"
+			(uuid "1874a9da-6ae4-49ab-b3f4-f41c15987668")
+		)
+		(pin "4"
+			(uuid "a6ea3270-ec24-4cd6-88fe-3544b3ac9db5")
+		)
+		(pin "5"
+			(uuid "69331b73-fca5-4520-8f55-5531fb0ea5c2")
+		)
+		(pin "6"
+			(uuid "ee9ca45f-67ec-402f-8b30-7a8d652a1757")
+		)
+		(pin "7"
+			(uuid "9818b0e9-a0a0-4319-a0a6-4ce726305be3")
+		)
+		(pin "8"
+			(uuid "629ed917-8204-40a3-b404-56ddc35d7a8e")
+		)
+		(pin "9"
+			(uuid "1e0c9914-8e34-4c58-9132-b8b37bb71238")
+		)
+		(pin "10"
+			(uuid "c52c3d23-d261-4af4-8fa9-38be494e9349")
+		)
+		(pin "11"
+			(uuid "e0b200f3-f63f-4f3d-925c-618a3ea327dc")
+		)
+		(pin "12"
+			(uuid "eb4994c0-ea98-4002-811e-079d5e75c8da")
+		)
+		(pin "13"
+			(uuid "b1f8c12d-d750-4f75-bb1c-4fe0b0ba9055")
+		)
+		(pin "14"
+			(uuid "1ae36c12-1116-4c87-8aa0-0ed82617667d")
+		)
+		(pin "15"
+			(uuid "441f70cc-4862-4620-87b3-06690c23f426")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 15)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 104.14 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7da13f2-3afa-4597-b9b0-341e6f985607")
+		(property "Reference" "X3"
+			(at 209.55 104.902 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 102.743 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a87849a-9fa6-47c8-88cb-7475c32b67fd")
+		)
+		(pin "1"
+			(uuid "e5b381b8-f87e-42dc-a319-df0cfefa551c")
+		)
+		(pin "3"
+			(uuid "fdc6ffb6-2141-49d4-ab7e-a516aa471838")
+		)
+		(pin "4"
+			(uuid "3cfbcb3f-c1ca-4439-a5e5-70b61034ce79")
+		)
+		(pin "5"
+			(uuid "6d5b8178-8654-4f3e-90a9-bbdda38b3aef")
+		)
+		(pin "6"
+			(uuid "62b0b5c8-7765-4763-8642-c1dc6e500f93")
+		)
+		(pin "7"
+			(uuid "cfc988e3-69f9-4cc5-8ecf-165a62a84408")
+		)
+		(pin "8"
+			(uuid "b425e5e3-4f88-4731-9ba9-26deb11a2a09")
+		)
+		(pin "9"
+			(uuid "c1e1884d-5ce7-4a87-ae09-9c1ad818dfef")
+		)
+		(pin "10"
+			(uuid "54739c33-36b9-4c78-8c24-98a4186fcaf7")
+		)
+		(pin "11"
+			(uuid "e3eb6210-5c99-4e82-b4fb-45c49c40bdfb")
+		)
+		(pin "12"
+			(uuid "be5a0a07-069c-40a1-a6e2-0e87191af398")
+		)
+		(pin "13"
+			(uuid "0de6edbb-1207-4f24-b955-c91572e9c90b")
+		)
+		(pin "14"
+			(uuid "633e80e3-ddcb-4ba4-b8b1-c0814284e171")
+		)
+		(pin "15"
+			(uuid "7db89d0e-23f3-45ad-9071-06080dec49a2")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 114.3 0)
+		(unit 10)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e87e7edc-6ad8-4752-b68f-0abb98e248ae")
+		(property "Reference" "X7"
+			(at 228.6 115.062 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 112.903 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "422ba16b-d846-4dd4-9826-2f3bb9e21710")
+		)
+		(pin "1"
+			(uuid "4a8265c4-a083-4cdc-97e7-78ad2350c6c9")
+		)
+		(pin "3"
+			(uuid "1addab1a-d220-444d-b57c-eea33e751119")
+		)
+		(pin "4"
+			(uuid "a05127f5-f7f2-4c82-bda8-ab33ad185d7c")
+		)
+		(pin "5"
+			(uuid "07f9be17-7925-4c27-8318-860d3858378d")
+		)
+		(pin "6"
+			(uuid "204c3d89-6f43-4299-a789-ed0bc9e6e75c")
+		)
+		(pin "7"
+			(uuid "73d5afe4-ca19-470e-ac54-3820040e8fa0")
+		)
+		(pin "8"
+			(uuid "c3920de0-661a-4f3b-9e62-114aaa37ced4")
+		)
+		(pin "9"
+			(uuid "3ac38102-a0c5-4b48-939e-548ca5f52712")
+		)
+		(pin "10"
+			(uuid "531db321-38bc-4885-a1ef-0bad055a2163")
+		)
+		(pin "11"
+			(uuid "a33819a9-90f9-4e5c-81dc-4509aedc0fd2")
+		)
+		(pin "12"
+			(uuid "d33fb062-0a80-4de1-bc8a-1c51ea8cfefe")
+		)
+		(pin "13"
+			(uuid "b3b7fa7c-01bb-43d2-86a0-b50ae581f921")
+		)
+		(pin "14"
+			(uuid "fa36572c-6ede-4428-a0cf-c4b57f154874")
+		)
+		(pin "15"
+			(uuid "58fe398c-e816-4643-9183-ff68b3028c24")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 10)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 101.6 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9904c9e-63d7-4462-954a-98f0c81076d3")
+		(property "Reference" "X7"
+			(at 228.6 102.362 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 100.203 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b875403b-1a72-4be3-a9b8-c18db79a1b31")
+		)
+		(pin "2"
+			(uuid "35344de6-5fd8-48e4-9063-5ab073735e98")
+		)
+		(pin "3"
+			(uuid "bcc12133-fea7-4048-882d-c264a5d8341a")
+		)
+		(pin "4"
+			(uuid "af98cda2-c4bb-46ec-9a73-45a8d1b51ad4")
+		)
+		(pin "5"
+			(uuid "7a815c63-1ff5-4c6c-9d10-5d5222802815")
+		)
+		(pin "6"
+			(uuid "f72381fd-e488-46b6-bfb8-f5562e010504")
+		)
+		(pin "7"
+			(uuid "d2b03e82-e09d-4693-9bfc-de569683db50")
+		)
+		(pin "8"
+			(uuid "44a11aff-49c0-4c06-bbb1-579f92aaf5d3")
+		)
+		(pin "9"
+			(uuid "13a6a70d-6a63-44af-8bc7-0e9b2e84b354")
+		)
+		(pin "10"
+			(uuid "ee910f86-32fa-447f-8d18-9ebf1c22e6e7")
+		)
+		(pin "11"
+			(uuid "1465cc8e-82e4-4de7-b3c0-9b662d46bdbc")
+		)
+		(pin "12"
+			(uuid "297c6aa2-bbe1-48af-9a73-4abba0b15b35")
+		)
+		(pin "13"
+			(uuid "72b276ba-470d-4309-bdf4-ab0bb9314e8b")
+		)
+		(pin "14"
+			(uuid "dc01682c-fab8-43a3-b85c-f2a4c736ca2f")
+		)
+		(pin "15"
+			(uuid "0d1928db-9fdf-4950-bac6-a4b9dbf544e9")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 104.14 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9bdfdca-3aec-4baa-b7df-9c188a15093b")
+		(property "Reference" "X1"
+			(at 191.77 104.902 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 102.743 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a87849a-9fa6-47c8-88cb-7475c32b67fe")
+		)
+		(pin "1"
+			(uuid "e5b381b8-f87e-42dc-a319-df0cfefa551d")
+		)
+		(pin "3"
+			(uuid "fdc6ffb6-2141-49d4-ab7e-a516aa471839")
+		)
+		(pin "4"
+			(uuid "3cfbcb3f-c1ca-4439-a5e5-70b61034ce7a")
+		)
+		(pin "5"
+			(uuid "6d5b8178-8654-4f3e-90a9-bbdda38b3af0")
+		)
+		(pin "6"
+			(uuid "4fb7c1e5-b759-432a-9a04-cecb8dae2ff1")
+		)
+		(pin "7"
+			(uuid "cfc988e3-69f9-4cc5-8ecf-165a62a84409")
+		)
+		(pin "8"
+			(uuid "b425e5e3-4f88-4731-9ba9-26deb11a2a0a")
+		)
+		(pin "9"
+			(uuid "c1e1884d-5ce7-4a87-ae09-9c1ad818dff0")
+		)
+		(pin "10"
+			(uuid "54739c33-36b9-4c78-8c24-98a4186fcaf8")
+		)
+		(pin "11"
+			(uuid "e3eb6210-5c99-4e82-b4fb-45c49c40bdfc")
+		)
+		(pin "12"
+			(uuid "be5a0a07-069c-40a1-a6e2-0e87191af399")
+		)
+		(pin "13"
+			(uuid "0de6edbb-1207-4f24-b955-c91572e9c90c")
+		)
+		(pin "14"
+			(uuid "633e80e3-ddcb-4ba4-b8b1-c0814284e172")
+		)
+		(pin "15"
+			(uuid "7db89d0e-23f3-45ad-9071-06080dec49a3")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 109.22 0)
+		(unit 8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef2879e5-3943-4279-98a9-e3451f449b05")
+		(property "Reference" "X7"
+			(at 228.6 109.982 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 107.823 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2b5b52ec-bacd-468f-b02d-b101e23be237")
+		)
+		(pin "1"
+			(uuid "884e1424-5781-4c5d-962a-b2b0f6b79e91")
+		)
+		(pin "3"
+			(uuid "a9d908c1-5ba5-4e28-acc5-df6dc4491440")
+		)
+		(pin "4"
+			(uuid "ef5ce56a-8591-4036-9e16-5c06e0d4f383")
+		)
+		(pin "5"
+			(uuid "0406296a-17f1-418e-93b9-60b427235bfb")
+		)
+		(pin "6"
+			(uuid "414ff6a9-b528-444c-a449-99278d3d9c2d")
+		)
+		(pin "7"
+			(uuid "3ca2acdc-00f1-42a9-83e9-153c9391afb9")
+		)
+		(pin "8"
+			(uuid "41eda761-69e2-4448-be2a-792b5e2bfca0")
+		)
+		(pin "9"
+			(uuid "87983808-7c80-486e-8f2b-5acef4117b1a")
+		)
+		(pin "10"
+			(uuid "5d4e3383-2f1d-49ff-9a53-329ed79c69b7")
+		)
+		(pin "11"
+			(uuid "9fce6ac6-8aaa-45ca-a73c-436fa9c15543")
+		)
+		(pin "12"
+			(uuid "fb5fbf07-811f-4995-a3d7-0c496cd0237b")
+		)
+		(pin "13"
+			(uuid "18d1a193-2634-4b39-84eb-14a121e5c743")
+		)
+		(pin "14"
+			(uuid "84e64b11-0529-481c-a1cd-46114de511d0")
+		)
+		(pin "15"
+			(uuid "f6cf500e-9afe-4e6b-9cdc-c02a0cae2560")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 190.5 116.84 0)
+		(unit 11)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1bbcae5-bce1-4589-9ca5-fbed4a1ac5df")
+		(property "Reference" "X1"
+			(at 191.77 117.602 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 187.96 115.443 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C225757"
+			(at 191.77 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73c911bc-3f71-488d-8483-22c8c801520f")
+		)
+		(pin "1"
+			(uuid "54ff00bc-c9ce-4215-8729-16f46947d1a7")
+		)
+		(pin "3"
+			(uuid "077ad450-4127-4cf5-8aa7-c0ceb1016b52")
+		)
+		(pin "4"
+			(uuid "067ad7b4-75c8-4891-873c-62b2903b63ce")
+		)
+		(pin "5"
+			(uuid "1d7d8420-7923-48bc-99e8-59062d65b92b")
+		)
+		(pin "6"
+			(uuid "ac010462-3877-4e22-b865-6dd593447569")
+		)
+		(pin "7"
+			(uuid "12e8678b-8cb4-43c6-b141-ffdd6668366d")
+		)
+		(pin "8"
+			(uuid "d9982183-e192-426f-ab1c-074d95b43d25")
+		)
+		(pin "9"
+			(uuid "92909c3c-62af-48a2-9dd4-d0cad4d7c546")
+		)
+		(pin "10"
+			(uuid "a7d78e50-5338-4dc7-b601-87818f5dc7df")
+		)
+		(pin "11"
+			(uuid "b2afa9fb-b7ea-4dcd-acdf-ea3c00ffb984")
+		)
+		(pin "12"
+			(uuid "4c739741-50b5-40ed-b0ff-129abdd8f80d")
+		)
+		(pin "13"
+			(uuid "8b525a6d-1f54-4526-b4fb-e96b17e6f845")
+		)
+		(pin "14"
+			(uuid "88f2ffae-b739-4059-8e9c-d78edc586535")
+		)
+		(pin "15"
+			(uuid "03133552-6218-4c8f-859d-df382b81dbf5")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X1")
+					(unit 11)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:1503_09")
+		(at 129.54 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f43a0600-994e-4d98-a5e2-7f84c1cfd377")
+		(property "Reference" "X4"
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1503_09"
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "cbm_ultipet_v1:1503_09"
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2da74c19-9595-4587-a054-0fd94db0f01f")
+		)
+		(pin "3"
+			(uuid "5a2338e4-9510-44b5-904e-79c651546f6b")
+		)
+		(pin "1"
+			(uuid "b5f4ce65-625b-4da8-8366-ff3716e3cdda")
+		)
+		(pin "4"
+			(uuid "ce3a150b-9056-4cef-94e0-f4c9ed8876e1")
+		)
+		(pin "5"
+			(uuid "1f9497c4-f90e-43f3-9af8-fc54b09814a4")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 208.28 121.92 0)
+		(unit 13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5dea046-11c5-4cc3-bbf9-940354304b0b")
+		(property "Reference" "X3"
+			(at 209.55 122.682 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 205.74 120.523 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138387"
+			(at 209.55 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7a332e9-4fd5-42a9-b082-959c697e93be")
+		)
+		(pin "1"
+			(uuid "0849b3cb-e279-49b4-9e36-f999a8b8d9fe")
+		)
+		(pin "3"
+			(uuid "ee8b590d-c288-4c0f-8197-17937d26bbf0")
+		)
+		(pin "4"
+			(uuid "4efde384-f14a-4321-9977-39a8e0dd7935")
+		)
+		(pin "5"
+			(uuid "57fc904d-0c2e-4edb-8514-a6198361a90f")
+		)
+		(pin "6"
+			(uuid "34de3fcc-0a06-444a-a302-e1f6ea753d1d")
+		)
+		(pin "7"
+			(uuid "bc977fac-c634-4798-9047-cf3d8fc150ac")
+		)
+		(pin "8"
+			(uuid "1bbb522c-5b77-450f-840b-c88c2736b96e")
+		)
+		(pin "9"
+			(uuid "8cc08a0c-059f-406b-8b65-14d66c239f29")
+		)
+		(pin "10"
+			(uuid "c90df36e-12d0-4477-bf40-f60a5e2e93cd")
+		)
+		(pin "11"
+			(uuid "fe3fa896-1eca-480b-b0d6-cdeea8c1e079")
+		)
+		(pin "12"
+			(uuid "591bdad6-b22c-405c-be43-102435c63fc2")
+		)
+		(pin "13"
+			(uuid "158c2d31-8c7f-4663-a90c-35ed76ef560f")
+		)
+		(pin "14"
+			(uuid "46d5ebad-8593-41d8-988c-62a88e4d728e")
+		)
+		(pin "15"
+			(uuid "012670c3-f005-4df5-85e1-b2ca68109d9b")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X3")
+					(unit 13)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f68ac502-6d32-4f49-90c4-36a69cfe6bb3")
+		(property "Reference" "X7"
+			(at 228.6 92.202 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 90.043 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f8ece7b-29e8-4a95-a678-1641b259f500")
+		)
+		(pin "1"
+			(uuid "bb128480-291a-4799-9d6a-4e00958f5308")
+		)
+		(pin "3"
+			(uuid "b2b3ddc0-c4ed-4983-9d24-a37f02b7db2b")
+		)
+		(pin "4"
+			(uuid "55f4a656-29ad-4ec5-9c1e-b1af43cc7154")
+		)
+		(pin "5"
+			(uuid "67d1a9e1-ecd3-4557-a961-7ffee19fcf6d")
+		)
+		(pin "6"
+			(uuid "67f6ef10-75c5-419f-bf0f-007c52ca1795")
+		)
+		(pin "7"
+			(uuid "b1cf4b58-4ac7-41e7-80ed-d96b23d349a0")
+		)
+		(pin "8"
+			(uuid "a24e923f-9b46-4db6-82f5-b74dc41cde53")
+		)
+		(pin "9"
+			(uuid "e25f7f97-6efa-4ad2-a893-ca100ef4f5f1")
+		)
+		(pin "10"
+			(uuid "b7108293-3d82-4af0-b835-3e31572ab574")
+		)
+		(pin "11"
+			(uuid "84477b3c-58a7-4948-9e59-b26ca9c90289")
+		)
+		(pin "12"
+			(uuid "7699f8b6-bb43-4ab6-9cb9-ba431178cc6f")
+		)
+		(pin "13"
+			(uuid "366edcdb-6ee9-49f2-abed-e9ff7c2ab257")
+		)
+		(pin "14"
+			(uuid "77e2715d-13ac-4152-81d0-0b1f8a33f903")
+		)
+		(pin "15"
+			(uuid "51e5f7f9-99b7-425f-a7ca-ca55889d45a4")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:D-SUB15-HDR15RA")
+		(at 227.33 111.76 0)
+		(unit 9)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7d76013-b550-4555-9e09-b90ef7ac58fa")
+		(property "Reference" "X7"
+			(at 228.6 112.522 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "D-SUB15-HDR15RA"
+			(at 224.79 110.363 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm"
+			(at 227.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C379814"
+			(at 228.6 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1db6eada-a453-4ea9-93e9-99e7d5f7acb6")
+		)
+		(pin "1"
+			(uuid "2a1e92fd-e7b5-4f84-9b74-95be6035cc7f")
+		)
+		(pin "3"
+			(uuid "c20b6085-863c-42d9-9d79-0e52a7e6845c")
+		)
+		(pin "4"
+			(uuid "65824af7-003f-42fb-a8d5-db04aea9c7e9")
+		)
+		(pin "5"
+			(uuid "7fd7326f-422c-4997-abbf-a90c3d7676fc")
+		)
+		(pin "6"
+			(uuid "a3205568-e809-4d90-8b20-19b6b75ce0b3")
+		)
+		(pin "7"
+			(uuid "1bb40707-cbcf-497f-a5bf-36a152218913")
+		)
+		(pin "8"
+			(uuid "804cffa6-920b-497a-a22c-799f09a7f939")
+		)
+		(pin "9"
+			(uuid "e0ae003b-6c47-49ea-bd68-e25caef53aff")
+		)
+		(pin "10"
+			(uuid "a6a46f10-6cfa-4af3-ab1e-f3ce1805a3d8")
+		)
+		(pin "11"
+			(uuid "3ac6764e-27b2-4c42-8a7a-b5c7ab779909")
+		)
+		(pin "12"
+			(uuid "0a11d77a-5e49-4d6c-be4b-1d2c35dd1cac")
+		)
+		(pin "13"
+			(uuid "cf2701d7-9cf9-4810-a320-87a57c4252e5")
+		)
+		(pin "14"
+			(uuid "5a19b5f4-0cdc-4e2a-a850-acc7f78d1f57")
+		)
+		(pin "15"
+			(uuid "e9b995fe-1488-48cf-baf1-719093a7bdee")
+		)
+		(instances
+			(project "FootprintTest"
+				(path "/f9e1d292-8490-4108-87bc-0ce2e9be72ff"
+					(reference "X7")
+					(unit 9)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

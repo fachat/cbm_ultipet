@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,HDMI_A,HDMI_A_Molex_208658-1001_Horizontal,135.128,-87.472,90.0,top
+J2,Conn_02x06_Odd_Even,IDC-Header_2x06_P2.54mm_Vertical,152.9175,-95.25,0.0,top
+JP1,Jumper_2_Open,PinHeader_1x02_P2.54mm_Vertical,121.666,-96.774,180.0,top
+P11,~,PinHeader_2x06_P2.54mm_Vertical,135.641,-103.994,180.0,top

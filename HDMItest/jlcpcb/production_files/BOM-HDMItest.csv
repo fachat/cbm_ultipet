@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC,Quantity
+HDMI_A,J1,HDMI_A_Molex_208658-1001_Horizontal,C138388,1
+Jumper_2_Open,JP1,PinHeader_1x02_P2.54mm_Vertical,C225477,1
+Conn_02x06_Odd_Even,J2,IDC-Header_2x06_P2.54mm_Vertical,C9136,1
+~,P11,PinHeader_2x06_P2.54mm_Vertical,,1

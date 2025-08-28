@@ -1,0 +1,12 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+USB1,USB-A-H,USB-A-H,197.5866,-95.81515,-90.0,top
+USB2,USB-A-H,USB-A-H_14mm_Distance,141.3002,-95.81515,-90.0,top
+USB3,USB-A-H,USB-A-H,123.6091,-95.81515,-90.0,top
+X1,D-SUB15-HDR15RA,DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm,189.3212,-110.495,0.0,top
+X2,D-SUB15-HDR15RA,DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm,124.2504,-104.4448,0.0,top
+X3,D-SUB15-HDR15RA,DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm,156.594,-104.4194,0.0,top
+X4,1503_09,1503_09,182.347,-92.1652,0.0,top
+X5,1503_09,Korean_PJ-3240-5A,156.6556,-91.8312,0.0,top
+X6,1503_09,Korean_PJ-3240-5A,169.5138,-91.9164,0.0,top
+X7,D-SUB15-HDR15RA,DSUB-15-HD_Socket_Horizontal_P2.29x2.54mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm,222.069,-104.648,0.0,top
+X8,1503_09,Jack_3.5mm_PJ320E_Horizontal,211.9402,-91.1524,0.0,top
