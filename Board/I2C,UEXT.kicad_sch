@@ -9,22 +9,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J7"
-				(at 2.1941 13.97 0)
+			(property "Reference" "J"
+				(at 5.08 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "UEXT_Host"
-				(at 2.1941 11.43 0)
+				(at 6.35 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -37,7 +35,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.olimex.com/Products/Modules/UEXT/resources/UEXT_rev_B.pdf"
-				(at -2.794 -14.224 0)
+				(at -3.81 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -46,7 +44,7 @@
 				)
 			)
 			(property "Description" "Universal EXTension (UEXT) is a connector layout which includes power and three serial buses: Asynchronous, I2C, and SPI"
-				(at 0 -17.272 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -102,7 +100,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 12.7 -2.54 180)
 					(length 3.81)
 					(name "~{SSEL}"
@@ -138,7 +136,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -12.7 5.08 0)
 					(length 3.81)
 					(name "TXD"
@@ -156,7 +154,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at -12.7 2.54 0)
 					(length 3.81)
 					(name "RXD"
@@ -174,7 +172,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -12.7 -5.08 0)
 					(length 3.81)
 					(name "SCL"
@@ -246,7 +244,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 12.7 0 180)
 					(length 3.81)
 					(name "SCK"

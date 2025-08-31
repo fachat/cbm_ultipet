@@ -5,6 +5,262 @@
 	(uuid "ecb58b20-bb2a-4db5-a1b4-bb3486d55723")
 	(paper "User" 586.283 398.932)
 	(lib_symbols
+		(symbol "Jumper:SolderJumper_3_Bridged12"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged12*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_0_1"
+				(rectangle
+					(start -1.016 0.508)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "cbm_ultipet_v1-eagle-import:-NPN-TO92"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -13292,10 +13548,22 @@
 		(uuid "1ee6550e-c509-488d-a1d1-6c2f334adf80")
 	)
 	(junction
+		(at 152.4 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f7a4b57-b966-4122-b1ed-6b681708c975")
+	)
+	(junction
 		(at 109.22 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f84173a-cc3c-47b2-b863-456e93f5f7ec")
+	)
+	(junction
+		(at 165.1 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "209369fd-130d-4df0-953b-8061a180b96a")
 	)
 	(junction
 		(at 461.01 208.28)
@@ -16382,13 +16650,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 187.96) (xy 187.96 187.96)
+			(xy 152.4 228.6) (xy 154.94 228.6)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "165a6584-a66a-46ad-b522-e0d19ec58166")
+		(uuid "155834a9-281d-4c8d-9eee-e16fa7948228")
 	)
 	(wire
 		(pts
@@ -16629,6 +16897,16 @@
 			(type solid)
 		)
 		(uuid "19d96e96-7a31-4d2d-9979-393a7ccc507c")
+	)
+	(wire
+		(pts
+			(xy 187.96 114.3) (xy 187.96 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae009c5-2222-427b-bc8c-a05b01e307f5")
 	)
 	(wire
 		(pts
@@ -17182,7 +17460,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 149.86) (xy 256.54 149.86)
+			(xy 248.92 153.67) (xy 256.54 153.67)
 		)
 		(stroke
 			(width 0.1524)
@@ -17472,6 +17750,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 187.96) (xy 238.76 187.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ea44144-80ac-4047-a1c6-c6283e1b4e44")
+	)
+	(wire
+		(pts
 			(xy 205.74 281.94) (xy 205.74 271.78)
 		)
 		(stroke
@@ -17620,6 +17908,16 @@
 		)
 		(uuid "329f01b5-35ac-4d7c-ab64-9e86a4acf3a6")
 	)
+	(wire
+		(pts
+			(xy 109.22 226.06) (xy 109.22 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33770967-1352-46f3-8c88-be699bb410cb")
+	)
 	(bus
 		(pts
 			(xy 137.16 246.38) (xy 132.08 246.38)
@@ -17669,16 +17967,6 @@
 			(type solid)
 		)
 		(uuid "33da7b9d-fb33-4c19-944e-31ebc7b71dd2")
-	)
-	(wire
-		(pts
-			(xy 149.86 203.2) (xy 149.86 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3485039a-542a-4458-a223-d3a424067408")
 	)
 	(wire
 		(pts
@@ -17909,16 +18197,6 @@
 			(type solid)
 		)
 		(uuid "3a58b8aa-8ed1-4697-8d18-be463d2c82e2")
-	)
-	(wire
-		(pts
-			(xy 154.94 180.34) (xy 238.76 180.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3a6a1029-a004-4621-a41f-91372b07a08a")
 	)
 	(wire
 		(pts
@@ -18292,7 +18570,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 210.82) (xy 147.32 210.82)
+			(xy 139.7 210.82) (xy 144.78 210.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -19012,16 +19290,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 182.88) (xy 238.76 182.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5496be49-ce67-4363-bee4-7e1fa79a4bda")
-	)
-	(wire
-		(pts
 			(xy 99.06 203.2) (xy 99.06 180.34)
 		)
 		(stroke
@@ -19029,16 +19297,6 @@
 			(type solid)
 		)
 		(uuid "54e4e78a-1cd9-4733-9392-6231e0af9452")
-	)
-	(wire
-		(pts
-			(xy 91.44 208.28) (xy 91.44 226.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "54e7e349-36c6-4d33-8d20-5ff91c1900b8")
 	)
 	(wire
 		(pts
@@ -19222,7 +19480,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 182.88) (xy 154.94 182.88)
+			(xy 139.7 182.88) (xy 165.1 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -19302,7 +19560,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 177.8) (xy 142.24 177.8)
+			(xy 139.7 177.8) (xy 166.37 177.8)
 		)
 		(stroke
 			(width 0)
@@ -20172,16 +20430,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 180.34) (xy 152.4 170.18)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "706bf0d5-8cdf-4e7b-862e-dc15a849451f")
-	)
-	(wire
-		(pts
 			(xy 226.06 81.28) (xy 226.06 104.14)
 		)
 		(stroke
@@ -20202,13 +20450,23 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 27.94) (xy 355.6 27.94)
+			(xy 154.94 199.39) (xy 154.94 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a754bd-3741-4f86-a51d-113877cfe80b")
+	)
+	(wire
+		(pts
+			(xy 166.37 180.34) (xy 152.4 180.34)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "71217c69-73d2-4c64-adec-5d2cb373e047")
+		(uuid "71e00109-daa8-4280-a1c3-f757081293db")
 	)
 	(wire
 		(pts
@@ -20822,7 +21080,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 190.5) (xy 157.48 190.5)
+			(xy 139.7 190.5) (xy 166.37 190.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -21132,16 +21390,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 198.12) (xy 195.58 187.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "874cbdc5-dfa5-4a0e-b6c6-dc6b83edaa8d")
-	)
-	(wire
-		(pts
 			(xy 121.92 114.3) (xy 121.92 73.66)
 		)
 		(stroke
@@ -21279,16 +21527,6 @@
 			(type solid)
 		)
 		(uuid "8a43fdea-7b6a-42da-bec1-ad8d612f358a")
-	)
-	(wire
-		(pts
-			(xy 162.56 114.3) (xy 187.96 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8a5eabf7-6888-44cb-b9cf-b29ce83f6ce7")
 	)
 	(wire
 		(pts
@@ -21459,6 +21697,16 @@
 			(type solid)
 		)
 		(uuid "8fe82446-525d-4484-9818-cf27c262ae4e")
+	)
+	(wire
+		(pts
+			(xy 111.76 226.06) (xy 109.22 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ffebfd8-6f40-4b94-a1fe-048ba09fe6e6")
 	)
 	(wire
 		(pts
@@ -22142,6 +22390,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 114.3) (xy 187.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0511cbb-e9ae-4997-ac69-88fc4f08df7f")
+	)
+	(wire
+		(pts
 			(xy 170.18 363.22) (xy 180.34 363.22)
 		)
 		(stroke
@@ -22202,7 +22460,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 114.3) (xy 238.76 180.34)
+			(xy 238.76 114.3) (xy 238.76 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -22362,6 +22620,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 182.88) (xy 238.76 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a8aba8fb-7e21-45ac-a746-37fff21b9136")
+	)
+	(wire
+		(pts
 			(xy 345.44 264.16) (xy 365.76 264.16)
 		)
 		(stroke
@@ -22469,16 +22737,6 @@
 			(type solid)
 		)
 		(uuid "aad99efd-a5f1-4b64-9a51-809fef3d842f")
-	)
-	(wire
-		(pts
-			(xy 157.48 187.96) (xy 157.48 182.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ab3bd5d6-084c-41ff-a239-766e4efa9150")
 	)
 	(wire
 		(pts
@@ -22812,6 +23070,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 185.42) (xy 195.58 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b383b4d0-2424-47a9-9760-c66a8b6ddcff")
+	)
+	(wire
+		(pts
 			(xy 424.18 154.94) (xy 330.2 154.94)
 		)
 		(stroke
@@ -22842,7 +23110,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 104.14) (xy 248.92 149.86)
+			(xy 248.92 104.14) (xy 248.92 153.67)
 		)
 		(stroke
 			(width 0.1524)
@@ -23142,7 +23410,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 149.86) (xy 256.54 152.4)
+			(xy 256.54 153.67) (xy 256.54 157.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -23169,16 +23437,6 @@
 			(type solid)
 		)
 		(uuid "bc3b22bb-ada4-4635-9440-994b3a26ac68")
-	)
-	(wire
-		(pts
-			(xy 139.7 187.96) (xy 157.48 187.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bc597d76-3682-49ef-85d8-b141b7abd3e1")
 	)
 	(wire
 		(pts
@@ -23249,6 +23507,16 @@
 			(type solid)
 		)
 		(uuid "bdd6c178-2189-41b7-b581-a5bee3acf552")
+	)
+	(wire
+		(pts
+			(xy 144.78 199.39) (xy 144.78 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be258107-cf93-4178-9551-7c4a17ba26c2")
 	)
 	(wire
 		(pts
@@ -23562,16 +23830,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 193.04) (xy 111.76 193.04)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c5d2c64a-2c60-4717-b69f-c1b4d1d0e911")
-	)
-	(wire
-		(pts
 			(xy 40.64 53.34) (xy 50.8 53.34)
 		)
 		(stroke
@@ -23630,6 +23888,16 @@
 		)
 		(uuid "c761deb2-200b-40e6-bf3c-f4bc854cc0ea")
 	)
+	(wire
+		(pts
+			(xy 165.1 185.42) (xy 165.1 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c77949b5-8a4f-4b14-85d8-fac85e91a128")
+	)
 	(bus
 		(pts
 			(xy 236.22 200.66) (xy 236.22 203.2)
@@ -23639,6 +23907,16 @@
 			(type solid)
 		)
 		(uuid "c785173e-3e04-4519-b185-a17d9484828a")
+	)
+	(wire
+		(pts
+			(xy 187.96 185.42) (xy 195.58 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78699b9-2d7f-470a-82ec-3a058b1a8174")
 	)
 	(wire
 		(pts
@@ -23752,13 +24030,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 208.28) (xy 91.44 208.28)
+			(xy 55.88 208.28) (xy 106.68 208.28)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "ca84dbb8-4dee-414c-99ed-469d376e8776")
+	)
+	(wire
+		(pts
+			(xy 106.68 193.04) (xy 106.68 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9cb701-2692-4c23-b91f-f50b9bf4eb26")
 	)
 	(wire
 		(pts
@@ -23789,16 +24077,6 @@
 			(type solid)
 		)
 		(uuid "cac95d3b-83aa-4893-8c73-2bd917dee203")
-	)
-	(wire
-		(pts
-			(xy 355.6 30.48) (xy 353.06 30.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cb02a9a0-0156-4577-8528-05817e92990a")
 	)
 	(wire
 		(pts
@@ -24062,6 +24340,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 193.04) (xy 106.68 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24a5c22-922d-4632-a1e0-b2e4d8d95720")
+	)
+	(wire
+		(pts
 			(xy 53.34 152.4) (xy 81.28 152.4)
 		)
 		(stroke
@@ -24212,7 +24500,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 182.88) (xy 238.76 193.04)
+			(xy 238.76 187.96) (xy 238.76 193.04)
 		)
 		(stroke
 			(width 0.1524)
@@ -24402,16 +24690,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 182.88) (xy 154.94 180.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "da89a9b1-7665-4f4e-81c8-f01d05dcdd24")
-	)
-	(wire
-		(pts
 			(xy 297.18 292.1) (xy 320.04 292.1)
 		)
 		(stroke
@@ -24429,6 +24707,16 @@
 			(type default)
 		)
 		(uuid "dacbddff-ee57-4afd-bac3-a8aac806b5a3")
+	)
+	(wire
+		(pts
+			(xy 165.1 185.42) (xy 166.37 185.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dadfeed4-7951-4a64-b21c-6a7fe3598c21")
 	)
 	(wire
 		(pts
@@ -24539,16 +24827,6 @@
 			(type solid)
 		)
 		(uuid "dd8f47ff-be56-4bc5-bc56-91eda3072c91")
-	)
-	(wire
-		(pts
-			(xy 152.4 228.6) (xy 152.4 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "dd994083-ac12-42c1-b11e-9e537234cd22")
 	)
 	(wire
 		(pts
@@ -24972,7 +25250,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 157.48) (xy 256.54 167.64)
+			(xy 256.54 162.56) (xy 256.54 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -25149,16 +25427,6 @@
 			(type solid)
 		)
 		(uuid "ec3e00e0-6952-45f3-8546-b135c87d8f5f")
-	)
-	(wire
-		(pts
-			(xy 91.44 226.06) (xy 111.76 226.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ec5da717-5d34-45ed-bf45-1fe88349186c")
 	)
 	(wire
 		(pts
@@ -25442,6 +25710,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 162.56) (xy 162.56 259.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f3ed17a2-6dcf-4126-a72e-b0d10e2350cc")
+	)
+	(wire
+		(pts
 			(xy 543.56 287.02) (xy 543.56 292.1)
 		)
 		(stroke
@@ -25532,16 +25810,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 187.96) (xy 187.96 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f5942bf4-e871-41d1-b033-63d710552400")
-	)
-	(wire
-		(pts
 			(xy 45.72 271.78) (xy 53.34 271.78)
 		)
 		(stroke
@@ -25619,16 +25887,6 @@
 			(type solid)
 		)
 		(uuid "f7fd5096-6395-48cf-8aa3-877787a72ea6")
-	)
-	(wire
-		(pts
-			(xy 162.56 162.56) (xy 162.56 259.08)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f82b90bf-3060-44e4-978e-dbf9bcdebdf4")
 	)
 	(wire
 		(pts
@@ -25749,16 +26007,6 @@
 			(type default)
 		)
 		(uuid "faff09e9-6095-4358-b644-9999c4ef9e7c")
-	)
-	(wire
-		(pts
-			(xy 147.32 210.82) (xy 147.32 200.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fb1cb465-e0f5-486e-ad08-406627bba6d0")
 	)
 	(wire
 		(pts
@@ -25932,6 +26180,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 170.18) (xy 152.4 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff7b489f-12d1-4661-be66-e84d847bc1a6")
+	)
+	(wire
+		(pts
 			(xy 55.88 182.88) (xy 83.82 182.88)
 		)
 		(stroke
@@ -25984,7 +26242,7 @@
 	)
 	(text "See Userport sheet\nfor Input Multiplex"
 		(exclude_from_sim no)
-		(at 213.36 205.74 90)
+		(at 212.344 218.44 90)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -26006,7 +26264,7 @@
 	)
 	(text "$E8xx/EFxx"
 		(exclude_from_sim no)
-		(at 157.48 208.28 90)
+		(at 152.654 215.646 90)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -26015,9 +26273,9 @@
 		)
 		(uuid "5574d7d3-d221-4913-9982-50835ffa8d72")
 	)
-	(text "1.0B: \n- fix IEEE488 pull up/down resistor values (again)\n1.1A:\n- fully decode PIA addresses\n- replace some discrete Rs with RN7\n- fix 2N2222 footprint for new BOM part\n"
+	(text "1.0B: \n- fix IEEE488 pull up/down resistor values (again)\n1.1A:\n- fully decode PIA addresses\n- replace some discrete Rs with RN7\n- fix 2N2222 footprint for new BOM part\n1.2A:\n- fix addressing 2nd SID by moving BA7 to IC9\n- replace JP8 with a solder jumper (I/O block address)\n- replace 1N4148 with 1N4448 for lower fwd voltage drop"
 		(exclude_from_sim no)
-		(at 321.31 360.68 0)
+		(at 314.706 351.536 0)
 		(effects
 			(font
 				(size 3 3)
@@ -26026,7 +26284,7 @@
 		)
 		(uuid "5bd6af2d-8f7e-4e77-be7f-cd847df00e34")
 	)
-	(text "CBM-ULTIPET-V1.1A"
+	(text "CBM-ULTIPET-V1.2A"
 		(exclude_from_sim no)
 		(at 464.82 340.36 0)
 		(effects
@@ -26037,7 +26295,7 @@
 		)
 		(uuid "5e31792c-2ec3-4ef4-9262-b660a8ceafe2")
 	)
-	(text "CBM-ULTIPET-V1.1A-20240616"
+	(text "CBM-ULTIPET-V1.2A-20241013\n"
 		(exclude_from_sim no)
 		(at 464.82 363.22 0)
 		(effects
@@ -26137,7 +26395,6 @@
 	)
 	(label "DO7"
 		(at 337.82 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26148,7 +26405,6 @@
 	)
 	(label "DEC6"
 		(at 55.88 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26159,7 +26415,6 @@
 	)
 	(label "C1MTR"
 		(at 284.48 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26170,7 +26425,6 @@
 	)
 	(label "DAVOUT"
 		(at 299.72 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26181,7 +26435,6 @@
 	)
 	(label "DEC3"
 		(at 187.96 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -26192,7 +26445,6 @@
 	)
 	(label "C2MTR"
 		(at 238.76 312.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26203,7 +26455,6 @@
 	)
 	(label "KI3"
 		(at 53.34 261.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26214,7 +26465,6 @@
 	)
 	(label "DO3"
 		(at 337.82 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26225,7 +26475,6 @@
 	)
 	(label "{slash}BA2"
 		(at 142.24 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26236,7 +26485,6 @@
 	)
 	(label "/C2MTR"
 		(at 325.12 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26247,7 +26495,6 @@
 	)
 	(label "DEC4"
 		(at 71.12 289.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26258,7 +26505,6 @@
 	)
 	(label "DEC0"
 		(at 195.58 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -26269,7 +26515,6 @@
 	)
 	(label "C1SW"
 		(at 210.82 297.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26280,7 +26525,6 @@
 	)
 	(label "DEC0"
 		(at 71.12 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26291,7 +26535,6 @@
 	)
 	(label "KI6"
 		(at 139.7 243.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26302,7 +26545,6 @@
 	)
 	(label "/SEL2"
 		(at 144.78 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26313,7 +26555,6 @@
 	)
 	(label "C2SW"
 		(at 154.94 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26324,7 +26565,6 @@
 	)
 	(label "{slash}BA2"
 		(at 124.46 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26335,7 +26575,6 @@
 	)
 	(label "DEC1"
 		(at 193.04 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -26346,7 +26585,6 @@
 	)
 	(label "C2MTR"
 		(at 284.48 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26357,7 +26595,6 @@
 	)
 	(label "{slash}BA2"
 		(at 69.85 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26368,7 +26605,6 @@
 	)
 	(label "/BA3"
 		(at 71.12 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26379,7 +26615,6 @@
 	)
 	(label "DEC1"
 		(at 55.88 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26390,7 +26625,6 @@
 	)
 	(label "NDACOUT"
 		(at 299.72 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26401,7 +26635,6 @@
 	)
 	(label "KI3"
 		(at 73.66 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26412,7 +26645,6 @@
 	)
 	(label "DEC7"
 		(at 55.88 294.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26423,7 +26655,6 @@
 	)
 	(label "/BA3"
 		(at 124.46 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26434,7 +26665,6 @@
 	)
 	(label "DO3"
 		(at 299.72 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26445,7 +26675,6 @@
 	)
 	(label "DO6"
 		(at 299.72 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26456,7 +26685,6 @@
 	)
 	(label "DEC7"
 		(at 177.8 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -26467,7 +26695,6 @@
 	)
 	(label "EOIOUT"
 		(at 172.72 101.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26478,7 +26705,6 @@
 	)
 	(label "DEC1"
 		(at 71.12 281.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26489,7 +26715,6 @@
 	)
 	(label "DO8"
 		(at 337.82 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26500,7 +26725,6 @@
 	)
 	(label "UP[0..7]"
 		(at 340.36 316.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26511,7 +26735,6 @@
 	)
 	(label "KI6"
 		(at 170.18 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26522,7 +26745,6 @@
 	)
 	(label "EOIOUT"
 		(at 266.7 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26533,7 +26755,6 @@
 	)
 	(label "ATNA_EN"
 		(at 297.18 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26544,7 +26765,6 @@
 	)
 	(label "KI3"
 		(at 124.46 243.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26555,7 +26775,6 @@
 	)
 	(label "DEC2"
 		(at 71.12 284.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26566,7 +26785,6 @@
 	)
 	(label "C1MTR"
 		(at 218.44 297.18 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26577,7 +26795,6 @@
 	)
 	(label "C2MTR"
 		(at 195.58 304.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26588,7 +26805,6 @@
 	)
 	(label "C1MTR9V"
 		(at 213.36 299.72 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26599,7 +26815,6 @@
 	)
 	(label "ATNA_EN"
 		(at 482.6 106.68 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26610,7 +26825,6 @@
 	)
 	(label "KI2"
 		(at 53.34 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26621,7 +26835,6 @@
 	)
 	(label "/BA3"
 		(at 142.24 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26632,7 +26845,6 @@
 	)
 	(label "/C2MTR"
 		(at 398.78 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26643,7 +26855,6 @@
 	)
 	(label "{slash}BA2"
 		(at 256.54 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26654,7 +26865,6 @@
 	)
 	(label "SHIELD"
 		(at 434.34 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26665,7 +26875,6 @@
 	)
 	(label "DO4"
 		(at 337.82 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26676,7 +26885,6 @@
 	)
 	(label "KI4"
 		(at 53.34 264.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26687,7 +26895,6 @@
 	)
 	(label "C1SW"
 		(at 193.04 152.4 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26698,7 +26905,6 @@
 	)
 	(label "C1SW"
 		(at 193.04 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26709,7 +26915,6 @@
 	)
 	(label "NRFDOUT"
 		(at 347.98 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26720,7 +26925,6 @@
 	)
 	(label "/C2MTR"
 		(at 335.28 274.32 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26731,7 +26935,6 @@
 	)
 	(label "ATNA_EN"
 		(at 355.6 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26742,7 +26945,6 @@
 	)
 	(label "DEC0"
 		(at 55.88 276.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26753,7 +26955,6 @@
 	)
 	(label "/BA3"
 		(at 256.54 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26764,7 +26965,6 @@
 	)
 	(label "DO5"
 		(at 299.72 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26775,7 +26975,6 @@
 	)
 	(label "NDACOUT"
 		(at 347.98 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26786,7 +26985,6 @@
 	)
 	(label "DEC8"
 		(at 71.12 299.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26797,7 +26995,6 @@
 	)
 	(label "KI6"
 		(at 53.34 269.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26808,7 +27005,6 @@
 	)
 	(label "/SEL2"
 		(at 256.54 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26819,7 +27015,6 @@
 	)
 	(label "DAVOUT"
 		(at 325.12 167.64 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26830,7 +27025,6 @@
 	)
 	(label "/C2MTR"
 		(at 297.815 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26841,7 +27035,6 @@
 	)
 	(label "C1MTR"
 		(at 198.12 259.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26852,7 +27045,6 @@
 	)
 	(label "C1MTR"
 		(at 238.76 317.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26863,7 +27055,6 @@
 	)
 	(label "KI[0..7]"
 		(at 177.8 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26874,7 +27065,6 @@
 	)
 	(label "IECRES"
 		(at 401.32 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26885,7 +27075,6 @@
 	)
 	(label "DO2"
 		(at 337.82 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26896,7 +27085,6 @@
 	)
 	(label "DEC9"
 		(at 71.12 302.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26907,7 +27095,6 @@
 	)
 	(label "DO1"
 		(at 299.72 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26918,7 +27105,6 @@
 	)
 	(label "C1MTR9V"
 		(at 213.36 365.76 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26929,7 +27115,6 @@
 	)
 	(label "EOIOUT"
 		(at 342.9 172.72 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26940,7 +27125,6 @@
 	)
 	(label "C1SW"
 		(at 165.735 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26951,7 +27135,6 @@
 	)
 	(label "DEC5"
 		(at 55.88 289.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26962,7 +27145,6 @@
 	)
 	(label "DAVOUT"
 		(at 347.98 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26973,7 +27155,6 @@
 	)
 	(label "VDRIVE"
 		(at 311.15 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26984,7 +27165,6 @@
 	)
 	(label "DO4"
 		(at 299.72 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -26995,7 +27175,6 @@
 	)
 	(label "SHIELD"
 		(at 434.34 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.3513 1.3513)
@@ -27006,7 +27185,6 @@
 	)
 	(label "C2SW"
 		(at 226.06 142.24 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27017,7 +27195,6 @@
 	)
 	(label "ATNA_EN"
 		(at 220.98 101.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27028,7 +27205,6 @@
 	)
 	(label "DEC3"
 		(at 55.88 284.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27039,7 +27215,6 @@
 	)
 	(label "DO7"
 		(at 300.355 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27050,7 +27225,6 @@
 	)
 	(label "DEC2"
 		(at 55.88 281.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27061,7 +27235,6 @@
 	)
 	(label "DO5"
 		(at 337.82 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27072,7 +27245,6 @@
 	)
 	(label "C2SW"
 		(at 182.88 266.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27083,7 +27255,6 @@
 	)
 	(label "KI2"
 		(at 73.66 261.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27094,7 +27265,6 @@
 	)
 	(label "NRFDOUT"
 		(at 297.18 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27105,7 +27275,6 @@
 	)
 	(label "DEC6"
 		(at 71.12 294.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27116,7 +27285,6 @@
 	)
 	(label "KI3"
 		(at 170.18 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27127,7 +27295,6 @@
 	)
 	(label "DEC6"
 		(at 180.34 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27138,7 +27305,6 @@
 	)
 	(label "KI4"
 		(at 129.54 243.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27149,7 +27315,6 @@
 	)
 	(label "DEC4"
 		(at 55.88 287.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27160,7 +27325,6 @@
 	)
 	(label "DO6"
 		(at 337.82 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27171,7 +27335,6 @@
 	)
 	(label "DO1"
 		(at 337.82 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27182,7 +27345,6 @@
 	)
 	(label "EOIOUT"
 		(at 351.155 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27193,7 +27355,6 @@
 	)
 	(label "/SEL4"
 		(at 144.78 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27204,7 +27365,6 @@
 	)
 	(label "KI6"
 		(at 73.66 271.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27215,7 +27375,6 @@
 	)
 	(label "C2MTR"
 		(at 154.94 287.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27226,7 +27385,6 @@
 	)
 	(label "C2SW"
 		(at 226.06 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27237,7 +27395,6 @@
 	)
 	(label "DEC8"
 		(at 175.26 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27247,8 +27404,7 @@
 		(uuid "d1f08165-c100-421e-8dc4-447f0b402f53")
 	)
 	(label "/C1MTR"
-		(at 162.56 175.26 90)
-		(fields_autoplaced yes)
+		(at 162.56 210.82 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27259,7 +27415,6 @@
 	)
 	(label "KI2"
 		(at 170.18 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27270,7 +27425,6 @@
 	)
 	(label "DO8"
 		(at 299.72 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27281,7 +27435,6 @@
 	)
 	(label "C1MTR"
 		(at 119.38 360.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27292,7 +27445,6 @@
 	)
 	(label "C1SW"
 		(at 223.52 213.36 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27303,7 +27455,6 @@
 	)
 	(label "DEC4"
 		(at 185.42 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27314,7 +27465,6 @@
 	)
 	(label "DEC7"
 		(at 71.12 297.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27325,7 +27475,6 @@
 	)
 	(label "/BA3"
 		(at 101.6 124.46 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27336,7 +27485,6 @@
 	)
 	(label "DEC9"
 		(at 172.72 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27347,7 +27495,6 @@
 	)
 	(label "ATN/C2SW"
 		(at 165.735 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27358,7 +27505,6 @@
 	)
 	(label "DEC5"
 		(at 71.12 292.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27369,7 +27515,6 @@
 	)
 	(label "KI2"
 		(at 119.38 243.84 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27380,7 +27525,6 @@
 	)
 	(label "NDACOUT"
 		(at 327.66 167.64 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27391,7 +27535,6 @@
 	)
 	(label "KI4"
 		(at 170.18 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27402,7 +27545,6 @@
 	)
 	(label "C1MTR"
 		(at 119.38 335.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27413,7 +27555,6 @@
 	)
 	(label "DEC3"
 		(at 71.12 287.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27424,7 +27565,6 @@
 	)
 	(label "DEC5"
 		(at 182.88 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27435,7 +27575,6 @@
 	)
 	(label "DEC2"
 		(at 190.5 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -27446,7 +27585,6 @@
 	)
 	(label "KI4"
 		(at 73.66 266.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27457,7 +27595,6 @@
 	)
 	(label "/SEL4"
 		(at 256.54 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27468,7 +27605,6 @@
 	)
 	(label "DO2"
 		(at 299.72 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -27941,7 +28077,7 @@
 	)
 	(global_label "/BIRQ"
 		(shape bidirectional)
-		(at 254 149.86 0)
+		(at 254 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27951,7 +28087,7 @@
 		)
 		(uuid "0d8436a9-a2a4-411b-9572-82e699fc04dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.7039 149.86 0)
+			(at 263.7039 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27985,7 +28121,7 @@
 	)
 	(global_label "BA7"
 		(shape bidirectional)
-		(at 96.52 226.06 0)
+		(at 96.52 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27995,7 +28131,7 @@
 		)
 		(uuid "10439a9d-0afe-4ded-a984-f4fb81491d71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.0309 226.06 0)
+			(at 104.0309 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31747,7 +31883,7 @@
 	)
 	(global_label "{slash}SEL2"
 		(shape output)
-		(at 144.78 182.88 0)
+		(at 166.37 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -31757,7 +31893,7 @@
 		)
 		(uuid "a4f9c05c-3d3f-486d-9e05-209b1a5418cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.6918 182.88 0)
+			(at 175.2818 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32141,9 +32277,9 @@
 			)
 		)
 	)
-	(global_label "/SEL1"
-		(shape bidirectional)
-		(at 144.78 180.34 0)
+	(global_label "{slash}SEL1"
+		(shape output)
+		(at 166.37 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32153,7 +32289,7 @@
 		)
 		(uuid "af828565-13c9-4535-b2f4-fea4edd7d9bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.6023 180.34 0)
+			(at 175.1033 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32383,9 +32519,9 @@
 			)
 		)
 	)
-	(global_label "/SEL5"
-		(shape bidirectional)
-		(at 144.78 190.5 0)
+	(global_label "{slash}SEL5"
+		(shape output)
+		(at 166.37 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32395,7 +32531,7 @@
 		)
 		(uuid "b6cda5df-2942-4d88-98ad-9bdac3126526")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.6023 190.5 0)
+			(at 175.1033 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34079,7 +34215,7 @@
 	)
 	(global_label "{slash}SEL0"
 		(shape output)
-		(at 142.24 177.8 0)
+		(at 166.37 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34089,7 +34225,7 @@
 		)
 		(uuid "fa47c201-f3cd-4d4c-b3bd-1124f25863df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.1518 177.8 0)
+			(at 175.2818 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34554,72 +34690,6 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
 					(reference "IC9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:GND")
-		(at 353.06 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0360f4cd-21fd-4e77-9d80-2396a673ff27")
-		(property "Reference" "#GND076"
-			(at 353.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 350.52 35.56 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc2536f2-94ce-47a6-af85-e63b46e7f435")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
-					(reference "#GND076")
 					(unit 1)
 				)
 			)
@@ -35186,72 +35256,6 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:GND")
-		(at 104.14 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "118e62bc-a4c0-48f9-8fe5-063ff6cdf0ee")
-		(property "Reference" "#GND063"
-			(at 104.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 198.12 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "941c01ce-728a-423d-9f5b-d8ef39c80ff4")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
-					(reference "#GND063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:GND")
 		(at 518.16 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35418,79 +35422,6 @@
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
 					(reference "IC23")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:JP2E")
-		(at 149.86 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18c257e6-ad3b-4445-83f8-b54af96a29e5")
-		(property "Reference" "JP8"
-			(at 146.05 198.12 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JP2E"
-			(at 155.575 198.12 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:JP2"
-			(at 149.86 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "defa8ca6-a672-4140-93b3-d72b7d9dce99")
-		)
-		(pin "2"
-			(uuid "d8cb7c92-97a2-4719-ac5e-40aac81edf55")
-		)
-		(pin "3"
-			(uuid "36514be2-2eb5-4060-ba5f-d66cbcd2410f")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
-					(reference "JP8")
-					(unit 1)
 				)
 			)
 		)
@@ -38263,6 +38194,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 149.86 199.39 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "52e79e23-bfa8-409d-8e9a-9efb1a464a07")
+		(property "Reference" "JP21"
+			(at 149.86 197.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Bridged12"
+			(at 156.464 209.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 149.86 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 149.86 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebb6cb05-3556-4bda-a206-104d8c52d4ae")
+		)
+		(pin "3"
+			(uuid "8c2c54e1-44c9-4327-abf1-4724df05e594")
+		)
+		(pin "2"
+			(uuid "f249f604-010c-4263-ab11-bf99952d1363")
+		)
+		(instances
+			(project ""
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
+					(reference "JP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:VCC")
 		(at 88.9 238.76 270)
 		(unit 1)
@@ -40376,6 +40377,72 @@
 		)
 	)
 	(symbol
+		(lib_id "cbm_ultipet_v1-eagle-import:GND")
+		(at 109.22 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83d99b69-c630-4ffb-8789-e7551cf1970d")
+		(property "Reference" "#GND063"
+			(at 109.22 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 234.95 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18273840-2974-4327-a2e4-9fe28d3328b0")
+		)
+		(instances
+			(project "cbm_ultipet_v1"
+				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
+					(reference "#GND063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:JP2E")
 		(at 457.2 241.3 0)
 		(unit 1)
@@ -40629,7 +40696,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:DIODE-D-5")
-		(at 256.54 154.94 270)
+		(at 256.54 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40637,7 +40704,7 @@
 		(dnp no)
 		(uuid "8f71343c-b6ce-4fc2-8dfe-41aa5d556bd8")
 		(property "Reference" "D10"
-			(at 257.0226 157.48 0)
+			(at 257.0226 162.56 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -40645,8 +40712,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 254.2286 157.48 0)
+		(property "Value" "1N4448"
+			(at 254.2286 162.56 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -40655,7 +40722,7 @@
 			)
 		)
 		(property "Footprint" "cbm_ultipet_v1:D-5"
-			(at 256.54 154.94 0)
+			(at 256.54 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40664,7 +40731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 154.94 0)
+			(at 256.54 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40673,7 +40740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 154.94 0)
+			(at 256.54 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40931,7 +40998,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
+		(property "Footprint" "cbm_ultipet_v1:TO92"
 			(at 152.4 360.68 0)
 			(effects
 				(font
@@ -41307,76 +41374,6 @@
 			(project "cbm_ultipet_v1"
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
 					(reference "#GND0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:JP1E")
-		(at 358.14 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6aced79-5566-481a-a07d-68cd450a3487")
-		(property "Reference" "JP15"
-			(at 358.14 26.67 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JP1E"
-			(at 358.14 33.655 90)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "cbm_ultipet_v1:JP1"
-			(at 358.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 358.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9bdc61b4-2189-4a92-892b-8fd634b41a6e")
-		)
-		(pin "1"
-			(uuid "281ba217-9def-4506-b680-62bbb4705b0c")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
-					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -41803,72 +41800,6 @@
 				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
 					(reference "IC9")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_ultipet_v1-eagle-import:VCC")
-		(at 350.52 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5c26ed6-d97f-409b-a813-1042c3d20c4c")
-		(property "Reference" "#V028"
-			(at 350.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 347.345 29.845 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 350.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95eb439c-6965-47b9-8cc3-5bf0a72779de")
-		)
-		(instances
-			(project "cbm_ultipet_v1"
-				(path "/4dd2dd78-173f-4b46-8cce-4ed940435c94/6387d1ea-0693-42a3-ac70-75277d2d502e"
-					(reference "#V028")
-					(unit 1)
 				)
 			)
 		)
@@ -44498,7 +44429,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline_Wide"
+		(property "Footprint" "cbm_ultipet_v1:TO92"
 			(at 182.88 363.22 0)
 			(effects
 				(font

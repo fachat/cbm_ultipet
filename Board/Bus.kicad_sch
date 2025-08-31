@@ -6259,6 +6259,12 @@
 		(uuid "a718287d-7078-427c-a281-2d9279c3b9d5")
 	)
 	(junction
+		(at 50.8 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7b81143-181c-4636-94ab-e04dcd8b74ee")
+	)
+	(junction
 		(at 307.34 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6903,7 +6909,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 327.66) (xy 50.8 327.66)
+			(xy 39.37 327.66) (xy 50.8 327.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -7203,7 +7209,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 322.58) (xy 43.18 327.66)
+			(xy 39.37 326.39) (xy 39.37 327.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -7663,16 +7669,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 335.28) (xy 50.8 335.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4672e0e5-1db9-41ce-904c-aa0b6a98cad2")
-	)
-	(wire
-		(pts
 			(xy 86.36 304.8) (xy 104.14 304.8)
 		)
 		(stroke
@@ -7850,6 +7846,16 @@
 			(type solid)
 		)
 		(uuid "5bcfc948-7d2d-4132-af64-1b3f0c0b5d50")
+	)
+	(wire
+		(pts
+			(xy 36.83 332.74) (xy 36.83 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2e46e7-a68c-41ec-a852-4e021cc23101")
 	)
 	(wire
 		(pts
@@ -9153,16 +9159,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 322.58) (xy 40.64 335.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b36d131c-70d8-46ef-9d43-4264c73c8a73")
-	)
-	(wire
-		(pts
 			(xy 40.64 294.64) (xy 40.64 297.18)
 		)
 		(stroke
@@ -9783,6 +9779,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 332.74) (xy 36.83 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c044fb-4890-4f6d-875d-49a1ad0d8fac")
+	)
+	(wire
+		(pts
 			(xy 142.24 172.72) (xy 137.16 172.72)
 		)
 		(stroke
@@ -10023,6 +10029,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 317.5) (xy 50.8 317.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f52eae40-2a15-4f2b-891e-a2a733663690")
+	)
+	(wire
+		(pts
 			(xy 83.82 132.08) (xy 83.82 129.54)
 		)
 		(stroke
@@ -10181,9 +10197,9 @@
 		)
 		(uuid "ff7363a7-b6a9-4e1f-b14f-40c723879e41")
 	)
-	(text "CSA-ULTIPET-V1.0B-20240502\n(CSA-ULTRACPU-V1.3C-20231117)\n"
+	(text "CSA-ULTIPET-V1.2A-20241010\n"
 		(exclude_from_sim no)
-		(at 279.4 362.966 0)
+		(at 275.336 360.426 0)
 		(effects
 			(font
 				(size 2 2)
@@ -10225,17 +10241,18 @@
 		)
 		(uuid "8840bc61-57c8-4ff3-9042-24a8b8596d58")
 	)
-	(text "1.0B: Removed the pullup on GRAPHIC, as it's now in the FPGA"
+	(text "1.0B: \n- Removed the pullup on GRAPHIC, as it's now in the FPGA\n1.2A:\n- use V33IO for bus 3.3V (if so jumpered)"
 		(exclude_from_sim no)
-		(at 291.338 325.374 0)
+		(at 260.604 324.358 0)
 		(effects
 			(font
 				(size 1.7 1.7)
 			)
+			(justify left)
 		)
 		(uuid "8d9f0cec-728b-4561-b16a-272a8585fba0")
 	)
-	(text "CBM-ULTIPET-V1.1A"
+	(text "CBM-ULTIPET-V1.2A"
 		(exclude_from_sim no)
 		(at 254 337.82 0)
 		(effects
@@ -10248,7 +10265,6 @@
 	)
 	(label "/BEXTIO"
 		(at 106.68 121.92 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10259,7 +10275,6 @@
 	)
 	(label "B16M"
 		(at 132.08 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10270,7 +10285,6 @@
 	)
 	(label "/BIOINH"
 		(at 88.9 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10281,7 +10295,6 @@
 	)
 	(label "D[0..7]"
 		(at 251.46 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10292,7 +10305,6 @@
 	)
 	(label "/BEXTIO"
 		(at 134.62 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10303,7 +10315,6 @@
 	)
 	(label "/BEXTIO"
 		(at 91.44 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10314,7 +10325,6 @@
 	)
 	(label "/BEXTIO"
 		(at 88.9 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10325,7 +10335,6 @@
 	)
 	(label "BV33"
 		(at 45.72 327.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10336,7 +10345,6 @@
 	)
 	(label "/BIOINH"
 		(at 91.44 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10347,7 +10355,6 @@
 	)
 	(label "B16M"
 		(at 43.18 251.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10358,7 +10365,6 @@
 	)
 	(label "/BIOINH"
 		(at 135.255 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10369,7 +10375,6 @@
 	)
 	(label "/BIOINH"
 		(at 109.22 121.92 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10380,7 +10385,6 @@
 	)
 	(label "B16M"
 		(at 53.34 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10807,6 +10811,28 @@
 			)
 		)
 	)
+	(global_label "BV33"
+		(shape output)
+		(at 40.64 317.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1954e143-037b-4ac2-a5a1-b5a015fce719")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8772 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "/BBE"
 		(shape bidirectional)
 		(at 134.62 27.94 0)
@@ -11181,6 +11207,28 @@
 			)
 		)
 	)
+	(global_label "V33IO"
+		(shape input)
+		(at 41.91 332.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fb377d1-9fd5-4c20-beea-ebc4e1c0fc1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.3381 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BA11"
 		(shape bidirectional)
 		(at 134.62 302.26 0)
@@ -11502,28 +11550,6 @@
 		(uuid "4e4d07a8-dfdc-4811-bf74-23cdfff5171f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.1309 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V33"
-		(shape bidirectional)
-		(at 43.18 335.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "4ee8cda5-a48c-48d6-8977-eb53493bf3fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.6316 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14296,7 +14322,7 @@
 	)
 	(symbol
 		(lib_id "cbm_ultipet_v1-eagle-import:JP1E")
-		(at 40.64 320.04 0)
+		(at 36.83 323.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14304,7 +14330,7 @@
 		(dnp no)
 		(uuid "2b538a74-1427-4a88-b219-9a951326f319")
 		(property "Reference" "JP6"
-			(at 39.37 320.04 90)
+			(at 35.56 323.85 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14313,7 +14339,7 @@
 			)
 		)
 		(property "Value" "JP1E"
-			(at 46.355 320.04 90)
+			(at 42.545 323.85 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14323,7 +14349,7 @@
 			)
 		)
 		(property "Footprint" "cbm_ultipet_v1:JP1"
-			(at 40.64 320.04 0)
+			(at 36.83 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14332,7 +14358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 320.04 0)
+			(at 36.83 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14341,7 +14367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 320.04 0)
+			(at 36.83 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14505,7 +14531,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 215.9 78.74 0)
 			(effects
 				(font
@@ -14611,7 +14637,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 78.74 0)
 			(effects
 				(font
@@ -14786,7 +14812,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 48.26 0)
 			(effects
 				(font
@@ -15502,7 +15528,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 63.5 0)
 			(effects
 				(font
@@ -15608,7 +15634,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 93.98 0)
 			(effects
 				(font
@@ -16028,7 +16054,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 109.22 0)
 			(effects
 				(font
@@ -16134,7 +16160,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 215.9 109.22 0)
 			(effects
 				(font
@@ -16820,7 +16846,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 298.45 78.74 0)
 			(effects
 				(font
@@ -16926,7 +16952,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 160.02 114.3 0)
 			(effects
 				(font
@@ -17299,7 +17325,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 307.34 281.94 0)
 			(effects
 				(font
@@ -17495,7 +17521,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 210.82 114.3 0)
 			(effects
 				(font
@@ -17856,7 +17882,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7406D"
+		(property "Value" "74LVC06"
 			(at 215.9 93.98 0)
 			(effects
 				(font
@@ -18218,7 +18244,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 308.61 78.74 0)
 			(effects
 				(font
@@ -18390,7 +18416,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "7414D"
+		(property "Value" "74LVC14"
 			(at 163.83 33.02 0)
 			(effects
 				(font
