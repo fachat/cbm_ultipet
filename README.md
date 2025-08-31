@@ -2,8 +2,6 @@
 
 Note: this is a part of a larger set of repositories, with [upet_family](https://github.com/fachat/upet_family) as the main repository.
 
-WARNING: the PCB has been created with Kicad 8 - upgrading to Kicad 9 mangles a lot of footprints. Only use Kicad 8 for it!
-
 This is a re-incarnation of the Commodore PET computer(s) from the later 1970s.
 
 It is build on a PCB that fits into a C64-II case (with extra cutouts for connectors), and has only parts that can still be obtained new in 2024/2025.
@@ -42,7 +40,7 @@ The board is built with a number of features:
   - VGA colour video output (222 RGB)
   - up to 96x72 characters on screen
   - hires modes up to a 720x576 resolution
-  - 16 out of 64 colour palette, Colour-PET or C128 VDC-compatible, Sprites
+  - Dual 16 out of 64 colour palette, Colour-PET or C128 VDC-compatible, Sprites
   - Hires graphics mode (using a configuration register)
   - modifyable character set
   - multiple video pages mappable to $8000 video mem address
@@ -137,7 +135,7 @@ Two audio amps are included to, so speakers can be directly connected to the boa
 ### Keyboard shift lock and reset
 
 When the shift-lock key in the replacement keyboard is defined on a specific position in 
-the keyboard matrix, the key works like a shift-lock key.
+the keyboard matrix (as is in the keyboard designed by Steve Gray), the key works like a shift-lock key.
 
 In addition, pressing the shift-lock key longer (a few seconds), resets the machine 
 (as long as the keyboard scanning still works).
@@ -148,7 +146,7 @@ The board has a full width CS/A slot for a single expansion card, plus a short C
 the accompanying [CS/A Ultrabus]() Ultra-Bus expansion board. This allows using (compatible)
 Apple-II, RC2014, and C64 cartridges with the Ulti-PET.
 
-NOTE: In R1.2 and previous, the _short_ expansion bus had the wrong pinout - it needs DIN41612 reverse pinout! Therefore a "reverser adapter" needs to be used. This will be fixed in 1.3 forward.
+(Older versions up to 1.2a had a problem there that is now fixed!)
 
 ### UEXT, and SPI-10 connectors
 
@@ -181,17 +179,21 @@ The current revision is 1.3A
 
 The known issues from the 1.2A version have been fixed.
 
+A small number of non-functional issues has been found and documented. See the
+[github list of issues](https://github.com/fachat/cbm_ultipet/issues?q=is%3Aissue%20state%3Aopen%20label%3Ar1.3a).
+
 ## Revision history
 
 1.3a: Update:
-- fixes for 1.2a known issues included
-- USB-C power supply connector, with USB-to-serial converter
+- fixes for 1.2a known issues included, including improved audio mixer
+- USB-C power supply connector, with USB-to-serial converter that can be connected to the internal 2nd serial port
 - footprints for Joysticks improved and moved inwards
 - footprint for VGA connector improved
 - extended keyboard connector with I2C, and other lines
 - extended pin header connectors for RS232
 - improved pinout on FPGA to prep for HDMI (video output on differential pairs)
 - optional pulldowns on audio out for original SIDs
+- (most) THT parts have proper part numbers for JLCPCB for outsourced assembly too, not just SMD
 
 1.2a: Update
 - separate 3.3V generation for the bus, USB, and network, more bypass for SD cards
@@ -243,10 +245,13 @@ As an audio solution I am planning to use the Visaton K40SQ speakers, if you wan
 
 ### FPGA
 
-The FPGA is a Xilinx Spartan 6 programmable logic chip. It runs on 3.3V and it is programmed in VHDL.
+The FPGA is a Xilinx Spartan 6 programmable logic chip. It runs on 1.2V with 3.3V I/O and I programmed it in VHDL.
 
-To build the FPGA content, clone the [FPGA](https://github.com/fachat/upet_fpga) repository, and look for the ShellUPet.bin.
+To build the FPGA content, clone the [FPGA](https://github.com/fachat/upet_fpga) repository, and look for the ultipetx.yz.bin, where the x.yz should be replaced with the current board
+version, or the highest FPGA version below the board version.
 This needs to be programmed into the SPI flash chip containing the configration for the FPGA.
+
+To actually modify the code, you have to download and install the Xilinx WebISE software and open the ultipetx.yz.xise project file.
 
 ### ROM
 
@@ -263,7 +268,7 @@ For more details see the description in the ROM repository.
 
 ### Case
 
-Currently no custom case is available.
+Currently no custom case is publicly available. I just didn't have time to build / test / write up the ones I have on tinkercad. Contact me privately and I can provide you a link.
 
 ## Gallery (R1.0)
 
