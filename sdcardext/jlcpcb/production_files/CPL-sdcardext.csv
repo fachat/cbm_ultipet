@@ -1,0 +1,8 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,93.48,-75.5,0.0,top
+C2,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,93.25,-73.25,0.0,top
+J1,Micro_SD_Card_Det2,microSD_HC_Molex_104031-0811,100.24,-65.325,0.0,top
+J2,Conn_02x03_Odd_Even,IDC-Header_2x03_P2.54mm_Horizontal,130.54,-79.52,-90.0,top
+P10,~,IDC-Header_2x06_P2.54mm_Horizontal,98.9,-79.48,-90.0,top
+R1,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,91.75,-69.0,-90.0,top
+RV1,R_Potentiometer_Dual,Potentiometer_Alps_RK097_Dual_Horizontal_Switch,117.0,-75.125,-90.0,top

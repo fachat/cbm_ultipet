@@ -1,0 +1,8 @@
+Comment,Designator,Footprint,LCSC,Quantity
+100n,C2,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663,1
+100u,C1,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,C15008,1
+10k,R1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25804,1
+Conn_02x03_Odd_Even,J2,IDC-Header_2x03_P2.54mm_Horizontal,C34945,1
+Micro_SD_Card_Det2,J1,microSD_HC_Molex_104031-0811,C585350,1
+R_Potentiometer_Dual,RV1,Potentiometer_Alps_RK097_Dual_Horizontal_Switch,C336003,1
+~,P10,IDC-Header_2x06_P2.54mm_Horizontal,C9141,1
