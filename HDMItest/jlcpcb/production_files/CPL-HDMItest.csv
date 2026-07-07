@@ -1,5 +1,14 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-J1,HDMI_A,HDMI_A_Molex_208658-1001_Horizontal,135.128,-87.472,90.0,top
+C1,4u7,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,146.0,-93.0,-90.0,top
+C2,22u,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,126.6,-104.8,0.0,top
+C3,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,146.2,-97.0,-90.0,top
+C4,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,134.6,-86.8,0.0,top
+J1,HDMI_A,HDMI_A_Molex_208658-1001_Horizontal,125.535,-90.95,180.0,top
 J2,Conn_02x06_Odd_Even,IDC-Header_2x06_P2.54mm_Vertical,152.9175,-95.25,0.0,top
-JP1,Jumper_2_Open,PinHeader_1x02_P2.54mm_Vertical,121.666,-96.774,180.0,top
-P11,~,PinHeader_2x06_P2.54mm_Vertical,135.641,-103.994,180.0,top
+JP1,Jumper_2_Open,PinHeader_1x02_P2.54mm_Vertical,134.73,-82.8,-90.0,top
+P11,~,PinHeader_2x06_P2.54mm_Vertical,138.6,-104.405,90.0,top
+R1,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,144.4,-85.6,180.0,top
+R2,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,144.4,-82.8,180.0,top
+R3,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,122.8,-102.0,0.0,top
+R4,1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,132.0,-88.2,-90.0,top
+U2,~,Diodes_ZL32_TQFN-32-1EP_3x6mm_P0.4mm_EP1.25x3.5mm,135.91,-91.88,180.0,top
