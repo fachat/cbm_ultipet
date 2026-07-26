@@ -1,10 +1,11 @@
 Comment,Designator,Footprint,LCSC,Quantity
-100n,"C3,C4",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663,2
-1k,"R1,R2,R3,R4",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C21190,4
+100n,"C10,C11,C12,C3,C4,C5,C6,C7,C8,C9",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663,10
+1k,"R1,R2,R3,R4,R5,R6",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C21190,6
 22u,C2,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C45783,1
+2k2,"R7,R8",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22369817,2
+4k7,"R10,R11,R9",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C105428,3
 4u7,C1,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C1779,1
 Conn_02x06_Odd_Even,J2,IDC-Header_2x06_P2.54mm_Vertical,C9136,1
 HDMI_A,J1,HDMI_A_Molex_208658-1001_Horizontal,C138388,1
 Jumper_2_Open,JP1,PinHeader_1x02_P2.54mm_Vertical,C225477,1
-~,U2,Diodes_ZL32_TQFN-32-1EP_3x6mm_P0.4mm_EP1.25x3.5mm,C2674166,1
-~,P11,PinHeader_2x06_P2.54mm_Vertical,,1
+~,U1,Diodes_ZL32_TQFN-32-1EP_3x6mm_P0.4mm_EP1.25x3.5mm,C2674182,1
