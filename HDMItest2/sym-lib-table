@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HDMI")(type "KiCad")(uri "/home/fachat/8bit/upet_family/ultipet/Board/HDMI.kicad_sym")(options "")(descr ""))
+)

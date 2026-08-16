@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC,Quantity
+100n,"C10,C11,C12,C13,C3,C4,C5,C6,C7,C8,C9",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663,11
+22u,"C1,C2",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C45783,2
+2k2,"R7,R8",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22369817,2
+4.02k +/-5%,R17,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C311906,1
+4k7,"R10,R11,R12,R13,R15,R16,R2,R3,R6,R9",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23162,10
+Conn_02x06_Odd_Even,J2,IDC-Header_2x06_P2.54mm_Vertical,C9136,1
+HDMI_A,J1,HDMI_A_Molex_208658-1001_Horizontal,C138388,1
+~,U1,Texas_RNQ0040A_WQFN-40-1EP_6x4mm_P0.4mm_EP4.7x2.7mm_ThermalVias,C2859698,1
+~,P11,PinHeader_2x06_P2.54mm_Vertical,,1
