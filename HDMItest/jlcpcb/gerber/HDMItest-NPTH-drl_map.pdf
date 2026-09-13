@@ -1,157 +1,0 @@
-%PDF-1.5
-%€‚ƒ
-5 0 obj
-<< /Length 6 0 R /Filter /FlateDecode >>
-stream
-xÚ—[5…ßçWô#<`Ê.ßŠGD‚â˜?ípYEŠÄ¯çTOoÒírµFìEšÙo}|ªl÷P ji!ışüòím‰Ëø}'ËóÛ‹_¾_×ÒòñbĞ¥H R"Xê”R ŞˆúÒ²´ŠÑõk¹]zjA"·NGötùu2êa¬Lm?–?Ï|,îÁWÆ˜)ôB,ù‘±ÿ;ñ¬cDØzh™*Ø?K|ÑĞË‹¯>½úÄRoM‚Ô˜c[X¸öPb•$ZÅo¯Ë×?¾{ûæ·×ıùa‰$5Ôº\_x¹>ã=-×—/¾{~÷ôôår}¿¼º^~~tbÂ8¥ÎåNüÓ›¿¿ù<ï¤òBQBb”)cŠ’(ÄÒr_+¿g™¥(Er–{Â.Ue¢ZDdi¦ô¨*YGÅĞUÀRC*¹ó¦ôèª”¢$¬,J	Ô¸¢	6¥CU™9†ªU.Êu¸Š›Ò£«²Jˆ÷·,?ñnnS:Ô({i¡Ş™(wtp‹ô‘^eİÖí	±TN¡æœ{·	èPt‰ú)©•j«r C'úËtÂY÷M”Êµöåe¢ŒZß—5QvtBŒëÖ^•ğz¦LêéÑUÙ‘ûºWuNíii)ç¥CU)~î›|âÖ£·i­#s¯VÉ„^@«Æ,uLèÀÎ•ÃşƒŸÒáˆìşô©™3¡¿JÅßgsî¨*ë,­¶–fszôv²’Öyê¶¡È‹šØlú«$üµÛ½âSUVìzâŒJØıéÓAi×qàşÂÅ[ô~Ò:®Ä‰[—ªé„Ü9×2qëÒAiİ&‚Û^zªİ¸İ³såXÏÄèLN%ŠŞáÑ9±lJª²"ƒ&)¦Y¹tPšŒYû6—ÌfG&š–˜gÊU%NãĞhË`8‡|º*Õmlø™œ	.U%áÉ·)ñ™Ò£š¨Ÿû<s{LèĞ}¬'’I³l=:¸(=:¸µ{Å¥«Rım²W\j”ÃmïSã¶uŒšĞ›qævGMB]3HÔk%´£¦*FéQÓñÃó³š[!L÷íã¯PÊúi¦<v¼â„ã¬o=ªJ<òÀ<>™L;Ş£Pâ=üà©¡—IÇ»tUfF(¸&Ïš>]•º’ˆ[¬Ÿx6¥C²ê¨÷²‰rGÛ¢£fœ„<s»£CBv—¹t¨Êdg{tè„‰Ò£¦ûŒÛŒSs{p0ëÌØÛ£ÊLéĞ›upëRU2V²}ğ™ÌéÑÛÉJXç£nMÇ20ïQ3çxºÔ$dæôèíd%¬óÄíJä£u
-endstream
-endobj
-6 0 obj
-979
-endobj
-7 0 obj
-<<
-/Type /Page
-/Parent 1 0 R
-/Resources <<
-    /ProcSet [/PDF /Text /ImageC /ImageB]
-    /Font 2 0 R
-    /XObject 3 0 R >>
-/MediaBox [0 0 841.896 595.296]
-/Contents 5 0 R
->>
-endobj
-8 0 obj
-<</S /GoTo /D [7 0 R /Fit]
->>
-endobj
-10 0 obj
-<< /BaseFont /Helvetica
-   /Type /Font
-   /Subtype /Type1
-   /Encoding /WinAnsiEncoding
->>
-endobj
-11 0 obj
-<< /BaseFont /Helvetica-Oblique
-   /Type /Font
-   /Subtype /Type1
-   /Encoding /WinAnsiEncoding
->>
-endobj
-12 0 obj
-<< /BaseFont /Helvetica-Bold
-   /Type /Font
-   /Subtype /Type1
-   /Encoding /WinAnsiEncoding
->>
-endobj
-13 0 obj
-<< /BaseFont /Helvetica-BoldOblique
-   /Type /Font
-   /Subtype /Type1
-   /Encoding /WinAnsiEncoding
->>
-endobj
-2 0 obj
-<<
-    /KicadFont 10 0 R
-    /KicadFontI 11 0 R
-    /KicadFontB 12 0 R
-    /KicadFontBI 13 0 R
->>
-endobj
-3 0 obj
-<<
->>
-endobj
-4 0 obj
-<< /JavaScript
- << /Names
-    [ (JSInit) << /Type /Action /S /JavaScript /JS (
-function ShM\(aEntries\) {
-    var aParams = [];
-    for \(var i in aEntries\) {
-        aParams.push\({
-            cName: aEntries[i][0],
-            cReturn: aEntries[i][1]
-        }\)
-    }
-
-    var cChoice = app.popUpMenuEx.apply\(app, aParams\);
-    if \(cChoice != null && cChoice.substring\(0, 1\) == '#'\) this.pageNum = parseInt\(cChoice.slice\(1\)\);
-    else if \(cChoice != null && cChoice.substring\(0, 4\) == 'http'\) app.launchURL\(cChoice\);
-    else if \(cChoice != null && cChoice.substring\(0, 4\) == 'file'\) app.openDoc\(cChoice.substring\(7\)\);
-}
-) >> ]
- >>
->>
-endobj
-1 0 obj
-<<
-/Type /Pages
-/Kids [
-7 0 R
-]
-/Count 1
->>
-endobj
-14 0 obj
-<<
-/Producer (KiCad PDF)
-/CreationDate (D:20260727010059)
-/Creator (PCBNEW)
-/Title (HDMItest-NPTH-drl_map.pdf)
-/Author ()
-/Subject ()
->>
-endobj
-9 0 obj
-<<
-/Title (Page 1)
-/Parent 15 0 R
-/A 8 0 R
->>
-endobj
-15 0 obj
-<< /Type /Outlines
-   /Count 1
-   /First 9 0 R
-   /Last 9 0 R
->>
-endobj
-16 0 obj
-<<
-/Type /Catalog
-/Pages 1 0 R
-/Version /1.5
-/PageMode /UseOutlines
-/Outlines 15 0 R
-/Names 4 0 R
-/PageLayout /SinglePage
->>
-endobj
-xref
-0 17
-0000000000 65535 f 
-0000002587 00000 n 
-0000001774 00000 n 
-0000001887 00000 n 
-0000001908 00000 n 
-0000000015 00000 n 
-0000001068 00000 n 
-0000001087 00000 n 
-0000001276 00000 n 
-0000002799 00000 n 
-0000001321 00000 n 
-0000001428 00000 n 
-0000001543 00000 n 
-0000001655 00000 n 
-0000002646 00000 n 
-0000002860 00000 n 
-0000002941 00000 n 
-trailer
-<< /Size 17 /Root 16 0 R /Info 14 0 R >>
-startxref
-3082
-%%EOF
