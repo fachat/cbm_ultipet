@@ -14,7 +14,6 @@ C8,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,132.4,-93.8,180.0,top
 C9,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,132.4,-92.2,180.0,top
 J1,HDMI_A,HDMI_A_Molex_208658-1001_Horizontal,114.1,-91.4,180.0,top
 J2,Conn_02x06_Odd_Even,IDC-Header_2x06_P2.54mm_Vertical,155.8385,-95.123,0.0,top
-P11,~,PinHeader_2x06_P2.54mm_Vertical,138.6,-104.405,90.0,top
 R10,4k7,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,148.307,-89.77,180.0,top
 R11,4k7,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,143.51,-85.852,90.0,top
 R12,4k7,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,119.507,-104.394,90.0,top
@@ -28,4 +27,4 @@ R6,4k7,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,127.508,-106.299,0.0,top
 R7,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,116.35,-102.53,180.0,top
 R8,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,116.4,-105.8,180.0,top
 R9,4k7,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,148.307,-92.818,180.0,top
-U1,~,Texas_RNQ0040A_WQFN-40-1EP_6x4mm_P0.4mm_EP4.7x2.7mm_ThermalVias,125.0,-91.8,180.0,top
+U1,~,QFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm_ThermalVias,125.0,-91.8,90.0,top
